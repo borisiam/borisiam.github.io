@@ -12,33 +12,10 @@
 /*** end importing icons ***/
 
 /*** start style ***/
-.ii h1 {
-    margin: auto;
-    width: 60%;
-    padding-top: 15%;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #20e562;
 
-}
 
-.ii p {
-    margin: auto;
-    width: 60%;
-    padding-top: 5%;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #1e1428;
-
-}
-
-.bb {
-    margin: auto;
-    width: 99%;
-    padding-top: 5%;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-
+body {
+    background-color: gainsboro;
 }
 
 .surv {
@@ -60,15 +37,41 @@
     width: 60%;
     padding-top: 5%;
     background-color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 5px solid #ffffff;
+
+}
+
+#send {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: large;
+    width: 40%;
+    height:auto;
+    background-color: #20e562;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 5px solid #20e562;
+}
+
+#send:hover {
+    color: #187a36;
+    background-color: #26bc53;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 5px solid #26bc53;
 
 }
 
 .surv1 form {
-    margin-left: auto;
-    margin-right: auto;
-    font-size:  170%;
+    padding-left: 10%;
+    font-size:  180%;
     text-align: left;
     color: #1e1428;
+    padding-bottom: 7%;
 
 }
 
@@ -76,53 +79,5 @@ a {
     text-decoration: none;
 }
 
-.ii h2{
-    margin: auto;
-    width: 60%;
-    padding-top: 10%;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #1e1428;
 
-}
-
-.bb a {
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 2%;
-    background-color: #20e562;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border: 5px solid #20e562;
-}
-
-.bb a:hover {
-    color: #187a36;
-    text-transform: uppercase;
-    padding: 2%;
-    background-color: #26bc53;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border: 5px solid #26bc53;
-}
-
-.imgg  {
-    padding-top: 10%;
-
-}
-
-.imgg img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 7%;
-
-}
-
-.typeform-widget {
-    margin: auto;
-    width: 99%;
-
-
-}
 /*** end style ***/
