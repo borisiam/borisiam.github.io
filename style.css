@@ -1,0 +1,97 @@
+/*** importing fonts ***/
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+/*** end importing fonts ***/
+
+/*** importing icons ***/
+@import url(font-awesome.min.css);
+/*** end importing icons ***/
+
+/*** start style ***/
+.ii h1 {
+    margin: auto;
+    width: 60%;
+    padding-top: 15%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #20e562;
+
+}
+
+.ii p {
+    margin: auto;
+    width: 60%;
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1e1428;
+
+}
+
+.bb {
+    margin: auto;
+    width: 99%;
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.ii h2{
+    margin: auto;
+    width: 60%;
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1e1428;
+
+}
+
+.bb a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 2%;
+    background-color: #20e562;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 5px solid #20e562;
+}
+
+.bb a:hover {
+    color: #187a36;
+    text-transform: uppercase;
+    padding: 2%;
+    background-color: #26bc53;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 5px solid #26bc53;
+}
+
+.imgg  {
+    padding-top: 10%;
+
+}
+
+.imgg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 7%;
+
+}
+
+.typeform-widget {
+    margin: auto;
+    width: 99%;
+
+
+}
+/*** end style ***/
