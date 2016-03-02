@@ -13,26 +13,30 @@
 
 /*** start style ***/
 
-
 body {
-    background-color: gainsboro;
+    background-color: #eeeeee;
+
 }
 
-.surv {
-    margin: auto;
-    width: 100%;
-    background-color: gainsboro;
+#form_sample {
     font-family: 'Source Sans Pro', sans-serif;
 
 }
 
-.surv h1 {
+.bb {
+
+    padding-bottom: 5%;
+}
+
+#form_sample h1 {
+    padding-top: 1%;
+    font-size:  100%;
     text-align: center;
     text-transform: uppercase;
     color: #20e562;
 }
 
-.surv1 {
+#form_sample {
     margin: auto;
     width: 60%;
     padding-top: 5%;
@@ -43,11 +47,15 @@ body {
 
 }
 
+#form_sample hr {
+    padding-right: 30%;
+}
+
 #send {
     color: #ffffff;
     text-transform: uppercase;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: large;
     width: 40%;
     height:auto;
@@ -66,14 +74,22 @@ body {
 
 }
 
-.surv1 form {
+
+#form_sample form {
     padding-left: 10%;
+    padding-right: 10%;
     font-size:  180%;
     text-align: left;
     color: #1e1428;
     padding-bottom: 7%;
 
 }
+
+#at {
+    font-size: 80%;
+    color: dimgrey;
+}
+
 
 a {
     text-decoration: none;
