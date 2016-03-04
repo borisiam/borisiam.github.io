@@ -48,6 +48,9 @@
             xfbml      : true,  // parse social plugins on this page
             version    : 'v2.5' // use graph api version 2.5
         });
+        FB.Event.subscribe('auth.login', function(response) {
+            window.location = '/submit.html';
+        });
 
         // Now that we've initialized the JavaScript SDK, we call
         // FB.getLoginStatus().  This function gets the state of the
@@ -86,6 +89,7 @@
                     'Thanks for logging in, ' + response.name + '!';
         });
     }
+
 </script>
 
 <!--
@@ -109,25 +113,20 @@
     info info info info info info info infoinfo info info info info info info info.
     </p>
 
-    <div class = "bb">
-        <fb:login-button id="fb" scope="public_profile,email" onlogin="checkLoginState();">
-        </fb:login-button>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1721832368050682";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-        <div id="status">
-        </div>
-      <!--<a href="submit.html"><b></b>Oo...give us your delicious private info</b></a>-->
-    </div>
+    <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="true"></div>
 
-    </div>
 
-    <div id="main">
 
-    <div id="form_sample">
-
-    </div>
-
-    <!-- include JavaScript file here -->
-    <script src="js/form.js"></script>
 
 
 </div>
