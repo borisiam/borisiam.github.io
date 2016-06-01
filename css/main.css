@@ -242,13 +242,14 @@ ul.countdown li p {
 
 .features { padding: 4.5em 0 3em; }
 
-.features h2 { margin: 0 0 36px 0; color: #1b1d20; }
+.features h2 { margin: 0 0 36px 0; color: #1b1d20; font-family: "museo-sans", sans-serif; }
 
-.features h3 { color: #1b1d20; }
+.features h3 { color: #1b1d20; font-family: "museo-sans", sans-serif; }
 
 .features p {
   color: #bcbcbc;
   margin-bottom: 0;
+  font-family: "museo-sans", sans-serif;
 }
 
 .feature1 img {
