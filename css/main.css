@@ -410,14 +410,16 @@ ul.countdown li p {
   bottom: 47%;
   font-weight: 700;
   font-size: 450%;
+  font-family: "museo-sans", sans-serif;
 
 
 }
 
 .counter1 p {
+  font-weight: 500;
   margin-bottom: 0;
   font-size: 300%;
-  font-family: 'Amaranth', sans-serif;
+  font-family: "museo-sans", sans-serif;
 
 }
 
