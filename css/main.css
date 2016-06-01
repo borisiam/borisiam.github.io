@@ -379,7 +379,7 @@ ul.countdown li p {
 .counter h3 {
   font-weight: 700;
   font-size: 700%;
-  font-family: "museo-sans";
+  font-family: "museo-sans",sans-serif;
 
 
 }
