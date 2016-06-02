@@ -601,7 +601,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 }
 
 /* ==========================================================================
-   Small devices (tablets, 768px and up)
+   Small devices (tablets, 670px and up)
    ========================================================================== */
    
 @media (max-width: 670px) {
@@ -693,6 +693,14 @@ ul.countdown li p { font-size: 24px; }
     background-position: center;
     height: 300px;
     width: auto;
+  }
+  .counter h3 {
+    font-weight: 900;
+    font-size: 400%;
+  }
+  .counter h2 {
+    font-weight: 900;
+    font-size: 400%;
   }
 }
 
@@ -804,7 +812,14 @@ ul.countdown li p { font-size: 12.642px; }
     height: 300px;
     width: auto;
   }
-
+  .counter h3 {
+    font-weight: 900;
+    font-size: 400%;
+  }
+  .counter h2 {
+    font-weight: 900;
+    font-size: 400%;
+  }
 }
 
 
