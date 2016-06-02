@@ -383,10 +383,15 @@ ul.countdown li p {
   font-family: "museo-sans", sans-serif;
 }
 
+.counter #call {
+  font-weight: 700;
+}
+
+
 .counter p {
   font-weight: 500;
   margin-bottom: 0;
-  font-size: 150%;
+  font-size: 300%;
   font-family: "museo-sans", sans-serif;
 
 }
