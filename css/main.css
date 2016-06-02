@@ -380,8 +380,16 @@ ul.countdown li p {
 .counter h3 {
   font-weight: 900;
   font-size: 700%;
-  font-family: "museo-sans",sans-serif;
+  font-family: "museo-sans", sans-serif;
   color: #ffdb2b;
+}
+
+.counter h2 {
+  font-weight: 900;
+  font-size: 700%;
+  font-family: "museo-sans", sans-serif;
+
+}
 
 .counter #call {
   font-weight: 700;
