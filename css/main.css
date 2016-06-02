@@ -386,6 +386,9 @@ ul.countdown li p {
   font-weight: 700;
 }
 
+.counter #total-number-1 {
+  color: #ffdb2b;
+}
 
 }
 
