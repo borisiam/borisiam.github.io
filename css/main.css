@@ -264,6 +264,8 @@ ul.countdown li p {
   position: absolute;
   left: auto;
   bottom: 25%;
+  font-weight: 900;
+  color: #ec2b55;
 }
 
 .feature1 p {
