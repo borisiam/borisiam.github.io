@@ -245,6 +245,9 @@ ul.countdown li p {
 .features h2 { margin: 0 0 36px 0; color: #1b1d20; font-family: "museo-sans", sans-serif; }
 
 .features h3 { color: #1b1d20; font-family: "museo-sans", sans-serif; }
+#main {
+  position: absolute;
+}
 
 .features p {
   color: #bcbcbc;
@@ -255,6 +258,18 @@ ul.countdown li p {
 .feature1 img {
 
   max-width: 50%;
+}
+
+.feature1 h3 {
+  position: absolute;
+  left: auto;
+  bottom: 33%;
+}
+
+.feature1 p {
+  position: absolute;
+  left: 37%;
+  bottom: 27%;
 }
 
 .feature { margin-top: 5em; }
@@ -364,6 +379,10 @@ ul.countdown li p {
   padding-bottom: 2%;
 }
 
+.space {
+  position: absolute;
+  z-index: -1;
+}
 
 /* ==========================================================================
    counter
@@ -688,11 +707,13 @@ ul.countdown li p { font-size: 24px; }
   }
   .space {
     background-image: url("../img/feature-2@2x.png") ;
-    background-size: 40%;
+    background-size: 43%;
     background-repeat:no-repeat;
     background-position: center;
     height: 300px;
     width: auto;
+    position: relative;
+    z-index: 100;
   }
   .counter h3 {
     font-weight: 900;
@@ -701,6 +722,18 @@ ul.countdown li p { font-size: 24px; }
   .counter h2 {
     font-weight: 900;
     font-size: 400%;
+  }
+
+  .space h3 {
+    position: absolute;
+    left: auto;
+    bottom: 20%;
+  }
+
+  .space p {
+    position: absolute;
+    left: 37%;
+    bottom: 14%;
   }
 }
 
