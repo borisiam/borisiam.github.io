@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/feature-2@2x.png" afterPath="$PROJECT_DIR$/img/feature-2@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72041166">
+            <state vertical-scroll-proportion="-17.5">
               <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.392157">
-              <caret line="405" column="10" selection-start-line="405" selection-start-column="10" selection-end-line="405" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.22482014">
+              <caret line="732" column="14" selection-start-line="732" selection-start-column="14" selection-end-line="732" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -330,18 +330,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.392157">
-          <caret line="405" column="10" selection-start-line="405" selection-start-column="10" selection-end-line="405" selection-end-column="16" />
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72041166">
-          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.22482014">
+          <caret line="732" column="14" selection-start-line="732" selection-start-column="14" selection-end-line="732" selection-end-column="14" />
           <folding />
         </state>
       </provider>
