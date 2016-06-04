@@ -270,9 +270,7 @@ ul.countdown li p {
 }
 
 .feature1 p {
-  position: absolute;
-  left: 37%;
-  bottom: 19%;
+  padding-top: 5%;
 }
 
 .feature { margin-top: 5em; }
@@ -788,7 +786,7 @@ ul.countdown li.seperator {
 ul.countdown li p { font-size: 12.642px; }
 
   .counter1 h3 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 400%;
     left: 40%;
     bottom: 60%;
