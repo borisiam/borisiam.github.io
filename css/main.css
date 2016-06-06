@@ -56,8 +56,8 @@ li {
   width: 100%;
   min-height: 100%;
   background-image: -webkit-gradient(
-          linear, left top, left bottom, from(rgba(27,29,32,0.2)),
-          to(rgba(27,29,32,1.0))
+          linear, left top, left bottom, from(rgba(158,69,99,1.0)),
+          to(rgba(89,47,76,1.0))
   );
   padding-bottom: 0%;
   top: 0;
