@@ -306,6 +306,12 @@ ul.countdown li p {
   padding: 4.5em 0;
 }
 
+.counter h2 {
+  font-weight: 700;
+  font-size: 700%;
+  font-family: "museo-sans", sans-serif;
+}
+
 .counter h3 {
   font-weight: 900;
   font-size: 700%;
@@ -330,6 +336,12 @@ ul.countdown li p {
   color: #fff;
   position: relative;
   padding: 4.5em 0;
+}
+
+.counter1 h2 {
+  font-weight: 700;
+  font-size: 700%;
+  font-family: "museo-sans", sans-serif;
 }
 
 .counter1 h3 {
