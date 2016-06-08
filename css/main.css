@@ -49,6 +49,7 @@ li {
   left:68%;
   top:5%;
   background-color: #ffffff;
+  font-family: "museo-sans", sans-serif;
 }
 
 /* ==========================================================================
@@ -138,8 +139,12 @@ h2 { font-weight: 600; }
 .welcome-message h2 {
   font-size: 24px;
   font-weight: 300;
+  font-family: "museo-sans", sans-serif;
 }
-
+.cta p {
+  font-family: "museo-sans", sans-serif;
+  font-weight: 100;
+}
 /* ==========================================================================
     sub form
    ========================================================================== */
@@ -158,6 +163,7 @@ h2 { font-weight: 600; }
   width: 100%;
   padding: 0.75em;
   border-radius: 4px;
+  font-family: "museo-sans", sans-serif;
 }
 
 .button {
@@ -167,6 +173,7 @@ h2 { font-weight: 600; }
   font-weight: 700;
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
+  font-family: "museo-sans", sans-serif;
 }
 
 .button:hover,
@@ -174,6 +181,7 @@ h2 { font-weight: 600; }
   color: #fff;
   background: #ffad2b;
   border-color: #ffad2b;
+  font-family: "museo-sans", sans-serif;
 }
 
 .sub-form input:focus,
