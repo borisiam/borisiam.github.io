@@ -287,6 +287,8 @@ ul.countdown li p {
 
 .features h2 {
   margin: 0 0 36px 0;
+  font-weight: 700;
+  font-size: 400%;
   font-family: "museo-sans", sans-serif;
 }
 
