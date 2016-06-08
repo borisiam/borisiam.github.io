@@ -17,10 +17,10 @@ h4,
 h5,
 h6 { font-weight: 400; }
 
-a { color: #ffdb2b; }
+a { color: #0bacd3; }
 
 a:hover {
-  color: #ffdb2b;
+  color: #0a97b9;
   text-decoration: none;
 }
 
@@ -37,13 +37,26 @@ li {
   padding: 0;
   margin: 0;
 }
+/* ==========================================================================
+   custom
+   ========================================================================== */
+
+.cta-right {
+  position: fixed;
+  padding: 1.5%;
+  z-index: 100;
+  width: 30%;
+  left:68%;
+  top:5%;
+  background-color: #ffffff;
+}
 
 /* ==========================================================================
    hero unit
    ========================================================================== */
 
 .hero-unit {
-  background: url(../img/bg.jpg) center center no-repeat fixed;
+  background: url(../img/bg.jpeg) center center no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   padding: 3em 0;
@@ -55,11 +68,23 @@ li {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  background-image: -webkit-gradient(
-          linear, left top, left bottom, from(rgba(227,134,139,1.0)),
-          to(rgba(251,210,93,1.0))
-  );
-  padding-bottom: 0%;
+  background: linear-gradient(to right, rgba(250, 152, 56, 0.8), rgba(250, 152, 56, 0.5));
+  top: 0;
+}
+
+.overlay1 {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(to right, rgba(125, 42, 244, 0.8), rgba(125, 42, 244, 0.5));
+  top: 0;
+}
+
+.overlay2 {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(to right, rgba(53, 196, 162, 0.8), rgba(216, 255, 109, 0.5));
   top: 0;
 }
 
@@ -82,20 +107,23 @@ li {
   line-height: 40px;
   color: #fff;
   border-radius: 50%;
-  border: 1px solid #ffdb2b;
+  border: 1px solid #0bacd3;
   -webkit-transition: background 1s ease;
   transition: background 1s ease;
 }
 
-.social li a:hover { background: #ffdb2b; }
+.social li a:hover { background: #0bacd3; }
 
 h2 { font-weight: 600; }
 
 /* ==========================================================================
    cta
    ========================================================================== */
-   
-.cta { margin-top: 1.5em; }
+.cta h1{
+  font-weight: 900;
+  font-size: 400%;
+}
+.cta { margin-top: 3em; }
 
 .highlight { font-weight: 700; }
 
@@ -103,6 +131,7 @@ h2 { font-weight: 600; }
   line-height: 1.3;
   font-weight: 300;
   margin-top: 0.75em;
+  font-family: "museo-sans", sans-serif;
 }
 
 .welcome-message h2 {
@@ -131,8 +160,8 @@ h2 { font-weight: 600; }
 }
 
 .button {
-  background: #ffdb2b;
-  border: 1px solid #ffdb2b;
+  background: #ffc32b;
+  border: 1px solid #ffc32b;
   color: #fff;
   font-weight: 700;
   -webkit-transition: all .5s ease-in;
@@ -142,8 +171,8 @@ h2 { font-weight: 600; }
 .button:hover,
 .button:focus {
   color: #fff;
-  background: #47a877;
-  border-color: #47a877;
+  background: #ffad2b;
+  border-color: #ffad2b;
 }
 
 .sub-form input:focus,
@@ -240,156 +269,28 @@ ul.countdown li p {
    Features
    ========================================================================== */
 
-.features { padding: 4.5em 0 3em; }
-
-.features h2 { margin: 0 0 36px 0; color: #1b1d20; font-family: "museo-sans", sans-serif; }
-
-.features h3 { color: #1b1d20; font-family: "museo-sans", sans-serif; }
-#main {
-  position: absolute;
+.features {
+  padding: 4.5em 0 3em;
+  background-color: #f4f4f4;
 }
+
+.features h2 { margin: 0 0 36px 0; }
+
+.features h3 { color: #444; }
 
 .features p {
-  color: #bcbcbc;
+  color: #777;
   margin-bottom: 0;
-  font-family: "museo-sans", sans-serif;
 }
 
-.feature1 img {
-
-  max-width: 50%;
-}
-
-.feature1 h3 {
-  position: absolute;
-  left: auto;
-  bottom: 25%;
-  font-weight: 900;
-  font-size: 300%;
-  color: #ec2b55;
-}
-
-.feature1 p {
-  padding-top: 5%;
-}
-
-.feature { margin-top: 5em; }
-
-.features {
-  background-color: #ffffff;
-}
-
-/* ==========================================================================
-   custom
-   ========================================================================== */
-.foryou {
-  height: 150%;
-  width: 100%;
-  position: relative;
-}
-
-#medal img {
-  max-width: 50%;
-  position: relative;
-  margin: auto;
-  padding-left: 1%;
-}
-
-.pics img{
-  max-width: 50%;
-  position: relative;
-  margin: auto;
-  padding-left: 1%;
-}
-
-
-#img1 {
-  position: absolute;
-  left:32%;
-  bottom: 1%;
-  max-width: 70%;
-}
-#img2 {
-  position: absolute;
-  left:88%;
-  bottom: 15%;
-  max-width: 70%;
-}
-#img3 {
-  position: absolute;
-  left:21%;
-  bottom: 40%;
-  max-width: 70%;
-}
-#img4 {
-  position: absolute;
-  left:86%;
-  bottom: 60%;
-  max-width: 70%;
-}
-#img5 {
-  position: absolute;
-  left: 33%;
-  bottom: 89%;
-  max-width: 70%;
-}
-#img6 {
-  position: absolute;
-  left:68%;
-  bottom: 77%;
-  max-width: 70%;
-}
-#img7 {
-  position: absolute;
-  left:15%;
-  bottom: 60%;
-  max-width: 70%;
-}
-#img8 {
-  position: absolute;
-  left:49%;
-  bottom: 92%;
-  max-width: 70%;
-}
-#img9 {
-  position: absolute;
-  left:11%;
-  bottom: 2%;
-  max-width: 70%;
-}
-#img10 {
-  position: absolute;
-  left:66%;
-  bottom: 1%;
-  max-width: 70%;
-}
-#img11 {
-  position: absolute;
-  left:48%;
-  bottom: -10%;
-  max-width: 70%;
-}
-#img12 {
-  position: absolute;
-  left:62%;
-  bottom: 97%;
-  max-width: 70%;
-}
-
-.fb-like {
-  padding-bottom: 2%;
-}
-
-.space {
-  position: absolute;
-  z-index: -1;
-}
+.feature { margin-bottom: 3em; }
 
 /* ==========================================================================
    counter
    ========================================================================== */
-
+   
 .counter {
+  background: url(../img/bg-section.jpeg) center center no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
@@ -399,30 +300,19 @@ ul.countdown li p {
 
 .counter h3 {
   font-weight: 900;
-  font-size: 900%;
-  font-family: "museo-sans", sans-serif;
-  color: #ffffff;
-}
-
-.counter h2 {
-  font-weight: 900;
   font-size: 700%;
-  font-family: "museo-sans", sans-serif;
 }
 
-.counter p {
-  font-weight: 900;
-  margin-bottom: 0;
-  font-size: 150%;
-  font-family: "museo-sans", sans-serif;
-  color: #ffffff;
-
-}
+.counter p { margin-bottom: 0; }
 
 .counter div[class^="col-"]:nth-child(1),
 .counter div[class^="col-"]:nth-child(2) { padding-bottom: 1.5em; }
 
+/* ==========================================================================
+   counter
+   ========================================================================== */
 .counter1 {
+  background: url(../img/Tailoring-a-Suit.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
@@ -431,36 +321,19 @@ ul.countdown li p {
 }
 
 .counter1 h3 {
-  position: absolute;
-  left:47%;
-  bottom: 47%;
-  font-weight: 700;
-  font-size: 600%;
-  font-family: "museo-sans", sans-serif;
-
-
+  font-weight: 900;
+  font-size: 700%;
 }
 
-.counter1 p {
-  font-weight: 700;
-  padding-top: 7%;
-  margin-bottom: 0;
-  font-size: 300%;
-  font-family: "museo-sans", sans-serif;
-
-}
-
+.counter1 p { margin-bottom: 0; }
 
 .counter1 div[class^="col-"]:nth-child(1),
 .counter1 div[class^="col-"]:nth-child(2) { padding-bottom: 1.5em; }
 
+
 /* ==========================================================================
    contact
    ========================================================================== */
-
-.contact{
-  background-color: #e8e8e8;
-}
 
 .contact .form-control {
   border-color: #ddd;
@@ -477,8 +350,6 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .contact h2 {
   margin: 0 0 48px;
   line-height: 0.5;
-  color: #ec2b55;
-  font-family: "museo-sans", sans-serif;
 }
 
 .contact .btn {
@@ -486,7 +357,6 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   width: 50%;
   margin: 0 auto;
   display: block;
-  font-family: "museo-sans", sans-serif;
 }
 
 .success-sf,
@@ -504,7 +374,6 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   color: #fff;
   border-radius: 4px;
   padding: .75em;
-  font-family: "museo-sans", sans-serif;
 }
 
 .contact-form label.error,
@@ -512,7 +381,6 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   color: #ea5050;
   display: inherit;
   margin-top: .8em;
-  font-family: "museo-sans", sans-serif;
 }
 
 /* ==========================================================================
@@ -539,7 +407,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .social-footer a {
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
-  color: #ffdb2b;
+  color: #0bacd3;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -550,7 +418,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 
 .social-footer a:hover {
   color: #fff;
-  background: #ffdb2b;
+  background: #0a97b9;
 }
 
 .site-footer small {
@@ -568,7 +436,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   margin: 0 auto;
   left: 0;
   right: 0;
-  background: #ffdb2b;
+  background: #0bacd3;
 }
 
 /* ==========================================================================
@@ -593,7 +461,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   transition: background .5s ease-in;
 }
 
-.scroll-top a:hover { background: #51bf87; }
+.scroll-top a:hover { background: #0bacd3; }
 
 /* ==========================================================================
    Preloader styles
@@ -622,10 +490,10 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 }
 
 /* ==========================================================================
-   Small devices (tablets, 670px and up)
+   Small devices (tablets, 768px and up)
    ========================================================================== */
    
-@media (max-width: 670px) {
+@media (min-width: 768px) {
 
 .hero-unit { padding: 4.5em 0; }
 
@@ -651,106 +519,17 @@ ul.countdown li p { font-size: 24px; }
 
 .counter div[class^="col-"]:nth-child(1),
 .counter div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
-
-.counter1 h3 {
-    font-weight: 700;
-    font-size: 400%;
-    left: 40%;
-    bottom: 60%;
-  }
-
-.counter1 p {
-    margin-bottom: 0;
-    font-size: 200%;
-  }
-
-  #medal img {
-    opacity: 0;
-  }
-  #img1 {
-    z-index: -1;
-  }
-  #img2 {
-  z-index: -1;
-  }
-  #img3 {
-  z-index: -1;
-  }
-  #img4 {
-    z-index: -1;
-  }
-  #img5 {
-  z-index: -1;
-  }
-  #img6 {
-    z-index: -1;
-  }
-  #img7 {
-    z-index: -1;
-  }
-  #img8 {
-    z-index: -1;
-  }
-  #img9 {
-    z-index: -1;
-  }
-  #img10 {
-    z-index: -1;
-  }
-  #img11 {
-    z-index: -1;
-  }
-  #img12 {
-    z-index: -1;
-  }
-  .feature1 {
-    position: absolute;
-    z-index: -1;
-  }
-  .space {
-    background-image: url("../img/feature-2@2x.png") ;
-    background-size: 43%;
-    background-repeat:no-repeat;
-    background-position: center;
-    height: 300px;
-    width: auto;
-    position: relative;
-    z-index: 100;
-  }
-  .counter h3 {
-    font-weight: 900;
-    font-size: 400%;
-  }
-  .counter h2 {
-    font-weight: 900;
-    font-size: 400%;
-  }
-
-  .space h3 {
-    position: absolute;
-    left: auto;
-    bottom: 16%;
-    font-weight: 900;
-    font-size: 250%;
-    color: #ec2b55;
-  }
-
-  .space p {
-    position: absolute;
-    left: 37%;
-    bottom: 14%;
-  }
 }
 
 /* ==========================================================================
    Medium devices (desktops, 992px and up) 
    ========================================================================== */
    
-@media (min-width: 780px) {
+@media (min-width: 992px) {
 
-.hero-unit { padding: 4.5em 0 10.5em; }
 
-.cta { margin-top: 7.5em; }
+
+.cta { margin-top: 6em; }
 
 .cta-video {
   margin-bottom: 0;
@@ -765,7 +544,6 @@ ul.countdown li p { font-size: 24px; }
 
 .site-footer li { margin-bottom: 0; }
 }
-
 
 /* ==========================================================================
    small devices 
@@ -785,79 +563,4 @@ ul.countdown li.seperator {
 }
 
 ul.countdown li p { font-size: 12.642px; }
-
-  .counter1 h3 {
-    font-weight: 900;
-    font-size: 400%;
-    left: 40%;
-    bottom: 60%;
-  }
-
-  .counter1 p {
-    margin-bottom: 0;
-    font-size: 200%;
-  }
-
-  #medal img {
-    opacity: 0;
-  }
-  #img1 {
-    z-index: -1;
-  }
-  #img2 {
-    z-index: -1;
-  }
-  #img3 {
-    z-index: -1;
-  }
-  #img4 {
-    z-index: -1;
-  }
-  #img5 {
-    z-index: -1;
-  }
-  #img6 {
-    z-index: -1;
-  }
-  #img7 {
-    z-index: -1;
-  }
-  #img8 {
-    z-index: -1;
-  }
-  #img9 {
-    z-index: -1;
-  }
-  #img10 {
-    z-index: -1;
-  }
-  #img11 {
-    z-index: -1;
-  }
-  #img12 {
-    z-index: -1;
-  }
-
-  .feature1 {
-    position: absolute;
-    z-index: -1;
-  }
-  .space {
-    background-image: url("../img/feature-2@2x.png") ;
-    background-size: 40%;
-    background-repeat:no-repeat;
-    background-position: center;
-    height: 300px;
-    width: auto;
-  }
-  .counter h3 {
-    font-weight: 900;
-    font-size: 400%;
-  }
-  .counter h2 {
-    font-weight: 900;
-    font-size: 400%;
-  }
 }
-
-
