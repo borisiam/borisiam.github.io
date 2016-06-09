@@ -305,6 +305,10 @@ ul.countdown li p {
 
 .feature { margin-bottom: 3em; }
 
+.feature img {
+  width: 70%;
+}
+
 .feature h1 {
   font-family: "museo-sans", sans-serif;
   font-weight: 900;
@@ -582,7 +586,7 @@ ul.countdown li p { font-size: 24px; }
   margin-right: 1em;
 }
 
-
+.features { padding: 6em 0; }
 
 .section-spacing { padding: 6em 0; }
 
