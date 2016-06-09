@@ -292,6 +292,13 @@ ul.countdown li p {
   font-family: "museo-sans", sans-serif;
 }
 
+.features h1 {
+  margin: 0 0 36px 0;
+  font-weight: 900;
+  font-size: 400%;
+  font-family: "museo-sans", sans-serif;
+}
+
 .features h3 {
   color: #444;
   font-family: "museo-sans", sans-serif;
