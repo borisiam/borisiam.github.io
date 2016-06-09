@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="" />
+    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+    </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +36,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18181819">
-              <caret line="344" column="18" selection-start-line="344" selection-start-column="18" selection-end-line="344" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.56060606">
+              <caret line="377" column="16" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -411,8 +413,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819">
-          <caret line="344" column="18" selection-start-line="344" selection-start-column="18" selection-end-line="344" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.56060606">
+          <caret line="377" column="16" selection-start-line="377" selection-start-column="16" selection-end-line="377" selection-end-column="16" />
           <folding />
         </state>
       </provider>
