@@ -430,6 +430,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   position: absolute;
   bottom: -60%;
   left:45%;
+  color: #ffc32b;
 }
 
 .contact .btn {
