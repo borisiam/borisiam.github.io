@@ -412,6 +412,17 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .contact h2 {
   margin: 0 0 48px;
   line-height: 0.5;
+  font-weight: 900;
+  font-size: 300%;
+  font-family: "museo-sans", sans-serif;
+}
+
+.contact h2 {
+  margin: 0 0 48px;
+  line-height: 0.5;
+  font-weight: 700;
+  font-size: 200%;
+  font-family: "museo-sans", sans-serif;
 }
 
 .contact .btn {
