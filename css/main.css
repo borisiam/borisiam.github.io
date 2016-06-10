@@ -85,7 +85,7 @@ li {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, rgba(255, 198, 42, 0.8), rgba(255, 230, 43, 0.5));
+  background: linear-gradient(to right, rgba(158, 219, 72, 0.8), rgba(255, 230, 43, 0.5));
   top: 0;
 }
 
