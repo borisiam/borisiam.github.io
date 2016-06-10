@@ -419,11 +419,17 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 
 .contact h3 {
   margin: 0 0 48px;
-  line-height: 0.5;
   font-weight: 700;
   font-size: 150%;
   font-family: "museo-sans", sans-serif;
   padding-bottom: 10%;
+}
+
+.contact span {
+  font-size: 1500%;
+  position: absolute;
+  bottom: -60%;
+  left:45%;
 }
 
 .contact .btn {
