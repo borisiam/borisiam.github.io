@@ -376,6 +376,10 @@ ul.countdown li p {
   padding: 4.5em 0;
 }
 
+.counter1 em {
+  font-weight: 900;
+}
+
 .counter1 h2 {
   font-weight: 700;
   font-size: 300%;
