@@ -17,10 +17,10 @@ h4,
 h5,
 h6 { font-weight: 400; }
 
-a { color: #0bacd3; }
+a { color: #ffc32b; }
 
 a:hover {
-  color: #0a97b9;
+  color: #ffc32b;
   text-decoration: none;
 }
 
@@ -108,12 +108,12 @@ li {
   line-height: 40px;
   color: #fff;
   border-radius: 50%;
-  border: 1px solid #0bacd3;
+  border: 1px solid #4f0f87;
   -webkit-transition: background 1s ease;
   transition: background 1s ease;
 }
 
-.social li a:hover { background: #0bacd3; }
+.social li a:hover { background: #4f0f87; }
 
 h2 { font-weight: 600; }
 
@@ -139,17 +139,20 @@ h2 { font-weight: 600; }
   font-weight: 300;
   margin-top: 0.75em;
   font-family: "museo-sans", sans-serif;
+  color: #4f0f87;
 }
 
 .welcome-message h2 {
   font-size: 24px;
   font-weight: 300;
   font-family: "museo-sans", sans-serif;
+  color: #444444;
 }
 
 .cta p {
   font-family: "museo-sans", sans-serif;
   font-weight: 300;
+  color: #444444;
 }
 
 /* ==========================================================================
@@ -295,7 +298,7 @@ ul.countdown li p {
   font-weight: 900;
   font-size: 300%;
   font-family: "museo-sans", sans-serif;
-  color: #ffc32b;
+  color: #4f0f87;
 }
 
 .features h1 {
@@ -499,7 +502,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .social-footer a {
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
-  color: #0bacd3;
+  color: #ffc32b;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -510,7 +513,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 
 .social-footer a:hover {
   color: #fff;
-  background: #0a97b9;
+  background: #ffc32b;
 }
 
 .site-footer small {
@@ -528,7 +531,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   margin: 0 auto;
   left: 0;
   right: 0;
-  background: #0bacd3;
+  background: #ffc32b;
 }
 
 /* ==========================================================================
@@ -553,7 +556,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   transition: background .5s ease-in;
 }
 
-.scroll-top a:hover { background: #0bacd3; }
+.scroll-top a:hover { background: #ffc32b; }
 
 /* ==========================================================================
    Preloader styles
@@ -582,10 +585,10 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 }
 
 /* ==========================================================================
-   Small devices (tablets, 768px and up)
+   Small devices (tablets, 768px and down)
    ========================================================================== */
    
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 .hero-unit { padding: 4.5em 0; }
 
@@ -611,8 +614,65 @@ ul.countdown li p { font-size: 24px; }
 
 .counter div[class^="col-"]:nth-child(1),
 .counter div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+
+.cta-right{
+  position: absolute;
+  top:540%;
+  left: 0%;
+  width: 100%;
+  height: 60%;
+  padding: 5%;
 }
 
+.features {
+  text-align: center;
+}
+
+.counter1 {
+  text-align: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.hero-unit {
+  text-align: center;
+}
+
+.hero-unit img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+  #angryd {
+    position: absolute;
+    z-index: -1;
+  }
+  #coveredd{
+    position: absolute;
+    z-index: -1;
+  }
+
+  #loggod {
+    position: absolute;
+    z-index: -1;
+  }
+  #angry {
+    width: 20%;
+  }
+
+  #covered {
+    width: 20%;
+  }
+  #loggodtop {
+    position: absolute;
+    z-index: -1;
+  }
+
+}
 /* ==========================================================================
    Medium devices (desktops, 992px and up) 
    ========================================================================== */
@@ -635,6 +695,47 @@ ul.countdown li p { font-size: 24px; }
 .feature { margin-bottom: 0; }
 
 .site-footer li { margin-bottom: 0; }
+
+  .hero-unit img {
+    float: left;
+  }
+
+  #angry {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #covered {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #loggo {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #angryd {
+    margin-top: 55%;
+    width: 70%;
+  }
+  #coveredd{
+    margin-top: 65%;
+    width: 70%;
+  }
+
+  #loggod {
+    margin-top: 35%;
+    width: 70%;
+  }
+
+  #loggodtop {
+    position: absolute;
+    top:6%;
+    left: 3%;
+    width: 8%;
+  }
+
 }
 
 /* ==========================================================================
@@ -655,4 +756,56 @@ ul.countdown li.seperator {
 }
 
 ul.countdown li p { font-size: 12.642px; }
+
+  .cta-right{
+    position: absolute;
+    top:540%;
+    left: 0%;
+    width: 100%;
+    height: 60%;
+    padding: 5%;
+  }
+
+  .features {
+    text-align: center;
+  }
+
+  .hero-unit {
+    text-align: center;
+  }
+
+  .hero-unit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #angryd {
+    position: absolute;
+    z-index: -1;
+  }
+  #coveredd{
+    position: absolute;
+    z-index: -1;
+  }
+
+  #loggod {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #angry {
+     width: 20%;
+  }
+
+  #covered {
+     width: 20%;
+  }
+
+  #loggodtop {
+    position: absolute;
+    z-index: -1;
+  }
+
 }
