@@ -74,7 +74,7 @@ li {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, rgba(255, 43, 75, 0.8), rgba(250, 152, 56, 0.5));
+  background: linear-gradient(to right, rgba(255, 43, 75, 0.5), rgba(250, 152, 56, 0.5));
   top: 0;
 }
 
@@ -343,7 +343,7 @@ ul.countdown li p {
    ========================================================================== */
    
 .counter {
-  background: url(../img/bg-section.jpeg) center center no-repeat fixed;
+  background: url(../img/bg-section.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
