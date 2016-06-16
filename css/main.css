@@ -342,13 +342,13 @@ ol li {
 }
 
 #many {
-  width: 20%;
+  width: 25%;
   display: block;
   margin-bottom: 3%;
   margin-top: 3%;
 }
 #one {
-  width: 20%;
+  width: 25%;
   display: block;
   margin-bottom: 3%;
   margin-top: 3%;
@@ -722,6 +722,17 @@ ul.countdown li p { font-size: 24px; }
   .contact h2 {font-size: 1%}
   .contact h1 {font-size: 1%}
 
+  #many {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 /* ==========================================================================
    Medium devices (desktops, 992px and up) 
@@ -875,5 +886,16 @@ ul.countdown li p { font-size: 12.642px; }
   .contact p {font-size: 1%}
   .contact h2 {font-size: 1%}
   .contact h1 {font-size: 1%}
+
+  #many {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
