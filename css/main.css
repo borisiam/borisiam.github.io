@@ -295,7 +295,7 @@ ul.countdown li p {
 
 .features {
   padding: 4.5em 0 3em;
-  background-color: #f4f4f4;
+  background-color: #4f0f87;
 }
 
 .features h2 {
@@ -303,7 +303,7 @@ ul.countdown li p {
   font-weight: 900;
   font-size: 300%;
   font-family: "museo-sans", sans-serif;
-  color: #4f0f87;
+  color: #ffffff;
 }
 
 .features h1 {
@@ -311,17 +311,19 @@ ul.countdown li p {
   font-weight: 900;
   font-size: 400%;
   font-family: "museo-sans", sans-serif;
-  color: #4f0f87;
+  color: #ffffff;
 }
 
-.features h3 {
-  color: #444;
+ol li {
+  list-style-type: disc;
+  color: #ff1654;
+  font-weight: 700;
   font-size: 150%;
   font-family: "museo-sans", sans-serif;
 }
 
 .features p {
-  color: #777;
+  color: #ffffff;
   margin-bottom: 0;
   font-family: "museo-sans", sans-serif;
 }
@@ -349,6 +351,13 @@ ul.countdown li p {
   color: #fff;
   position: relative;
   padding: 4.5em 0;
+}
+
+.counter h1 {
+  font-weight: 900;
+  font-size: 200%;
+  font-family: "museo-sans", sans-serif;
+  color: #ffc32b;
 }
 
 .counter h2 {
@@ -389,6 +398,16 @@ ul.countdown li p {
   font-size: 120%;
   font-family: "museo-sans", sans-serif;
 }
+.counter1 h1 {
+  font-weight: 900;
+  font-size: 200%;
+  font-family: "museo-sans", sans-serif;
+  color: #ffc32b;
+}
+
+.counter1 img {
+  width: 50%;
+}
 
 .counter1 h2 {
   font-weight: 700;
@@ -406,6 +425,7 @@ ul.countdown li p {
   margin-bottom: 0;
   font-size: 150%;
   font-family: "museo-sans", sans-serif;
+
 }
 
 .counter1 div[class^="col-"]:nth-child(1),
