@@ -90,7 +90,7 @@ li {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, rgba(230, 255, 43, 0.6), rgba(255, 204, 0, 0.5));
+  background: linear-gradient(to right, rgba(252, 195, 45, 0.8), rgba(255, 42, 45, 0.5));
   top: 0;
 }
 
@@ -182,8 +182,8 @@ h2 { font-weight: 600; }
 }
 
 .button {
-  background: #ffc32b;
-  border: 1px solid #ffc32b;
+  background: #ff0241;
+  border: 1px solid #ff0241;
   color: #fff;
   font-weight: 700;
   -webkit-transition: all .5s ease-in;
@@ -194,8 +194,8 @@ h2 { font-weight: 600; }
 .button:hover,
 .button:focus {
   color: #fff;
-  background: #ffad2b;
-  border-color: #ffad2b;
+  background: #d3233e;
+  border-color: #d3233e;
   font-family: "museo-sans", sans-serif;
 }
 
@@ -325,6 +325,7 @@ ol li {
 .features p {
   color: #ffffff;
   margin-bottom: 0;
+  font-size: 150%;
   font-family: "museo-sans", sans-serif;
 }
 
@@ -357,7 +358,8 @@ ol li {
   font-weight: 900;
   font-size: 200%;
   font-family: "museo-sans", sans-serif;
-  color: #ffc32b;
+  color: #fd6f51;
+  text-shadow: 1px 1px 100px #24073f;
 }
 
 .counter h2 {
@@ -402,7 +404,8 @@ ol li {
   font-weight: 900;
   font-size: 200%;
   font-family: "museo-sans", sans-serif;
-  color: #ffc32b;
+  color: #4f0f87;
+  text-shadow: 1px 1px 100px #ffffff;
 }
 
 .counter1 img {
