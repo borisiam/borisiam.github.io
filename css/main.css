@@ -325,7 +325,7 @@ ol li {
 .features p {
   color: #ffffff;
   margin-bottom: 0;
-  font-size: 150%;
+  font-size: 110%;
   font-family: "museo-sans", sans-serif;
 }
 
@@ -340,6 +340,20 @@ ol li {
   font-weight: 900;
   font-size: 2000%;
 }
+
+#many {
+  width: 20%;
+  display: block;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+#one {
+  width: 20%;
+  display: block;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
 
 /* ==========================================================================
    counter
