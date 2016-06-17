@@ -164,17 +164,17 @@ h2 { font-weight: 600; }
     sub form
    ========================================================================== */
    
-.sub-form { margin-top: 1.5em; }
+#mc_embed_signup { margin-top: 1.5em; }
 
-.sub-form input {
+#mc_embed_signup input {
   display: block;
   margin-bottom: 0.75em;
   border: 1px solid #cccccc;
   color: #444;
 }
 
-.sub-form input,
-.sub-form .button {
+#mc_embed_signup input,
+#mc_embed_signup .button {
   width: 100%;
   padding: 0.75em;
   border-radius: 4px;
@@ -199,8 +199,8 @@ h2 { font-weight: 600; }
   font-family: "museo-sans", sans-serif;
 }
 
-.sub-form input:focus,
-.sub-form .button:focus { outline: none; }
+#mc_embed_signup input:focus,
+#mc_embed_signup .button:focus { outline: none; }
 
 .terms {
   text-align: left;
