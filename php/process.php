@@ -1,8 +1,7 @@
 <?php
  
     $to = "support@aivibe.com";  //Change email here
-    $from = $_REQUEST['email']; 
-    $name = $_REQUEST['name']; 
+    $from = $_REQUEST['email'];
     $headers = "From: $from"; 
     $subject = "New Message"; 
  
