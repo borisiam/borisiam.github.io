@@ -72,7 +72,13 @@ li {
   padding: 5%;
 }
 
-
+#logogogo {
+  position: absolute;
+  left: 90%;
+  top: 13%;
+  width: 5%;
+  z-index: 100;
+}
 
 .cta-right1 { margin-top: 1.5em; }
 
@@ -199,6 +205,7 @@ h2 { font-weight: 600; }
 
 .cta h2 {
   margin-bottom: 10%;
+  font-size: 150%;
 }
 
 .cta { margin-top: 3em; }
@@ -442,13 +449,13 @@ ol li {
 }
 
 .feature11 p {
-  margin-top: 6%;
+  margin-top: 3%;
   padding-right: 4%;
   padding-left: 5%;
 }
 
 .feature22 p {
-  margin-top: 6%;
+  margin-top: 3%;
   padding-right: 4%;
   padding-left: 5%;
 }
@@ -898,14 +905,17 @@ ul.countdown li p { font-size: 24px; }
     background: url(../img/bg-small.jpg) center center no-repeat;
     background-size: cover;
   }
-  .counter1 {
-    background: url(../img/Tailoring-a-Suit-small.jpg) center center no-repeat;
-    background-size: cover;
+
+  #logogogo {
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    width: 10%;
+    z-index: 100;
   }
-  .counter {
-    background: url(../img/bg-section-small.jpg) center center no-repeat;
-    background-size: cover;
-  }
+
+
+ 
   .overlay {
     position: absolute;
     width: 100%;
@@ -918,8 +928,27 @@ ul.countdown li p { font-size: 24px; }
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(125, 42, 244, 0.8), rgba(125, 42, 244, 0.5));
+    background-image: url("../img/mobile_snaps.png");
+    background-size: 100%;
     top: 0;
+  }
+
+  .counter h1 {
+    margin-top: 30%;
+  }
+  .counter p {
+    font-size: 100%;
+  }
+
+  .counter img {
+    position: absolute;
+    z-index: -1;
+  }
+  .cta h2 {
+    font-size: 100%;
+  }
+  .cta h1 {
+    margin-top: 30%;
   }
 
   .overlay2 {
