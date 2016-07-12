@@ -809,8 +809,13 @@ ul.countdown li p { font-size: 24px; }
 .counter div[class^="col-"]:nth-child(1),
 .counter div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
 
-.features {
+.feature,.features {
   text-align: center;
+}
+
+.feature img {
+  float: none;
+  clear: none;
 }
 
 .counter1 {
@@ -926,11 +931,12 @@ ul.countdown li p { font-size: 24px; }
 
   .overlay1 {
     position: absolute;
-    width: 100%;
-    min-height: 100%;
     background: no-repeat center;
     background-image: url("../img/mobile_snaps.png");
-    background-size: 125%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     top: 0;
   }
 
@@ -1140,6 +1146,14 @@ ul.countdown li p { font-size: 12.642px; }
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .feature,.features {
+    text-align: center;
+  }
+
+  .feature img {
+    float: none;
+    clear: none;
   }
 
   .hero-unit {
