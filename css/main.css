@@ -957,14 +957,7 @@ ul.countdown li p { font-size: 24px; }
   .cta h1 {
     margin-top: 30%;
   }
-
-  .overlay2 {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    background: linear-gradient(to top, rgba(225, 255, 2, 0.8), rgba(225, 255, 2, 0.5));
-    top: 0;
-  }
+  
 
   #time {
     color: #ff0241;
@@ -1161,11 +1154,16 @@ ul.countdown li p { font-size: 12.642px; }
     background: url(../img/bg-section-small.jpg) center center no-repeat;
     background-size: cover;
   }
+
+  #time {
+    color: #ff0241;
+  }
+
   .overlay {
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(255, 86, 75, 0.9), rgba(255, 43, 75, 0.2));
+    background: linear-gradient(to top, rgba(35, 0, 61, 0.9), rgba(35, 0, 61, 0.01));
     top: 0;
   }
 
@@ -1173,19 +1171,34 @@ ul.countdown li p { font-size: 12.642px; }
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(125, 42, 244, 0.8), rgba(125, 42, 244, 0.5));
+    background: no-repeat center;
+    background-image: url("../img/mobile_snaps.png");
+    background-size: 125%;
     top: 0;
   }
 
-  .overlay2 {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    background: linear-gradient(to top, rgba(225, 255, 2, 0.8), rgba(225, 255, 2, 0.5));
-    top: 0;
+  .counter h1 {
+    margin-top: 30%;
+    text-shadow: 0px 0px 8px #000000;
   }
-  #time {
-    color: #ff0241;
+  .counter p {
+    font-size: 120%;
+    text-shadow: 0px 0px 8px #000000;
+    margin-bottom: 10%;
+  }
+
+  .counter h2 {text-shadow: 0px 0px 8px #000000;}
+
+  .counter img {
+    position: absolute;
+    z-index: -1;
+  }
+  .cta h2 {
+    font-size: 120%;
+    font-weight: 400;
+  }
+  .cta h1 {
+    margin-top: 30%;
   }
 
 }
