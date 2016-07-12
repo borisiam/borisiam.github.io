@@ -59,6 +59,11 @@ li {
   font-size: 10%;
 }
 
+mark {
+  background-color: rgba(0,0,0,0);
+  color: #ffffff;
+}
+
 .cta-right h2 {
   font-size: 10%;
 }
@@ -72,12 +77,10 @@ li {
   padding: 5%;
 }
 
-#logogogo {
-  position: absolute;
-  left: 90%;
-  top: 13%;
-  width: 5%;
-  z-index: 100;
+.ruby {
+  width: 95%;
+  background: url("../img/logo@2x.png") right center no-repeat;
+  background-size: 10%;
 }
 
 .cta-right1 { margin-top: 1.5em; }
@@ -230,7 +233,9 @@ h2 { font-weight: 600; }
 .cta p {
   font-family: "museo-sans", sans-serif;
   font-weight: 300;
-  color: #444444;
+  font-size: 150%;
+  color: #ffffff;
+  margin-bottom: 20%;
 }
 
 /* ==========================================================================
@@ -533,8 +538,10 @@ ol li {
 
 .counter p {
   margin-bottom: 0;
+  font-weight: 300;
   font-size: 150%;
   font-family: "museo-sans", sans-serif;
+  margin-bottom: 30%;
 }
 
 .counter div[class^="col-"]:nth-child(1),
@@ -925,7 +932,7 @@ ul.countdown li p { font-size: 24px; }
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(35, 0, 61, 0.9), rgba(35, 0, 61, 0.01));
+    background: linear-gradient(to top, rgba(124, 124, 124, 0.9), rgba(124, 124, 124, 0.01));
     top: 0;
   }
 
@@ -940,14 +947,21 @@ ul.countdown li p { font-size: 24px; }
     top: 0;
   }
 
+  .ruby {
+    width: 95%;
+    background: url("../img/logo@2x.png") right 26% bottom 12% no-repeat;
+    background-size: 10%;
+  }
+
   .counter h1 {
-    margin-top: 30%;
-    text-shadow: 0px 0px 8px #000000;
+    margin-top: 50%;
+    text-shadow: 0px 0px 15px #000000;
   }
   .counter p {
     font-size: 120%;
     text-shadow: 0px 0px 8px #000000;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
+    font-weight: 300;
   }
 
   .counter h2 {text-shadow: 0px 0px 8px #000000;}
@@ -956,9 +970,10 @@ ul.countdown li p { font-size: 24px; }
     position: absolute;
     z-index: -1;
   }
-  .cta h2 {
+  .cta p {
     font-size: 120%;
-    font-weight: 400;
+    font-weight: 300;
+    margin-bottom: 0%;
   }
   .cta h1 {
     margin-top: 30%;
@@ -1177,8 +1192,14 @@ ul.countdown li p { font-size: 12.642px; }
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(35, 0, 61, 0.9), rgba(35, 0, 61, 0.01));
+    background: linear-gradient(to top, rgba(124, 124, 124, 0.9), rgba(124, 124, 124, 0.01));
     top: 0;
+  }
+
+  .ruby {
+    width: 95%;
+    background: url("../img/logo@2x.png") right 26% bottom 12% no-repeat;
+    background-size: 10%;
   }
 
   .overlay1 {
@@ -1208,9 +1229,10 @@ ul.countdown li p { font-size: 12.642px; }
     position: absolute;
     z-index: -1;
   }
-  .cta h2 {
+  .cta p {
     font-size: 120%;
     font-weight: 400;
+    margin-bottom: 0%;
   }
   .cta h1 {
     margin-top: 30%;
