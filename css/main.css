@@ -51,7 +51,7 @@ li {
   background-image: url("../img/ticket.png");
   background-size: 100%;
   background-position: top center;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 
 }
 
@@ -82,6 +82,11 @@ mark {
   color:#ff0241;
 }
 
+.cta-right1 p {
+  font-family: 'Mukta Vaani', sans-serif;
+
+}
+
 .ruby {
   width: 95%;
   background: url("../img/logo@2x.png") right center no-repeat;
@@ -102,7 +107,7 @@ mark {
   width: 100%;
   padding: 0.75em;
   border-radius: 4px;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 #btnn1 {
@@ -112,7 +117,7 @@ mark {
   font-weight: 700;
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 label {
