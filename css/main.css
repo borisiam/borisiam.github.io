@@ -203,7 +203,7 @@ h2 { font-weight: 600; }
 .cta h1{
   font-weight: 900;
   font-size: 350%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .cta h2 {
@@ -231,8 +231,8 @@ h2 { font-weight: 600; }
 }
 
 .cta p {
-  font-family: "museo-sans", sans-serif;
-  font-weight: 300;
+  font-family: 'Mukta Vaani', sans-serif;
+  font-weight: 200;
   font-size: 150%;
   color: #ffffff;
   margin-bottom: 20%;
