@@ -994,7 +994,7 @@ ul.countdown li p { font-size: 24px; }
     font-size: 400%;
   }
   .counter p {
-    font-size: 120%;
+    font-size: 150%;
     margin-bottom: 1%;
     font-weight: 300;
   }
@@ -1022,7 +1022,7 @@ ul.countdown li p { font-size: 24px; }
 
   .ruby h1 {
     font-weight: 900;
-    font-size: 250%;
+    font-size: 300%;
     font-family: 'Mukta Vaani', sans-serif;
     color: #ffffff;
   }
@@ -1261,7 +1261,7 @@ ul.countdown li p { font-size: 12.642px; }
     font-size: 400%;
   }
   .counter p {
-    font-size: 120%;
+    font-size: 150%;
     margin-bottom: 10%;
   }
 
@@ -1282,7 +1282,7 @@ ul.countdown li p { font-size: 12.642px; }
 
   .ruby h1 {
     font-weight: 900;
-    font-size: 200%;
+    font-size: 300%;
     font-family: 'Mukta Vaani', sans-serif;
     color: #ffffff;
   }
