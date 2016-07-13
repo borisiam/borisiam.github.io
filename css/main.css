@@ -1192,7 +1192,7 @@ ul.countdown li p { font-size: 12.642px; }
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(124, 124, 124, 0.9), rgba(124, 124, 124, 0.01));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.01));
     top: 0;
   }
 
