@@ -413,6 +413,7 @@ ol li {
 .features p {
   color: #4f0f87;
   margin-bottom: 0;
+  font-weight: 200;
   font-size: 110%;
   font-family: 'Mukta Vaani', sans-serif;
   overflow: auto;
