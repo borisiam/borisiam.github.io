@@ -443,12 +443,22 @@ ol li {
   clear: left;
 }
 
+.feature33 {
+  display:block;
+  float: left;
+  clear: left;
+}
+
 .feature11 img {
   float: left;
   overflow: auto;
 }
 
 .feature22 img {
+  float: left;
+  overflow: auto;
+}
+.feature33 img {
   float: left;
   overflow: auto;
 }
@@ -465,6 +475,12 @@ ol li {
   padding-left: 5%;
 }
 
+.feature33 p {
+  margin-top: 3%;
+  padding-right: 4%;
+  padding-left: 5%;
+}
+
 .feature h1 {
   font-family: "museo-sans", sans-serif;
   font-weight: 900;
@@ -476,6 +492,14 @@ ol li {
   display: block;
   margin-bottom: 3%;
   margin-top: 3%;
+}
+#two {
+  width: 20%;
+  display: block;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 #one {
   width: 25%;
@@ -516,20 +540,20 @@ ol li {
 .counter h1 {
   font-weight: 900;
   font-size: 300%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Bevan', cursive;
   color: #ffffff;
 }
 
 .counter h2 {
   font-weight: 700;
   font-size: 200%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Bevan', cursive;
 }
 
 .counter h3 {
   font-weight: 900;
   font-size: 700%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Bevan', cursive;
 }
 
 .counter img {
@@ -825,6 +849,7 @@ ul.countdown li p { font-size: 24px; }
   clear: none;
 }
 
+
 .counter1 {
   text-align: center;
 }
@@ -932,7 +957,7 @@ ul.countdown li p { font-size: 24px; }
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.01));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     top: 0;
   }
 
@@ -955,11 +980,10 @@ ul.countdown li p { font-size: 24px; }
 
   .counter h1 {
     margin-top: 70%;
-    text-shadow: 0px 0px 15px #4f0f87;
+
   }
   .counter p {
     font-size: 120%;
-    text-shadow: 0px 0px 8px #4f0f87;
     margin-bottom: 1%;
     font-weight: 300;
   }
@@ -974,11 +998,12 @@ ul.countdown li p { font-size: 24px; }
     font-size: 120%;
     font-weight: 300;
     margin-bottom: 0%;
+    font-family: 'Bevan', cursive;
   }
   .cta h1 {
     margin-top: 30%;
+    font-family: 'Bevan', cursive;
   }
-
 
   #time {
     color: #ff0241;
