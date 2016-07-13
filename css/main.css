@@ -390,7 +390,7 @@ ul.countdown li p {
   margin: 0 0 36px 0;
   font-weight: 900;
   font-size: 300%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Secular One', sans-serif;
   color: #4f0f87;
 }
 
@@ -398,7 +398,7 @@ ul.countdown li p {
   margin: 0 0 36px 0;
   font-weight: 900;
   font-size: 380%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Secular One', sans-serif;
   color: #4f0f87;
 }
 
@@ -414,7 +414,7 @@ ol li {
   color: #4f0f87;
   margin-bottom: 0;
   font-size: 110%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Secular One', sans-serif;
   overflow: auto;
 }
 
@@ -998,11 +998,11 @@ ul.countdown li p { font-size: 24px; }
     font-size: 120%;
     font-weight: 300;
     margin-bottom: 0%;
-    font-family: 'Bevan', cursive;
+    font-family: 'Secular One', sans-serif;
   }
   .cta h1 {
     margin-top: 30%;
-    font-family: 'Bevan', cursive;
+    font-family: 'Secular One', sans-serif;
   }
 
   #time {
