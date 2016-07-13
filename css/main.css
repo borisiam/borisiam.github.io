@@ -78,6 +78,10 @@ mark {
   padding: 5%;
 }
 
+.cta-right1 h1 {
+  color:#ff0241;
+}
+
 .ruby {
   width: 95%;
   background: url("../img/logo@2x.png") right center no-repeat;
