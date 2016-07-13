@@ -60,6 +60,7 @@ li {
 }
 
 mark {
+  font-size: 300%;
   background-color: rgba(0,0,0,0);
   color: #ffffff;
 }
