@@ -44,6 +44,15 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
             jQuery.scrollDepth();
         });
   </script>
+  <script>
+    function process()
+    {
+      var email="https://aivibe.typeform.com/to/tVWCyw?email=" + document.getElementById("fieldEmail").value;
+      location.href=email;
+      return false;
+    }
+  </script>
+
 
 </head>
 <body>
@@ -157,7 +166,7 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
   <header class="welcome-message text-center">
     <h1 id="stand"><span class="highlight">Be the first to try!</span></h1>
     <h2>We will notify you when ELLiE is ready</h2>
-    <form action="http://aivibe.createsend.com/t/d/s/ujjuty/" method="post" id="subForm1">
+    <form action="http://aivibe.createsend.com/t/d/s/ujjuty/" method="post" id="subForm1" onSubmit="return process();">
       <p>
         <label for="fieldEmail">Email</label><br />
         <input id="fieldEmail" name="cm-ujjuty-ujjuty" type="email" required />
@@ -166,6 +175,9 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
         <button type="submit" id="btnn1" onclick="ga('send', 'event', 'Subscription', 'SuccessfullySubscribedMobile', 'SubscriptionFormMobile');">Subscribe</button>
           <script type="text/javascript"> mixpanel.track_forms("#subForm1","Email submit mobile"); </script>
       </p>
+    </form>
+    <form onSubmit="return process();">
+      URL: <input type="text" name="Email" id="email"> <input type="submit" value="go">
     </form>
   </header>
 </div>
