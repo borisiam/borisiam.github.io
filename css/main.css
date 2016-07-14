@@ -78,9 +78,6 @@ mark {
   padding: 5%;
 }
 
-.cta-right1 h1 {
-  color:#ff0241;
-}
 
 .cta-right1 p {
   font-family: 'Mukta Vaani', sans-serif;
@@ -130,7 +127,7 @@ label {
   color: #fff;
   background: #ff0241;
   border-color: #ff0241;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .cta-right1 input:focus,
@@ -226,10 +223,9 @@ h2 { font-weight: 600; }
 .highlight { font-weight: 700; }
 
 .welcome-message h1 {
-  line-height: 1.3;
+  
   font-weight: 300;
-  margin-top: 0.75em;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   color: #ff0241;
 }
 
@@ -246,6 +242,10 @@ h2 { font-weight: 600; }
   font-size: 150%;
   color: #ffffff;
   margin-bottom: 20%;
+}
+
+#stand {
+ padding: 0%;
 }
 
 /* ==========================================================================
