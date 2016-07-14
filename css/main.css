@@ -20,7 +20,7 @@ h6 { font-weight: 400; }
 a { color: #ff0241; }
 
 a:hover {
-  color: #D32A00;
+  color: #ff005e;
   text-decoration: none;
 }
 
@@ -128,8 +128,8 @@ label {
 #btnn1:hover,
 #btnn1:focus {
   color: #fff;
-  background: #d32a00;
-  border-color: #D32A00;
+  background: #ff0241;
+  border-color: #ff0241;
   font-family: "museo-sans", sans-serif;
 }
 
@@ -193,12 +193,12 @@ label {
   line-height: 40px;
   color: #fff;
   border-radius: 50%;
-  border: 1px solid #4f0f87;
+  border: 1px solid #ff0241;
   -webkit-transition: background 1s ease;
   transition: background 1s ease;
 }
 
-.social li a:hover { background: #4f0f87; }
+.social li a:hover { background: #ff0241; }
 
 h2 { font-weight: 600; }
 
@@ -230,7 +230,7 @@ h2 { font-weight: 600; }
   font-weight: 300;
   margin-top: 0.75em;
   font-family: "museo-sans", sans-serif;
-  color: #4f0f87;
+  color: #ff0241;
 }
 
 .welcome-message h2 {
@@ -292,8 +292,8 @@ h2 { font-weight: 600; }
 #btnn:hover,
 #btnn:focus {
   color: #fff;
-  background: #d32a00;
-  border-color: #d32a00;
+  background: #ff0241;
+  border-color: #ff0241;
   font-family: "museo-sans", sans-serif;
 }
 
