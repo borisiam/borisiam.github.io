@@ -74,7 +74,7 @@ mark {
 }
 
 .cta-right1 {
-  background-color: #ffffff;
+  background: url("../img/Sorting%20Arrows%20Filled-100.png") no-repeat center top;
   padding: 5%;
 }
 
@@ -223,7 +223,7 @@ h2 { font-weight: 600; }
 .highlight { font-weight: 700; }
 
 .welcome-message h1 {
-  
+
   font-weight: 300;
   font-family: 'Mukta Vaani', sans-serif;
   color: #ff0241;
@@ -232,8 +232,8 @@ h2 { font-weight: 600; }
 .welcome-message h2 {
   font-size: 24px;
   font-weight: 300;
-  font-family: "museo-sans", sans-serif;
-  color: #444444;
+  font-family: 'Mukta Vaani', sans-serif;
+  color: #220044;
 }
 
 .cta p {
@@ -269,14 +269,14 @@ h2 { font-weight: 600; }
   width: 100%;
   padding: 0.5em;
   border-radius: 4px;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 
 }
 .cta-right #btnn {
   width: 100%;
   padding: 0.75em;
   border-radius: 4px;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 #btnn {
@@ -286,7 +286,7 @@ h2 { font-weight: 600; }
   font-weight: 700;
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 #btnn:hover,
@@ -294,7 +294,7 @@ h2 { font-weight: 600; }
   color: #fff;
   background: #ff0241;
   border-color: #ff0241;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .cta-right input:focus,
@@ -417,7 +417,7 @@ ol li {
   color: #ff1654;
   font-weight: 700;
   font-size: 150%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .features p {
@@ -460,6 +460,7 @@ ol li {
   clear: left;
 }
 
+
 .feature11 img {
   float: left;
   overflow: auto;
@@ -493,7 +494,7 @@ ol li {
 }
 
 .feature h1 {
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   font-weight: 900;
   font-size: 2000%;
 }
@@ -521,7 +522,7 @@ ol li {
 
 .counter1 li {
   list-style-type: disc;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   font-weight: 900;
   font-size: 300%;
   color: #4f0f87;
@@ -597,12 +598,12 @@ ol li {
 .counter1 strong {
   font-weight: 900;
   font-size: 120%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 .counter1 h1 {
   font-weight: 900;
   font-size: 200%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   color: #4f0f87;
   text-shadow: 1px 1px 100px #ffffff;
 }
@@ -614,20 +615,20 @@ ol li {
 .counter1 h2 {
   font-weight: 700;
   font-size: 200%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   text-shadow: 1px 1px 100px #8da301;
 }
 
 .counter1 h3 {
   font-weight: 900;
   font-size: 700%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .counter1 p {
   margin-bottom: 0;
   font-size: 150%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 
 }
 
@@ -664,14 +665,14 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
   line-height: 0.5;
   font-weight: 900;
   font-size: 300%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .contact h3 {
   margin: 0 0 48px;
   font-weight: 700;
   font-size: 150%;
-  font-family: "museo-sans", sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   padding-bottom: 10%;
 }
 
@@ -956,6 +957,13 @@ ul.countdown li p { font-size: 24px; }
     margin-right: auto;
   }
 
+  #two2223 {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero-unit {
     background: url(../img/bg-small.jpg) center center no-repeat;
     background-size: cover;
@@ -1098,6 +1106,8 @@ ul.countdown li p { font-size: 24px; }
     position: absolute;
     z-index: -1;
   }
+
+
 
   .contact {
     background-color: #ffffff;
