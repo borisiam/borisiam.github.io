@@ -1,17 +1,13 @@
 <?php
  
-    $to = "support@aivibe.com";  //Change email here
-    $from = $_REQUEST['email'];
-    $headers = "From: $from"; 
-    $subject = "New Message"; 
- 
-    $fields = array(); 
-    $fields{"name"} = "name";	
-    $fields{"email"} = "email"; 
-    $fields{"message"} = "message";
- 
-    $body = "Message details:\n\n"; foreach($fields as $a => $b){   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]); }
- 
-    $send = mail($to, $subject, $body, $headers);
+    <?php
+    $action = $_GET["action"];
+    $myText = $_POST["mytext"];
+
+    if($action = "save") {
+      $targetFolder = "/path/to/folder";
+      file_put_contents($targetFolder."mytext.txt", $myText);
+    }
+    ?>
  
 ?>

@@ -209,7 +209,7 @@ h2 { font-weight: 600; }
    cta
    ========================================================================== */
 .cta h1{
-  font-weight: 900;
+  font-weight: 800;
   font-size: 350%;
   font-family: 'Mukta Vaani', sans-serif;
 }
@@ -399,7 +399,7 @@ ul.countdown li p {
 
 .features h2 {
   margin: 0 0 36px 0;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 300%;
   font-family: 'Mukta Vaani', sans-serif;
   color: #4f0f87;
@@ -496,7 +496,7 @@ ol li {
 
 .feature h1 {
   font-family: 'Mukta Vaani', sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 2000%;
 }
 
@@ -524,7 +524,7 @@ ol li {
 .counter1 li {
   list-style-type: disc;
   font-family: 'Mukta Vaani', sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 300%;
   color: #4f0f87;
 }
@@ -535,7 +535,6 @@ ol li {
    ========================================================================== */
    
 .counter {
-  background: url(../img/bg-section.jpeg) center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
@@ -551,7 +550,7 @@ ol li {
 }
 
 .ruby h1 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 300%;
   font-family: 'Mukta Vaani', sans-serif;
   color: #ffffff;
@@ -564,7 +563,7 @@ ol li {
 }
 
 .counter h3 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 700%;
   font-family: 'Bevan', cursive;
 }
@@ -588,7 +587,6 @@ ol li {
    counter
    ========================================================================== */
 .counter1 {
-  background: url(../img/Tailoring-a-Suit.jpeg) center center no-repeat fixed;
   -webkit-background-size: cover;
   background-size: cover;
   color: #fff;
@@ -597,12 +595,12 @@ ol li {
 }
 
 .counter1 strong {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 120%;
   font-family: 'Mukta Vaani', sans-serif;
 }
 .counter1 h1 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 200%;
   font-family: 'Mukta Vaani', sans-serif;
   color: #4f0f87;
@@ -621,7 +619,7 @@ ol li {
 }
 
 .counter1 h3 {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 700%;
   font-family: 'Mukta Vaani', sans-serif;
 }
@@ -664,7 +662,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .contact h2 {
   margin: 0 0 48px;
   line-height: 0.5;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 300%;
   font-family: 'Mukta Vaani', sans-serif;
 }
@@ -990,8 +988,7 @@ ul.countdown li p { font-size: 24px; }
 
   .overlay1 {
     position: absolute;
-    background: no-repeat center;
-    background-image: url("../img/mobile_snaps.png");
+    background: url("../img/mobile_snaps.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1033,7 +1030,7 @@ ul.countdown li p { font-size: 24px; }
   }
 
   .ruby h1 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 300%;
     font-family: 'Mukta Vaani', sans-serif;
     color: #ffffff;
@@ -1228,19 +1225,6 @@ ul.countdown li p { font-size: 12.642px; }
     clear: none;
   }
 
-  .hero-unit {
-    background: url(../img/bg-small.jpg) center center no-repeat;
-    background-size: cover;
-  }
-  .counter1 {
-    background: url(../img/Tailoring-a-Suit-small.jpg) center center no-repeat;
-    background-size: cover;
-  }
-  .counter {
-    background: url(../img/bg-section-small.jpg) center center no-repeat;
-    background-size: cover;
-  }
-
   #time {
     color: #ff0241;
   }
@@ -1295,7 +1279,7 @@ ul.countdown li p { font-size: 12.642px; }
   }
 
   .ruby h1 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 300%;
     font-family: 'Mukta Vaani', sans-serif;
     color: #ffffff;
