@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1f44c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1f624.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1f6242.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Gemstone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Leaderboard Filled-100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Tailoring-a-Suit-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Tailoring-a-Suit.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/b11g.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-section-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-section.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-swection.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bggggg.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/butler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/iPhone-6-White-Frontalv1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/party.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pileofpoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/snap123.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/snap234.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/snap345.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/snaps.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.scrolldepth.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="$PROJECT_DIR$/img/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icon.png" afterPath="$PROJECT_DIR$/img/icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/process.php" afterPath="$PROJECT_DIR$/php/process.php" />
     </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5145798">
-              <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.3018868">
+              <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -62,7 +37,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.916666">
+            <state vertical-scroll-proportion="0.0">
               <caret line="307" column="19" selection-start-line="307" selection-start-column="2" selection-end-line="307" selection-end-column="19" />
               <folding />
             </state>
@@ -127,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,7 +166,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -677,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.916666">
+        <state vertical-scroll-proportion="0.0">
           <caret line="307" column="19" selection-start-line="307" selection-start-column="2" selection-end-line="307" selection-end-column="19" />
           <folding />
         </state>
@@ -685,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5145798">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.3018868">
+          <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
           <folding />
         </state>
       </provider>
