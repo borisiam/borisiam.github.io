@@ -59,6 +59,115 @@ li {
   font-size: 10%;
 }
 
+#c1 {
+  background-color: #00eaa1;
+
+  font-size: small;
+}
+#c1:hover {
+  background-color: #008260;
+}
+#aa1 {
+  margin-top: 30%;
+}
+#aa {
+  color: #00eaa1;
+  margin-top: -30%;
+}
+
+
+
+#c2 {
+  background-color: #6a21ff;
+
+  font-size: small;
+ }
+#c2:hover {
+  background-color: #150631;
+}
+#qq {
+  color: #6a21ff;
+  margin-top: -30%;
+}
+#qq1 {
+  margin-top: 30%;
+}
+
+#c3 {
+  background-color: #ff005e;
+
+  font-size: small;
+}
+
+#c3:hover {
+  background-color: #8d0034;
+}
+#zz {
+  color: #ff005e;
+  margin-top: -30%;
+}
+#zz1 {
+  margin-top: 30%;
+}
+
+#c4 {
+  background-color: #00a8ff;
+
+  font-size: small;
+}
+#c4:hover {
+  background-color: #00486e;
+}
+#dd {
+  color: #00a8ff;
+  margin-top: -30%;
+}
+#dd1 {
+  margin-top: 30%;
+}
+
+#c5 {
+  background-color: #0042ee;
+
+  font-size: small;
+}
+#c5:hover {
+  background-color: #00113e;
+
+}
+#gg {
+  color:  #0042ee;
+  margin-top: -30%;
+}
+#gg1 {
+  margin-top: 30%;
+}
+
+#c6 {
+  background-color: #ffffff;
+
+  font-size: small;
+}
+#ff {
+  color: #000000;
+  margin-top: -30%;
+}
+#ff1 {
+  margin-top: 30%;
+  color: #000000;
+}
+
+
+.ss p {
+  margin-bottom: 0;
+  font-weight: 200;
+  font-size: 150%;
+  font-family: 'Mukta Vaani', sans-serif;
+  margin-bottom: 30%;
+  color: #ffffff;
+}
+
+
 mark {
   font-size: 120%;
   background-color: rgba(0,0,0,0);
@@ -87,7 +196,6 @@ mark {
 
 .ruby {
   width: 95%;
-  background: url("../img/logo@2x.png") right center no-repeat;
   background-size: 10%;
 }
 
@@ -160,7 +268,7 @@ label {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  background: linear-gradient(to right, rgba(125, 42, 244, 1.0), rgba(132, 15, 87, 1.0));
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
   top: 0;
 }
 
@@ -402,7 +510,7 @@ ul.countdown li p {
   font-weight: 800;
   font-size: 300%;
   font-family: 'Mukta Vaani', sans-serif;
-  color: #4f0f87;
+  color: #000000;
 }
 
 .features h1 {
@@ -410,7 +518,7 @@ ul.countdown li p {
   font-weight: 800;
   font-size: 380%;
   font-family: 'Mukta Vaani', sans-serif;
-  color: #4f0f87;
+  color: #000000;
 }
 
 ol li {
@@ -422,9 +530,9 @@ ol li {
 }
 
 .features p {
-  color: #4f0f87;
+  color: #2b2b2b;
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 110%;
   font-family: 'Mukta Vaani', sans-serif;
   overflow: auto;
@@ -537,7 +645,7 @@ ol li {
 .counter {
   -webkit-background-size: cover;
   background-size: cover;
-  color: #fff;
+  color: #000000;
   position: relative;
   padding: 4.5em 0;
 }
@@ -553,7 +661,7 @@ ol li {
   font-weight: 800;
   font-size: 300%;
   font-family: 'Mukta Vaani', sans-serif;
-  color: #ffffff;
+  color: #000000;
 }
 
 .counter h2 {
