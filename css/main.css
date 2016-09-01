@@ -1083,6 +1083,7 @@ ul.countdown li p { font-size: 24px; }
     height: 800px;
   }
 
+
   .mobile-phone {
     background: url("../img/mobi.png") bottom center no-repeat;
     -webkit-background-size: cover;
@@ -1100,6 +1101,7 @@ ul.countdown li p { font-size: 24px; }
 
   .counter h1 {
     font-size: 300%;
+    color: #000000;
   }
   .counter p {
     font-size: 150%;
@@ -1128,7 +1130,7 @@ ul.countdown li p { font-size: 24px; }
     font-weight: 800;
     font-size: 200%;
     font-family: 'Mukta Vaani', sans-serif;
-    color: #ffffff;
+    color: #000000;
   }
   .ss div[class^="col-"]:nth-child(1),
   .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
