@@ -1227,18 +1227,46 @@ ul.countdown li p { font-size: 24px; }
 
 @media (max-width: 320px) {
 
-ul.countdown li span { font-size: 28.833px; }
+  .hero-unit { padding: 4.5em 0; }
 
-ul.countdown li.seperator {
-  font-size: 25.629px;
-  line-height: 38.439px;
-  vertical-align: top;
-  padding: 0 2px;
-}
+  .logo { text-align: justify; }
 
-ul.countdown li p { font-size: 12.642px; }
+  .cta { margin-top: 4.5em; }
 
-  .features {
+  .social { float: right; }
+
+  .social { margin-top: 0; }
+
+  .timer h2 { line-height: 1.1; }
+
+  ul.countdown li span { font-size: 60px; }
+
+  ul.countdown li.seperator {
+    font-size: 48px;
+    line-height: 85px;
+    padding: 0 20.250px;
+  }
+
+  ul.countdown li p { font-size: 24px; }
+
+  .counter div[class^="col-"]:nth-child(1),
+  .counter div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+
+  .feature,.features {
+    text-align: center;
+  }
+
+  .feature img {
+    float: none;
+    clear: none;
+  }
+
+
+  .counter1 {
+    text-align: center;
+  }
+
+  .counter {
     text-align: center;
   }
 
@@ -1252,7 +1280,6 @@ ul.countdown li p { font-size: 12.642px; }
     margin-right: auto;
     width: 50%;
   }
-
   .hero-unit h1 {
     font-size: 200%;
   }
@@ -1264,6 +1291,24 @@ ul.countdown li p { font-size: 12.642px; }
   .counter1 img {
     width: 130%;
     padding-top: 10%;
+  }
+
+  .ss {
+    display: none;
+  }
+
+  .mobile5 {
+    height: 100px;
+    background: center center no-repeat;
+    background: url("../img/mobile_5.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .features h1 {
+    font-size: 230%;
   }
 
   #angryd {
@@ -1279,20 +1324,17 @@ ul.countdown li p { font-size: 12.642px; }
     position: absolute;
     z-index: -1;
   }
-
   #angry {
-     width: 20%;
+    width: 20%;
   }
 
   #covered {
-     width: 20%;
+    width: 20%;
   }
-
   #loggodtop {
     position: absolute;
     z-index: -1;
   }
-
   .contact {
     position: absolute;
     z-index: -1;
@@ -1301,8 +1343,8 @@ ul.countdown li p { font-size: 12.642px; }
   .cta-right {
     position: absolute;
     z-index: -1;
+    float: left;
   }
-
   .cta-right p {font-size: 1%}
   .cta-right h2 {font-size: 1%}
   .cta-right h1 {font-size: 1%}
@@ -1322,51 +1364,79 @@ ul.countdown li p { font-size: 12.642px; }
     margin-left: auto;
     margin-right: auto;
   }
-  .feature,.features {
-    text-align: center;
+
+  #two223 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .feature img {
-    float: none;
-    clear: none;
+  #two2223 {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  #time {
-    color: #ff0241;
+  .hero-unit {
+    background: url(../img/bg-small.jpg) center center no-repeat;
+    background-size: cover;
   }
+
+  #logogogo {
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    width: 15%;
+    z-index: 100;
+  }
+
+
 
   .overlay {
     position: absolute;
     width: 100%;
     min-height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.01));
+    background: linear-gradient(to top, rgba(25, 4, 43, 0.8), rgba(0, 0, 0, 0.01));
     top: 0;
   }
 
-  .ruby {
-    width: 95%;
-    background: url("../img/logo@2x.png") right 26% bottom 12% no-repeat;
-    background-size: 10%;
-  }
 
   .overlay1 {
-    position: absolute;
-    background: no-repeat center;
-    background-image: url("../img/mobile_snaps.png");
+
+    background: url("../img/mobile_snaps.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    top: 0;
+
+    height: 800px;
   }
 
-  .ruby h1 {
-    margin-top: 70%;
-    font-size: 400%;
+
+  .mobile-phone {
+    background: url("../img/mobi.png") bottom center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 1000px;
+    background-size: 100%;
+    background-color: #f1f2f5;
+  }
+
+  .ruby {
+    width: 95%;
+    background-size: 10%;
+  }
+
+  .counter h1 {
+    font-size: 300%;
+    color: #000000;
   }
   .counter p {
     font-size: 150%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
+    font-weight: 300;
   }
 
   .counter h2 {text-shadow: 0px 0px 8px #000000;}
@@ -1377,18 +1447,23 @@ ul.countdown li p { font-size: 12.642px; }
   }
   .cta p {
     font-size: 150%;
-    font-weight: 400;
+    font-weight: 200;
     margin-bottom: 0%;
+    font-family: 'Mukta Vaani', sans-serif;
   }
   .cta h1 {
     margin-top: 30%;
+    font-family: 'Mukta Vaani', sans-serif;
   }
 
   .ruby h1 {
     font-weight: 800;
-    font-size: 300%;
+    font-size: 200%;
     font-family: 'Mukta Vaani', sans-serif;
-    color: #ffffff;
+    color: #000000;
   }
+  .ss div[class^="col-"]:nth-child(1),
+  .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+}
 
 }
