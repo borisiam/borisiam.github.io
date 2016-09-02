@@ -188,9 +188,8 @@ mark {
 }
 
 .cta-right1 {
-  background: url("../img/Sorting%20Arrows%20Filled-100.png") no-repeat center top;
-  background-size: 7%;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
@@ -322,17 +321,17 @@ h2 { font-weight: 600; }
 .highlight { font-weight: 700; }
 
 .welcome-message h1 {
-
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 200;
   font-family: 'Mukta Vaani', sans-serif;
   color: #ff0241;
 }
 
 .welcome-message h2 {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 200;
   font-family: 'Mukta Vaani', sans-serif;
-  color: #220044;
+  color: #000000;
 }
 
 .cta p {
@@ -495,7 +494,7 @@ ul.countdown li p {
    ========================================================================== */
 
 .features {
-  padding: 4.5em 0 3em;
+  padding: 4.5em 0 0.05em;
   background-color: #ffffff;
   text-align: center;
 }
@@ -949,6 +948,12 @@ ul.countdown li p { font-size: 24px; }
   width: 50%;
 }
 
+.cta-right1{
+ background-color: #ffffff;
+  margin: 4%;
+  padding: 4%;
+  border: 1px solid #cccccc;
+}
 
 .counter1 img {
   width: 130%;
@@ -993,23 +998,12 @@ ul.countdown li p { font-size: 24px; }
     z-index: -1;
   }
   .contact {
-    position: absolute;
-    z-index: -1;
+    display: none;
   }
 
   .cta-right {
-    position: absolute;
-    z-index: -1;
-    float: left;
+    display: none;
   }
-  .cta-right p {font-size: 1%}
-  .cta-right h2 {font-size: 1%}
-  .cta-right h1 {font-size: 1%}
-
-  .contact p {font-size: 1%}
-  .contact h2 {font-size: 1%}
-  .contact h1 {font-size: 1%}
-  .contact h3 {font-size: 1%}
 
   #mobilemob {
     margin-bottom: 10%;
@@ -1083,6 +1077,10 @@ ul.countdown li p { font-size: 24px; }
 
   .counter {
     display: none;
+  }
+
+  #mobilemob {
+    margin: 10% 5%;
   }
 
 
@@ -1177,8 +1175,7 @@ ul.countdown li p { font-size: 24px; }
   }
 
   .cta-right1 {
-    position: absolute;
-    z-index: -1;
+    display: none;
   }
 
 
@@ -1264,6 +1261,12 @@ ul.countdown li p { font-size: 24px; }
     width: 50%;
   }
 
+  .cta-right1{
+    background-color: #ffffff;
+    margin: 4%;
+    padding: 4%;
+    border: 1px solid #cccccc;
+  }
 
   .counter1 img {
     width: 130%;
@@ -1308,23 +1311,12 @@ ul.countdown li p { font-size: 24px; }
     z-index: -1;
   }
   .contact {
-    position: absolute;
-    z-index: -1;
+    display: none;
   }
 
   .cta-right {
-    position: absolute;
-    z-index: -1;
-    float: left;
+    display: none;
   }
-  .cta-right p {font-size: 1%}
-  .cta-right h2 {font-size: 1%}
-  .cta-right h1 {font-size: 1%}
-
-  .contact p {font-size: 1%}
-  .contact h2 {font-size: 1%}
-  .contact h1 {font-size: 1%}
-  .contact h3 {font-size: 1%}
 
   #mobilemob {
     margin-bottom: 10%;
@@ -1400,6 +1392,10 @@ ul.countdown li p { font-size: 24px; }
     display: none;
   }
 
+  #mobilemob {
+    margin: 10% 5%;
+  }
+
 
   .cta p {
 
@@ -1420,4 +1416,3 @@ ul.countdown li p { font-size: 24px; }
   .ss div[class^="col-"]:nth-child(1),
   .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
 }
-
