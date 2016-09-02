@@ -269,21 +269,6 @@ label {
   top: 0;
 }
 
-.overlay1 {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
-  top: 0;
-}
-
-.overlay2 {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  background: linear-gradient(to right, rgba(225, 255, 2, 0.8), rgba(225, 255, 2, 0.5));
-  top: 0;
-}
 
 .logo,
 .social { text-align: center; }
@@ -897,6 +882,19 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
    
 @media (max-width: 768px) {
 
+body {
+  font-size: 16px;
+}
+p {
+  font-size: 120%;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 300;
+}
+
 .hero-unit { padding: 4.5em 0; }
 
 .logo { text-align: justify; }
@@ -950,13 +948,7 @@ ul.countdown li p { font-size: 24px; }
   margin-right: auto;
   width: 50%;
 }
-.hero-unit h1 {
-  font-size: 200%;
-}
 
-.counter1 h2 {
-  font-size: 200%;
-}
 
 .counter1 img {
   width: 130%;
@@ -967,19 +959,14 @@ ul.countdown li p { font-size: 24px; }
   display: none;
 }
 
-.mobile5 {
-  height: 100px;
-  background: center center no-repeat;
-  background: url("../img/mobile_5.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.mobile5 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.features h1 {
-  font-size: 230%;
-}
+
 
   #angryd {
     position: absolute;
@@ -1023,6 +1010,11 @@ ul.countdown li p { font-size: 24px; }
   .contact h2 {font-size: 1%}
   .contact h1 {font-size: 1%}
   .contact h3 {font-size: 1%}
+
+  #mobilemob {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
 
   #many {
     display: block;
@@ -1072,26 +1064,16 @@ ul.countdown li p { font-size: 24px; }
   }
 
 
-  .overlay1 {
-
-    background: url("../img/mobile_snaps.png") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    height: 800px;
-  }
-
 
   .mobile-phone {
-    background: url("../img/mobi.png") bottom center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 1000px;
-    background-size: 100%;
-    background-color: #f1f2f5;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .mobile-phone img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   .ruby {
@@ -1099,24 +1081,13 @@ ul.countdown li p { font-size: 24px; }
     background-size: 10%;
   }
 
-  .counter h1 {
-    font-size: 300%;
-    color: #000000;
-  }
-  .counter p {
-    font-size: 150%;
-    margin-bottom: 1%;
-    font-weight: 300;
+  .counter {
+    display: none;
   }
 
-  .counter h2 {text-shadow: 0px 0px 8px #000000;}
 
-  .counter img {
-    position: absolute;
-    z-index: -1;
-  }
   .cta p {
-    font-size: 150%;
+
     font-weight: 200;
     margin-bottom: 0%;
     font-family: 'Mukta Vaani', sans-serif;
@@ -1127,8 +1098,7 @@ ul.countdown li p { font-size: 24px; }
   }
 
   .ruby h1 {
-    font-weight: 800;
-    font-size: 200%;
+    font-weight: 300;
     font-family: 'Mukta Vaani', sans-serif;
     color: #000000;
   }
@@ -1227,6 +1197,19 @@ ul.countdown li p { font-size: 24px; }
 
 @media (max-width: 320px) {
 
+  body {
+    font-size: 16px;
+  }
+  p {
+    font-size: 120%;
+    font-weight: 200;
+  }
+
+  h1 {
+    font-size: 250%;
+    font-weight: 300;
+  }
+
   .hero-unit { padding: 4.5em 0; }
 
   .logo { text-align: justify; }
@@ -1280,13 +1263,7 @@ ul.countdown li p { font-size: 24px; }
     margin-right: auto;
     width: 50%;
   }
-  .hero-unit h1 {
-    font-size: 200%;
-  }
 
-  .counter1 h2 {
-    font-size: 200%;
-  }
 
   .counter1 img {
     width: 130%;
@@ -1297,19 +1274,14 @@ ul.countdown li p { font-size: 24px; }
     display: none;
   }
 
-  .mobile5 {
-    height: 100px;
-    background: center center no-repeat;
-    background: url("../img/mobile_5.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  .mobile5 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
-  .features h1 {
-    font-size: 230%;
-  }
+
 
   #angryd {
     position: absolute;
@@ -1353,6 +1325,11 @@ ul.countdown li p { font-size: 24px; }
   .contact h2 {font-size: 1%}
   .contact h1 {font-size: 1%}
   .contact h3 {font-size: 1%}
+
+  #mobilemob {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
 
   #many {
     display: block;
@@ -1402,26 +1379,16 @@ ul.countdown li p { font-size: 24px; }
   }
 
 
-  .overlay1 {
-
-    background: url("../img/mobile_snaps.png") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    height: 800px;
-  }
-
 
   .mobile-phone {
-    background: url("../img/mobi.png") bottom center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 1000px;
-    background-size: 100%;
-    background-color: #f1f2f5;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .mobile-phone img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   .ruby {
@@ -1429,24 +1396,13 @@ ul.countdown li p { font-size: 24px; }
     background-size: 10%;
   }
 
-  .counter h1 {
-    font-size: 300%;
-    color: #000000;
-  }
-  .counter p {
-    font-size: 100%;
-    margin-bottom: 1%;
-    font-weight: 300;
+  .counter {
+    display: none;
   }
 
-  .counter h2 {text-shadow: 0px 0px 8px #000000;}
 
-  .counter img {
-    position: absolute;
-    z-index: -1;
-  }
   .cta p {
-    font-size: 150%;
+
     font-weight: 200;
     margin-bottom: 0%;
     font-family: 'Mukta Vaani', sans-serif;
@@ -1457,8 +1413,7 @@ ul.countdown li p { font-size: 24px; }
   }
 
   .ruby h1 {
-    font-weight: 800;
-    font-size: 200%;
+    font-weight: 300;
     font-family: 'Mukta Vaani', sans-serif;
     color: #000000;
   }
@@ -1466,4 +1421,3 @@ ul.countdown li p { font-size: 24px; }
   .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
 }
 
-}
