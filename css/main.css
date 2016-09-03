@@ -4,10 +4,11 @@
    ========================================================================== */
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   color: #333;
-  font-weight: 400;
+  font-weight: 200;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 h1,
@@ -15,7 +16,10 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-weight: 400; }
+h6 { font-weight: 300; }
+
+h1 {font-size: 350%}
+p {font-size: 150%}
 
 a { color: #ff0241; }
 
@@ -65,13 +69,12 @@ li {
 }
 
 #c1 {
-  background-color: #00eaa1;
-
+  background: url(../img/desctop-1.png) center center no-repeat;
+  background-size: cover;
+  height: 200px;
   font-size: small;
 }
-#c1:hover {
-  background-color: #008260;
-}
+
 #aa1 {
   margin-top: 30%;
 }
@@ -83,13 +86,13 @@ li {
 
 
 #c2 {
-  background-color: #6a21ff;
+  background: url(../img/desctop-2.png) center center no-repeat;
+  background-size: cover;
+  height: 200px;
 
   font-size: small;
  }
-#c2:hover {
-  background-color: #150631;
-}
+
 #qq {
   color: #6a21ff;
   margin-top: -30%;
@@ -99,7 +102,9 @@ li {
 }
 
 #c3 {
-  background-color: #ff005e;
+  background: url(../img/desctop-3.png) center center no-repeat;
+  background-size: cover;
+  height: 200px;
 
   font-size: small;
 }
@@ -116,7 +121,9 @@ li {
 }
 
 #c4 {
-  background-color: #00a8ff;
+  background: url(../img/desctop-4.png) center center no-repeat;
+  background-size: cover;
+  height: 200px;
 
   font-size: small;
 }
@@ -132,7 +139,9 @@ li {
 }
 
 #c5 {
-  background-color: #0042ee;
+  background: url(../img/desctop-5.png) center center no-repeat;
+  background-size: cover;
+  height: 200px;
 
   font-size: small;
 }
@@ -166,7 +175,6 @@ li {
 .ss p {
   margin-bottom: 0;
   font-weight: 200;
-  font-size: 150%;
   font-family: 'Mukta Vaani', sans-serif;
   margin-bottom: 30%;
   color: #ffffff;
@@ -196,6 +204,11 @@ mark {
 .cta-right1 p {
   font-family: 'Mukta Vaani', sans-serif;
 
+}
+
+#one3 {
+  border-right: 1px solid #edf2f1;
+  border-left: 1px solid #edf2f1;
 }
 
 .ruby {
@@ -306,14 +319,12 @@ h2 { font-weight: 600; }
    cta
    ========================================================================== */
 .cta h1{
-  font-weight: 800;
-  font-size: 350%;
+  font-weight: 300;
   font-family: 'Mukta Vaani', sans-serif;
 }
 
 .cta h2 {
   margin-bottom: 10%;
-  font-size: 150%;
 }
 
 .cta { margin-top: 3em; }
@@ -336,8 +347,6 @@ h2 { font-weight: 600; }
 
 .cta p {
   font-family: 'Mukta Vaani', sans-serif;
-  font-weight: 200;
-  font-size: 150%;
   color: #ffffff;
   margin-bottom: 20%;
 }
@@ -501,16 +510,14 @@ ul.countdown li p {
 
 .features h2 {
   margin: 0 0 36px 0;
-  font-weight: 800;
-  font-size: 300%;
+
   font-family: 'Mukta Vaani', sans-serif;
   color: #000000;
 }
 
 .features h1 {
   margin: 0 0 36px 0;
-  font-weight: 800;
-  font-size: 380%;
+
   font-family: 'Mukta Vaani', sans-serif;
   color: #000000;
 }
@@ -526,8 +533,7 @@ ol li {
 .features p {
   color: #2b2b2b;
   margin-bottom: 0;
-  font-weight: 200;
-  font-size: 110%;
+  font-size: 100%;
   font-family: 'Mukta Vaani', sans-serif;
   overflow: auto;
 }
@@ -552,8 +558,7 @@ ol li {
 
 .feature h1 {
   font-family: 'Mukta Vaani', sans-serif;
-  font-weight: 800;
-  font-size: 2000%;
+
 }
 
 #many {
@@ -605,21 +610,18 @@ ol li {
 }
 
 .ruby h1 {
-  font-weight: 800;
-  font-size: 300%;
+
   font-family: 'Mukta Vaani', sans-serif;
   color: #000000;
 }
 
 .counter h2 {
-  font-weight: 700;
-  font-size: 200%;
+
   font-family: 'Bevan', cursive;
 }
 
 .counter h3 {
-  font-weight: 800;
-  font-size: 700%;
+
   font-family: 'Bevan', cursive;
 }
 
@@ -629,8 +631,7 @@ ol li {
 
 .counter p {
   margin-bottom: 0;
-  font-weight: 200;
-  font-size: 150%;
+
   font-family: 'Mukta Vaani', sans-serif;
   margin-bottom: 30%;
 }
@@ -655,8 +656,7 @@ ol li {
   font-family: 'Mukta Vaani', sans-serif;
 }
 .counter1 h1 {
-  font-weight: 800;
-  font-size: 200%;
+
   font-family: 'Mukta Vaani', sans-serif;
   color: #4f0f87;
   text-shadow: 1px 1px 100px #ffffff;
@@ -667,21 +667,19 @@ ol li {
 }
 
 .counter1 h2 {
-  font-weight: 700;
-  font-size: 200%;
+
   font-family: 'Mukta Vaani', sans-serif;
   text-shadow: 1px 1px 100px #8da301;
 }
 
 .counter1 h3 {
-  font-weight: 800;
-  font-size: 700%;
+
   font-family: 'Mukta Vaani', sans-serif;
 }
 
 .counter1 p {
   margin-bottom: 0;
-  font-size: 150%;
+
   font-family: 'Mukta Vaani', sans-serif;
 
 }
@@ -717,15 +715,13 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .contact h2 {
   margin: 0 0 48px;
   line-height: 0.5;
-  font-weight: 800;
-  font-size: 300%;
+
   font-family: 'Mukta Vaani', sans-serif;
 }
 
 .contact h3 {
   margin: 0 0 48px;
-  font-weight: 700;
-  font-size: 150%;
+
   font-family: 'Mukta Vaani', sans-serif;
   padding-bottom: 10%;
 }
