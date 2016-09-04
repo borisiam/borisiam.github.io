@@ -47,16 +47,13 @@ li {
 
 .cta-right {
   display: block;
-  z-index: 100;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-bottom: 20%;
-  padding-top: 15%;
-  background-image: url("../img/ticket.png");
-  background-size: 100%;
-  background-position: top center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 5% 10%;
+  background-color: #ffffff;
   font-family: 'Mukta Vaani', sans-serif;
-
+  border: 1px solid #cccccc;
 }
 
 #mainpic {
@@ -66,6 +63,7 @@ li {
 
 .cta-right h1 {
   font-size: 10%;
+  color: #000000;
 }
 
 #c1 {
@@ -187,12 +185,12 @@ mark {
   color: #ffffff;
 }
 
-.cta-right h2 {
-  font-size: 10%;
+.cta-right h3 {
+    color: #000000;
 }
 
 .cta-right p {
-  font-size: 10%;
+    color: #000000;
 }
 
 .cta-right1 {
@@ -204,11 +202,6 @@ mark {
 .cta-right1 p {
   font-family: 'Mukta Vaani', sans-serif;
 
-}
-
-#one3 {
-  border-right: 1px solid #edf2f1;
-  border-left: 1px solid #edf2f1;
 }
 
 .ruby {
@@ -256,6 +249,27 @@ label {
   font-family: 'Mukta Vaani', sans-serif;
 }
 
+#allevents {
+  background: url("../img/all-events-module.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+#allpersonal {
+  background: url("../img/personalization-module.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+#workingway {
+  background: url("../img/working-way-module.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
 .cta-right1 input:focus,
 .cta-right1 .button:focus { outline: none; }
 
@@ -264,7 +278,7 @@ label {
    ========================================================================== */
 
 .hero-unit {
-  background: url(../img/bg.jpg) center center no-repeat fixed;
+  background: url(../img/bg.jpg) center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding: 3em 0;
@@ -364,12 +378,12 @@ h2 { font-weight: 600; }
 .cta-right input {
   display: block;
   margin-bottom: 0.75em;
-  border: 1px solid #cccccc;
+  border: 1px solid #000000;
   color: #444;
 }
 
 .cta-right h3 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .cta-right input{
@@ -408,7 +422,7 @@ h2 { font-weight: 600; }
 .cta-right .button:focus { outline: none; }
 
 .cta-right h4 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .terms {
@@ -512,14 +526,14 @@ ul.countdown li p {
   margin: 0 0 36px 0;
 
   font-family: 'Mukta Vaani', sans-serif;
-  color: #000000;
+  color: #ffffff;
 }
 
 .features h1 {
   margin: 0 0 36px 0;
 
   font-family: 'Mukta Vaani', sans-serif;
-  color: #000000;
+  color: #ffffff;
 }
 
 ol li {
@@ -531,11 +545,15 @@ ol li {
 }
 
 .features p {
-  color: #2b2b2b;
+  color: #000000;
   margin-bottom: 0;
   font-size: 100%;
   font-family: 'Mukta Vaani', sans-serif;
   overflow: auto;
+}
+
+.feature33,.feature22,.feature11{
+  padding: 10%;
 }
 
 .feature {
@@ -617,12 +635,13 @@ ol li {
 
 .counter h2 {
 
-  font-family: 'Bevan', cursive;
+  font-family: 'Mukta Vaani', sans-serif;
 }
 
 .counter h3 {
-
-  font-family: 'Bevan', cursive;
+font-size: 300%;
+  font-family: 'Mukta Vaani', sans-serif;
+  color: #000;
 }
 
 .counter img {
@@ -699,11 +718,7 @@ ol li {
 }
 
 #contact {
-  background-color: #330d52;
-}
-
-#contact h2, h3 {
-  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .center-block { float: none; }
@@ -711,28 +726,6 @@ ol li {
 .form-group { margin-bottom: 1.5em; }
 
 textarea[class="form-control"] { padding: 0.75em 12px; }
-
-.contact h2 {
-  margin: 0 0 48px;
-  line-height: 0.5;
-
-  font-family: 'Mukta Vaani', sans-serif;
-}
-
-.contact h3 {
-  margin: 0 0 48px;
-
-  font-family: 'Mukta Vaani', sans-serif;
-  padding-bottom: 10%;
-}
-
-.contact span {
-  font-size: 1500%;
-  position: absolute;
-  bottom: -60%;
-  left:45%;
-  color: #ff0241;
-}
 
 .contact .btn {
   padding: 12px 1em;
@@ -753,7 +746,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
 .contact-form .success-sf p,
 .contact-form .error-sf p {
   text-align: center;
-  color: #fff;
+  color: #000000;
   border-radius: 4px;
   padding: .75em;
 }
@@ -1071,8 +1064,9 @@ ul.countdown li p { font-size: 24px; }
     background-size: 10%;
   }
 
-  .counter {
+  #desctopp {
     display: none;
+
   }
 
   #mobilemob {
