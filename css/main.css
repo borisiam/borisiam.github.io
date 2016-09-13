@@ -1382,8 +1382,9 @@ ul.countdown li p { font-size: 24px; }
     background-size: 10%;
   }
 
-  .counter {
+  #desctopp {
     display: none;
+
   }
 
   #mobilemob {
@@ -1410,3 +1411,4 @@ ul.countdown li p { font-size: 24px; }
   .ss div[class^="col-"]:nth-child(1),
   .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
 }
+
