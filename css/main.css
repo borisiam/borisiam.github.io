@@ -81,7 +81,11 @@ li {
   margin-top: -30%;
 }
 
+#meet {
 
+ margin-top: 80%;
+
+}
 
 #c2 {
   background: url(../img/desctop-2.png) center center no-repeat;
@@ -322,7 +326,7 @@ label {
 
 .social li a:hover { background: #ff0241; }
 
-h2 { font-weight: 600; }
+h2 { font-weight: 200; }
 
 .logo img {
   width: 15%;
@@ -718,7 +722,7 @@ font-size: 300%;
 }
 
 #contact {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
 }
 
 .center-block { float: none; }
@@ -764,7 +768,7 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
    
 .site-footer {
   padding: 4.5em 0;
-  background: #1c072d;
+  background: #2a2a2d;
 }
 
 .social-footer {
