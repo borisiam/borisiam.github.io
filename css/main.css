@@ -72,6 +72,41 @@ li {
   height: 200px;
   font-size: small;
 }
+#c1 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30%;
+  width: 35%;
+}
+#c2 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30%;
+  width: 35%;
+}
+#c3 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25%;
+  width: 30%;
+}
+#c4 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30%;
+  width: 35%;
+}
+#c5 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30%;
+  width: 35%;
+}
 
 #aa1 {
   margin-top: 30%;
@@ -83,7 +118,7 @@ li {
 
 #meet {
 
- margin-top: 80%;
+ margin-top: 100%;
 
 }
 
@@ -248,8 +283,8 @@ label {
 #btnn1:hover,
 #btnn1:focus {
   color: #fff;
-  background: #ff0241;
-  border-color: #ff0241;
+  background: #cb0234;
+  border-color: #cb0234;
   font-family: 'Mukta Vaani', sans-serif;
 }
 
@@ -288,6 +323,7 @@ label {
   padding: 3em 0;
   position: relative;
   color: #fff;
+  height: 641px;
 }
 
 
@@ -417,8 +453,8 @@ h2 { font-weight: 200; }
 #btnn:hover,
 #btnn:focus {
   color: #fff;
-  background: #ff0241;
-  border-color: #ff0241;
+  background: #cb0234;
+  border-color: #cb0234;
   font-family: 'Mukta Vaani', sans-serif;
 }
 
