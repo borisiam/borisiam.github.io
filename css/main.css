@@ -1066,6 +1066,7 @@ ul.countdown li p { font-size: 24px; }
   .hero-unit {
     background: url(../img/bg-small.jpg) center center no-repeat;
     background-size: cover;
+    height:300%;
   }
 
   #logogogo {
