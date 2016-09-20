@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="" />
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -271,12 +268,12 @@
       <workItem from="1473884739019" duration="3992000" />
       <workItem from="1473897799781" duration="906000" />
       <workItem from="1473899060605" duration="108000" />
-      <workItem from="1473961217287" duration="8284000" />
+      <workItem from="1473961217287" duration="8363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58954000" />
+    <option name="totallyTimeSpent" value="59033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="24" width="1275" height="725" extended-state="0" />
