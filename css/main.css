@@ -44,7 +44,9 @@ li {
 /* ==========================================================================
    custom
    ========================================================================== */
-
+.ss {
+  background-color: #ffffff;
+}
 .cta-right {
   display: block;
   width: 500px;
@@ -66,46 +68,14 @@ li {
   color: #000000;
 }
 
-#c1 {
-  background: url(../img/desctop-1.png) center center no-repeat;
-  background-size: cover;
-  height: 200px;
-  font-size: small;
-}
+
 #c1 img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30%;
-  width: 35%;
+  width: 100%;
+  max-height: 40px;
 }
-#c2 img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30%;
-  width: 35%;
-}
-#c3 img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 25%;
-  width: 30%;
-}
-#c4 img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30%;
-  width: 35%;
-}
-#c5 img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30%;
-  width: 35%;
+#c1 {
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 #aa1 {
@@ -196,6 +166,7 @@ li {
 
 #c6 {
   background-color: #ffffff;
+  min-height: 40px;
 
   font-size: small;
 }
@@ -216,6 +187,7 @@ li {
   margin-bottom: 30%;
   color: #ffffff;
 }
+
 
 
 mark {
@@ -312,18 +284,94 @@ label {
 .cta-right1 input:focus,
 .cta-right1 .button:focus { outline: none; }
 
+/* Animation top desctop */
+#cfd {
+  position:absolute;
+  top:0;
+  height: auto;
+  width:100%;
+  margin:0 auto;
+}
+
+#cfd img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  height: auto;
+  width:100%;
+}
+
+
+@keyframes cfdFadeInOut {
+  0% {
+    opacity:1;
+  }
+  15% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#cfd img:nth-of-type(1) {
+  animation-name: cfdFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+
+  animation-delay: 15s;
+}
+#cfd img:nth-of-type(2) {
+  animation-name: cfdFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+
+  animation-delay: 10s;
+}
+#cfd img:nth-of-type(3) {
+  animation-name: cfdFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+
+  animation-delay: 5s;
+}
+#cfd img:nth-of-type(4) {
+  animation-name: cfdFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+
+  animation-delay: 0s;
+}
+
+
+
+#mockdesctop{
+  width: 100%;
+  height: auto;
+
+}
+
 /* ==========================================================================
    hero unit
    ========================================================================== */
 
 .hero-unit {
-  background: url(../img/bg.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  padding: 3em 0;
   position: relative;
   color: #fff;
-  height: 641px;
+  height: 100%;
 }
 
 
@@ -372,16 +420,21 @@ h2 { font-weight: 200; }
 /* ==========================================================================
    cta
    ========================================================================== */
+
+.cta {
+  position: absolute;
+  top: 30%;
+  margin-left: 10%;
+  width: 40%;
+}
 .cta h1{
   font-weight: 300;
   font-family: 'Mukta Vaani', sans-serif;
 }
 
-.cta h2 {
-  margin-bottom: 10%;
-}
 
-.cta { margin-top: 3em; }
+.cta h2 {
+}
 
 .highlight { font-weight: 700; }
 
@@ -402,7 +455,6 @@ h2 { font-weight: 200; }
 .cta p {
   font-family: 'Mukta Vaani', sans-serif;
   color: #ffffff;
-  margin-bottom: 20%;
 }
 
 #stand {
@@ -589,7 +641,7 @@ ol li {
   margin-bottom: 0;
   font-size: 100%;
   font-family: 'Mukta Vaani', sans-serif;
-  overflow: auto;
+
 }
 
 .feature33,.feature22,.feature11{
@@ -971,12 +1023,7 @@ ul.countdown li p { font-size: 24px; }
   text-align: center;
 }
 
-.hero-unit img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 
 .cta-right1{
  background-color: #ffffff;
@@ -1073,17 +1120,22 @@ ul.countdown li p { font-size: 24px; }
     position: relative;
     width: 100%;
   }
-  .hero-unit-mobile:before {
-    content: "";
-    display: block;
-    padding-top: 150%;
+
+  .hero-unit-mobile img {
+    max-width: 100%;
+    height: auto;
+
+
   }
+
+
   .content {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    z-index: 100;
   }
 
   .content p {
@@ -1092,7 +1144,7 @@ ul.countdown li p { font-size: 24px; }
     margin-left: 7%;
   }
   .content h1 {
-    margin-top: 70%;
+    margin-top: 100%;
     color: #ffffff;
     margin-right: 7%;
     margin-left: 7%;
@@ -1113,6 +1165,7 @@ ul.countdown li p { font-size: 24px; }
     min-height: 100%;
     background: linear-gradient(to top, rgba(25, 4, 43, 0.8), rgba(0, 0, 0, 0.01));
     top: 0;
+    z-index: 100;
   }
 
 
@@ -1169,6 +1222,88 @@ ul.countdown li p { font-size: 24px; }
   }
   .ss div[class^="col-"]:nth-child(1),
   .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+
+
+  #mock img{
+    width: 100%;
+    height: auto;
+
+  }
+
+
+  #cf {
+    position:absolute;
+    top:0;
+    height: 150%;
+    width:100%;
+    margin:0 auto;
+  }
+
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+
+  @keyframes cfFadeInOut {
+    0% {
+      opacity:1;
+    }
+    15% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    90% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  #cf img:nth-of-type(1) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 15s;
+  }
+  #cf img:nth-of-type(2) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 10s;
+  }
+  #cf img:nth-of-type(3) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 5s;
+  }
+  #cf img:nth-of-type(4) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 0s;
+  }
+
+  #mockdesctop {
+    display: none;
+  }
+
 }
 /* ==========================================================================
    Medium devices (desktops, 992px and up) 
@@ -1204,9 +1339,6 @@ ul.countdown li p { font-size: 24px; }
 
 .site-footer li { margin-bottom: 0; }
 
-  .hero-unit img {
-    float: left;
-  }
 
   #angry {
     position: absolute;
@@ -1248,10 +1380,16 @@ ul.countdown li p { font-size: 24px; }
     display: none;
   }
 
-
+  #mock {
+    display: none;
+  }
 
   .contact {
     background-color: #ffffff;
+  }
+
+  .feature11 h3 {
+    padding: 3.7%;
   }
 
 }
@@ -1276,6 +1414,7 @@ ul.countdown li p { font-size: 24px; }
     font-size: 250%;
     font-weight: 300;
   }
+
 
   .hero-unit { padding: 4.5em 0; }
 
@@ -1320,16 +1459,7 @@ ul.countdown li p { font-size: 24px; }
     text-align: center;
   }
 
-  .hero-unit {
-    text-align: center;
-  }
 
-  .hero-unit img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
   .cta-right1{
     background-color: #ffffff;
@@ -1416,10 +1546,44 @@ ul.countdown li p { font-size: 24px; }
     margin-left: auto;
     margin-right: auto;
   }
+  .hero-unit{
+    display: none;
+  }
 
-  .hero-unit {
-    background: url(../img/bg-small.jpg) center center no-repeat;
+  .hero-unit-mobile {
+    background: url(../img/bg-small.jpg) center no-repeat;
     background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+
+  .hero-unit-mobile img {
+    max-width: 100%;
+    height: auto;
+
+
+  }
+
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+  }
+
+  .content p {
+    color: #ffffff;
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+  .content h1 {
+    margin-top: 100%;
+    color: #ffffff;
+    margin-right: 7%;
+    margin-left: 7%;
   }
 
   #logogogo {
@@ -1431,13 +1595,13 @@ ul.countdown li p { font-size: 24px; }
   }
 
 
-
   .overlay {
     position: absolute;
     width: 100%;
     min-height: 100%;
     background: linear-gradient(to top, rgba(25, 4, 43, 0.8), rgba(0, 0, 0, 0.01));
     top: 0;
+    z-index: 100;
   }
 
 
@@ -1452,6 +1616,14 @@ ul.countdown li p { font-size: 24px; }
     margin-right: auto;
     width: 100%;
   }
+  .mobile-phone h2 {
+
+    font-size: 150%;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
 
   .ruby {
     width: 95%;
@@ -1483,6 +1655,85 @@ ul.countdown li p { font-size: 24px; }
     font-weight: 300;
     font-family: 'Mukta Vaani', sans-serif;
     color: #000000;
+  }
+  .ss div[class^="col-"]:nth-child(1),
+  .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+
+
+  #mock img{
+    width: 100%;
+    height: auto;
+
+  }
+
+
+  #cf {
+    position:absolute;
+    top:0;
+    height: 150%;
+    width:100%;
+    margin:0 auto;
+  }
+
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+
+  @keyframes cfFadeInOut {
+    0% {
+      opacity:1;
+    }
+    15% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    90% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  #cf img:nth-of-type(1) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 15s;
+  }
+  #cf img:nth-of-type(2) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 10s;
+  }
+  #cf img:nth-of-type(3) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 5s;
+  }
+  #cf img:nth-of-type(4) {
+    animation-name: cfFadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    animation-delay: 0s;
   }
   .ss div[class^="col-"]:nth-child(1),
   .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }

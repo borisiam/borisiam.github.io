@@ -3,6 +3,7 @@
 <html>
 <head>
 <script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/slider.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani:200,300,400,500,600,700,800" rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +12,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <!-- <link rel="icon" type="image/png" href="img/icon.png"> -->
 
     <!-- start Mixpanel -->
@@ -54,27 +56,61 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
 
 <!--hero-unit-->
 <div class="hero-unit">
+
+     <img id="mockdesctop" src="img/mockdesctop.png">
+    <div id="cfd">
+      <img src="img/bg.png"/>
+      <img src="img/bg1.png"/>
+      <img src="img/bg2.png"/>
+      <img src="img/bg3.png"/>
+    </div>
+
+
   <div class="overlay"></div>
-  <div class="container">
 
     <!--cta-->
     <div class="cta">
-      <div class="row">
-        <aside class="col-md-6">
+
          <h1> We believe You are unique.</h1>
           <p>Every person is an individual with his / her own experiences,traits, tastes and preferences.
           </p>
-        </aside>
-      </div>
+
+
     </div>
     <!--cta end--> 
-    
-  </div>
+
+
 </div>
 
 <div class="hero-unit-mobile">
-  <div class="overlay"></div>
 
+  <!--<img class="mySlides1 w3-animate-fading" src="img/bg-small1.png">
+  <img class="mySlides1 w3-animate-fading" src="img/bg-small2.png">
+  <img class="mySlides1 w3-animate-fading" src="img/bg-small3.png">
+  <script>
+    var myIndexx = 0;
+    carousel1();
+
+    function carousel1() {
+      var i;
+      var x = document.getElementsByClassName("mySlides1");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndexx++;
+      if (myIndexx > x.length) {myIndexx = 1}
+      x[myIndexx-1].style.display = "block";
+      setTimeout(carousel1, 9000); // Change image every 2 seconds
+    }
+  </script> -->
+  <div id ="mock">
+    <img src="img/bg-small1.png">
+  <div id="cf">
+    <img src="img/bg-small1.png"/>
+    <img src="img/bg-small2.png"/>
+    <img src="img/bg-small3.png"/>
+    <img src="img/bg-small4.png"/>
+  </div>
 
     <!--cta-->
     <div class="content text-center">
@@ -84,6 +120,7 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
           </p>
 
     </div>
+  </div>
     <!--cta end-->
 
 </div>
@@ -91,18 +128,56 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
 
 <!--countdown timer-->
 <div class="mobile5">
- <img src="img/mobile_5.png">
+ <img class="mySlides" src="img/mobile_2.png">
+ <img class="mySlides" src="img/mobile_3.png">
+ <img class="mySlides" src="img/mobile_5.png">
+ <img class="mySlides" src="img/mobile_4.png">
 </div>
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+  }
+</script>
 <div class="ss">
 
   <div class="row text-center ">
 
-    <div class="col-md-2" id="c1"></div>
-    <div class="col-md-2" id="c2"></div>
-    <div class="col-md-2" id="c3"></div>
-    <div class="col-md-2" id="c4"></div>
-    <div class="col-md-2" id="c5"></div>
-    <div class="col-md-2" id="c6"><p id="ff1">We only care about what YOU love.</p></div>
+    <div class="col-md-10" id="c1">
+      <img class="SSlides" src="img/desctop-1.png">
+      <img class="SSlides" src="img/desctop-2.png">
+      <img class="SSlides" src="img/desctop-3.png">
+      <img class="SSlides" src="img/desctop-4.png">
+    </div>
+
+    <script>
+      var myIndexx = 0;
+      carousell();
+
+      function carousell() {
+        var ii;
+        var xx = document.getElementsByClassName("SSlides");
+        for (ii = 0; ii < xx.length; ii++) {
+          xx[ii].style.display = "none";
+        }
+        myIndexx++;
+        if (myIndexx > xx.length) {myIndexx = 1}
+        xx[myIndexx-1].style.display = "block";
+        setTimeout(carousell, 5000); // Change image every 5 seconds
+      }
+    </script>
+
+    <div class="col-md-2" id="c6"></div>
   </div>
 
 </div>
@@ -155,7 +230,6 @@ mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
       <div class="col-md-4">
         <div class="feature counter" id="allevents"> <!--<img src="img/feature-2.png" data-at2x="img/feature-2@2x.png" alt="feature">-->
           <div class="feature11">
-            <!--<img src="img/Two Tickets-100.png" id="many">-->
             <h3 class="total-number-1">1,600</h3>
             <p><b>SF CONCERTS, THEATER, COMEDY, PARTY, FESTIVAL EVENTS, IN ONE PLACE.</b></br> You no longer have to search the web or run multiple apps. Save your time and effort.</p>
           </div>
