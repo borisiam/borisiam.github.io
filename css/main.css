@@ -1459,6 +1459,10 @@ ul.countdown li p { font-size: 24px; }
     text-align: center;
   }
 
+  .hero-unit {
+    text-align: center;
+  }
+
 
 
   .cta-right1{
@@ -1735,7 +1739,9 @@ ul.countdown li p { font-size: 24px; }
 
     animation-delay: 0s;
   }
-  .ss div[class^="col-"]:nth-child(1),
-  .ss div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+
+  #mockdesctop {
+    display: none;
+  }
 }
 
