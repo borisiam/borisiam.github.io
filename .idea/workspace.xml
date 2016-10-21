@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small.jpg" afterPath="$PROJECT_DIR$/img/bg-small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small1.png" afterPath="$PROJECT_DIR$/img/bg-small1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small2.png" afterPath="$PROJECT_DIR$/img/bg-small2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small3.png" afterPath="$PROJECT_DIR$/img/bg-small3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small4.png" afterPath="$PROJECT_DIR$/img/bg-small4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="" />
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -290,15 +282,15 @@
       <workItem from="1476813086007" duration="3451000" />
       <workItem from="1476855013486" duration="1654000" />
       <workItem from="1476935075651" duration="2141000" />
-      <workItem from="1477075497475" duration="184000" />
+      <workItem from="1477075497475" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85229000" />
+    <option name="totallyTimeSpent" value="85444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1275" height="725" extended-state="6" />
+    <frame x="0" y="23" width="1275" height="725" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25039873" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
