@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/slider.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sss.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/all-events-module.png" afterPath="$PROJECT_DIR$/img/all-events-module.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small.jpg" afterPath="$PROJECT_DIR$/img/bg-small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/desctop-1.png" afterPath="$PROJECT_DIR$/img/desctop-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/desctop-2.png" afterPath="$PROJECT_DIR$/img/desctop-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/desctop-3.png" afterPath="$PROJECT_DIR$/img/desctop-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/desctop-4.png" afterPath="$PROJECT_DIR$/img/desctop-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mobile_5.png" afterPath="$PROJECT_DIR$/img/mobile_5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mobile_snaps.png" afterPath="$PROJECT_DIR$/img/mobile_snaps.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/personalization-module.png" afterPath="$PROJECT_DIR$/img/personalization-module.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/snaps1.png" afterPath="$PROJECT_DIR$/img/snaps1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/working-way-module.png" afterPath="$PROJECT_DIR$/img/working-way-module.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small1.png" afterPath="$PROJECT_DIR$/img/bg-small1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small2.png" afterPath="$PROJECT_DIR$/img/bg-small2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small3.png" afterPath="$PROJECT_DIR$/img/bg-small3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-small4.png" afterPath="$PROJECT_DIR$/img/bg-small4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="borisiam.github.io.iws" />
@@ -41,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -53,7 +43,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="5670">
               <caret line="378" column="21" selection-start-line="378" selection-start-column="21" selection-end-line="378" selection-end-column="21" />
               <folding />
             </state>
@@ -120,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,7 +174,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,12 +289,13 @@
       <workItem from="1476656238913" duration="508000" />
       <workItem from="1476813086007" duration="3451000" />
       <workItem from="1476855013486" duration="1654000" />
-      <workItem from="1476935075651" duration="1943000" />
+      <workItem from="1476935075651" duration="2141000" />
+      <workItem from="1477075497475" duration="184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84847000" />
+    <option name="totallyTimeSpent" value="85229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1275" height="725" extended-state="6" />
@@ -749,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="5670">
           <caret line="378" column="21" selection-start-line="378" selection-start-column="21" selection-end-line="378" selection-end-column="21" />
           <folding />
         </state>
@@ -757,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
