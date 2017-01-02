@@ -1,310 +1,233 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/slider.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Mukta+Vaani:200,300,400,500,600,700,800" rel="stylesheet">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ELLiE</title>
-<meta name="description" content="Your personal event expert">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="css/main.css" rel="stylesheet">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<!-- <link rel="icon" type="image/png" href="img/icon.png"> -->
 
-    <!-- start Mixpanel -->
-    <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-    for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-mixpanel.init("9967819db081d65c92e5cfcca6886dea");</script>
-    <!-- end Mixpanel -->
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-69836741-6', 'auto');
-    ga('send', 'pageview');
-
-  <!--Scroll tracking start-->
-
-  <!--Scroll tracking end-->
-
-  </script>
-
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-    fbq('init', '1590459884589835');
-    fbq('track', "PageView");</script>
-  <noscript><img height="1" width="1" style="display:none"
-                 src="https://www.facebook.com/tr?id=1590459884589835&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code -->
+    <meta charset="UTF-8">
+    <title>ElliE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Poppins:500" rel="stylesheet">
+    <script src="https://use.fontawesome.com/8002fed4c5.js"></script>
 
 </head>
+
+
+
 <body>
 
-<!--hero-unit-->
-<div class="hero-unit">
+<!-- ==== S T I C K Y == H E A D E R ==== -->
 
-     <img id="mockdesctop" src="img/mockdesctop.png">
-    <div id="cfd">
-      <img src="img/bg.png"/>
-      <img src="img/bg1.png"/>
-      <img src="img/bg2.png"/>
-      <img src="img/bg3.png"/>
-    </div>
+<!-- M O B I L E -->
 
-
-  <div class="overlay"></div>
-
-    <!--cta-->
-    <div class="cta">
-
-         <h1> We believe You are unique.</h1>
-          <p>Every person is an individual with his / her own experiences,traits, tastes and preferences.
-          </p>
-
-
-    </div>
-    <!--cta end--> 
-
-
-</div>
-
-<div class="hero-unit-mobile">
-
-  <div id ="mock">
-    <img src="img/bg-small1.png">
-  <div id="cf">
-    <img src="img/bg-small1.png"/>
-    <img src="img/bg-small2.png"/>
-    <img src="img/bg-small3.png"/>
-    <img src="img/bg-small4.png"/>
-  </div>
-
-    <!--cta-->
-    <div class="content text-center" id="welcome-message-mobile">
-
-          <h1> We believe You are unique.</h1>
-          <p>Every person is an individual with his / her own experiences,traits, tastes and preferences.
-          </p>
-
-    </div>
-  </div>
-    <!--cta end-->
-
-</div>
-<!--hero-unit end--> 
-
-<!--countdown timer-->
-<div class="ss">
-
-  <div class="row text-center ">
-
-    <div class="col-md-10" id="c1">
-      <img class="SSlides" src="img/desctop-1.png">
-      <img class="SSlides" src="img/desctop-2.png">
-      <img class="SSlides" src="img/desctop-3.png">
-      <img class="SSlides" src="img/desctop-4.png">
-    </div>
-
-    <script>
-      var myIndexx = 0;
-      carousell();
-
-      function carousell() {
-        var ii;
-        var xx = document.getElementsByClassName("SSlides");
-        for (ii = 0; ii < xx.length; ii++) {
-          xx[ii].style.display = "none";
-        }
-        myIndexx++;
-        if (myIndexx > xx.length) {myIndexx = 1}
-        xx[myIndexx-1].style.display = "block";
-        setTimeout(carousell, 5000); // Change image every 5 seconds
-      }
-    </script>
-
-    <div class="col-md-2" id="c6"></div>
-  </div>
-
-</div>
-
-<div class="counter" id="desctopp">
-
-  <div class="overlay1"></div>
-      <!--container-->
-  <div class="container">
-        <div class="row">
-          <div class="col-sm-7">
-            <img src="img/snaps1.png">
-          </div>
-          <div class="col-sm-5">
-            <div class="ruby"><h1>Your fun = our goal.</h1>
-            </div>
-            <p>Be matched with best experience possible, in seconds! We use Machine Learning to find live events that match your unique personality.
-            </p>
-            <h2 id="meet">Meet ELLiE the event app made right</h2>
-          </div>
-        </div>
-      </div>
-</div>
-
-<div class="mobile-phone text-center">
-  <div class="container" id="mobilemob">
-   <h1>Your fun = our goal</h1>
-    <p>Be matched with best experience possible, in seconds! We use Machine Learning to find live events that match your unique personality.
+<div class="sticky-header mobile-media container">
+    <p>
+        Hello
     </p>
+    <button type="button" class="btn btn-outline-warning" id="sticky-button-mobile">
+        Sign up
+    </button>
+</div>
+
+
+<!-- ==== H  E  R  O === U  N  I  T ==== -->
+
+
+<!-- M O B I L E -->
+
+<div class="container-fluid mobile-fonts mobile-media text-center dynamic-image-stuff-above-parent" id="hero-unit-mobile">
+
+ <img src="img/hero-mobile.png">
+
+  <div class="mobile-media text-center dynamic-image-stuff-above-child-center">
+
+    <h1>
+        We find events
+    </h1>
+    <p>
+        Events you like,</br>
+        events you didn't know existed.
+    </p>
+
   </div>
-  <img src="img/mobile_snaps.png">
-
-  <h2>Meet ELLiE, the event app made right!</h2>
 
 </div>
 
+<!-- D E S K T O P -->
 
-<!--countdown timer end-->
+<div class="container-fluid desktop-fonts desktop-media dynamic-image-stuff-above-parent" id="hero-unit-desktop">
 
-<!--countdown timer-->
+<img src="img/hero-desktop.png">
 
-<!--countdown timer end-->
+   <div class="desktop-media dynamic-image-stuff-above-child-left">
 
-<!--features-->
-<section class="features section-spacing text-center">
-  <!--container-->
-  <div class="container">
-    <div class="row">
+       <h1>
+           We find events
+       </h1>
+       <p>
+           Events you like,</br>
+           events you didn't know existed.
+       </p>
 
-      <div class="col-md-4">
-        <div class="feature counter" id="allevents"> <!--<img src="img/feature-2.png" data-at2x="img/feature-2@2x.png" alt="feature">-->
-          <div class="feature11">
-            <h3 class="total-number-1">1,600</h3>
-            <p><b>SF CONCERTS, THEATER, COMEDY, PARTY, FESTIVAL EVENTS, IN ONE PLACE.</b></br> You no longer have to search the web or run multiple apps. Save your time and effort.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4" id="one3">
-        <div class="feature counter" id="allpersonal">
-          <div class="feature22">
-            <img src="img/usermale.png" id="one">
-            <p><b>NEXT LEVEL OF PERSONALIZATION, FOCUSED ON A USER.</b></br> You have the confidence that your pick IS the best available option.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="feature counter" id="workingway">
-            <div class="feature33">
-            <img src="img/BestSeller-100.png" id="two223">
-            <p><b>A BETTER WAY THAT WORKS</b></br> ELLiE uses a powerful AI that tracks a myriad of factors affecting your ideal pastime.</p>
-            </div>
-          </div>
-      </div>
-    </div>
+   </div>
 
-    </div>
-
-  <!--container end--> 
-</section>
-
-
-<!--features end--> 
-
-<!-- contact-->
-<div class="cta-right1">
-  <header class="welcome-message text-center">
-    <h1 id="stand"><span class="highlight">Get access to limited beta!</span></h1>
-    <h2>The way we are building this product is new and has never been explored before, because of that we will need to
-      test it before public release. Right now you can get early bird access to closed
-      beta. Why ? We believe if you have read so far you, share our passion!</h2>
-    <form action="http://aivibe.createsend.com/t/d/s/ujjuty/" method="post" id="subForm1">
-      <p>
-        <label for="fieldEmail">Email</label><br />
-        <input id="fieldEmail" name="cm-ujjuty-ujjuty" type="email" required />
-      </p>
-      <p>
-        <button type="submit" id="btnn1" onclick="ga('send', 'event', 'Subscription', 'SuccessfullySubscribedMobile', 'SubscriptionFormMobile'); fbq('track', 'Lead');">Submit</button>
-          <script type="text/javascript"> mixpanel.track_forms("#subForm1","Email submit mobile"); </script>
-      </p>
-    </form>
-  </header>
 </div>
-<section class="contact section-spacing" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="cta-right text-center">
 
-        <h3><span class="highlight">Get access to limited beta!</span></h3>
-        <h4>The way we are building this product is new and has never been explored before, because of that we will need to
-          test it before public release. Right now you can get early bird access to closed
-          beta. Why ? We believe if you have read so far you, share our passion!</h4>
-        <!--sub-form-->
-        <form action="http://aivibe.createsend.com/t/d/s/ujjuty/" method="post" id="subForm">
-          <p>
-            <label for="fieldEmail">Email</label><br />
-            <input id="fieldEmail" name="cm-ujjuty-ujjuty" type="email" required />
-          </p>
-          <p>
-            <button type="submit" id="btnn" onclick="ga('send', 'event', 'Subscription', 'SuccessfullySubscribed', 'SubscriptionForm'); fbq('track', 'Lead');">Submit</button>
-            <script type="text/javascript"> mixpanel.track_forms("#subForm","Email submit desctop"); </script>
-          </p>
+<!-- ==== P R O B L E M - S O L U T I O N === U  N  I  T ==== -->
+
+<!-- M O B I L E -->
+<div class="container-fluid mobile-fonts mobile-media text-center padding-top-bottom" id="problem-unit-mobile">
+
+    <div class="mobile-media, text-center padding-top-bottom-small" id="problem-text-mobile">
+        <h2>
+            Finding a good event</br>
+            is a nightmare?
+        </h2>
+        <p>
+            Multiple websites, apps,</br>
+            spending too
+        </p>
+
+    </div>
+    <div class="mobile-media padding-top-bottom-small" id="problem-image-mobile">
+        <img src="img/problem-mobile.png">
+    </div>
+
+</div>
+<div class="container-fluid mobile-media mobile-fonts text-center padding-top-bottom" id="solution-unit-mobile">
+
+    <div class="mobile-media, text-center padding-top-bottom-small" id="solution-text-mobile">
+        <h2>
+            Ask ellie and find</br>
+            an event faster !
+        </h2>
+        <p>
+            It’s learning from the events you choose</br>
+            and become better everyday.
+        </p>
+
+    </div>
+    <div class="mobile-media padding-top-bottom-small" id="solution-image-mobile">
+        <img src="img/solution-mobile.png">
+    </div>
+
+</div>
+
+<!-- D E S K T O P -->
+
+<!-- ==== F E A T U R E S === U  N  I  T ==== -->
+
+<!-- M O B I L E -->
+
+<div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="feature-1-mobile">
+
+    <div class="mobile-media padding-top-bottom-small">
+
+        <div class="mobile-media text-center" id="feature-1-icon-mobile">
+            <img src="img/Swipe-icon.png">
+        </div>
+        <div class="mobile-media, text-center" id="feature-1-text-mobile">
+            <h2>
+                Just swipe it !
+            </h2>
+            <p>
+                Discovering local activities</br>
+                has never been that fun !
+            </p>
+        </div>
+
+    </div>
+
+    <div class="mobile-media padding-top-bottom-small" id="feature-1-image-mobile">
+        <img src="img/feature-1-mobile.png">
+    </div>
+
+</div>
+
+<div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="feature-2-mobile">
+
+    <div class="mobile-media padding-top-bottom-small">
+
+        <div class="mobile-media text-center" id="feature-2-icon-mobile">
+            <img src="img/Compare-icon.png">
+        </div>
+        <div class="mobile-media, text-center" id="feature-2-text-mobile">
+            <h2>
+                Easily compare
+            </h2>
+            <p>
+                Get all the information when you need it, where you need it.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="mobile-media padding-top-bottom-small" id="feature-2-image-mobile">
+
+        <img src="img/feature-2-mobile.png">
+
+    </div>
+
+</div>
+
+<!-- D E S K T O P -->
+
+<!-- ==== M O R E - F E A T U R E S === U  N  I  T ==== -->
+
+<!-- M O B I L E -->
+
+<div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="extra-feature-1">
+
+    <div class="mobile-media padding-top-bottom-small">
+    </div>
+
+</div>
+
+<div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="extra-feature-2">
+
+    <div class="mobile-media padding-top-bottom-small">
+    </div>
+
+</div>
+
+<div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="extra-feature-3">
+
+    <div class="mobile-media padding-top-bottom-small">
+    </div>
+
+</div>
+
+<!-- D E S K T O P -->
+
+<!-- ==== B E T A - I N V I T E === U  N  I  T ==== -->
+
+<!-- M O B I L E -->
+<div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="beta-invite-mobile">
+
+    <div class="mobile-media padding-top-bottom-small" id="beta-invite-mobile-form">
+        <form>
+            Email: <input type="email" title="email">
+            <input type="submit">
+
         </form>
-        <!--sub-form end-->
-
-      </div>
-
     </div>
-  </div>
-  <p class="scroll-top"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
-</section>
-<!-- contact end--> 
 
-<!--footer-->
-<footer class="site-footer text-center"> 
-  <!--container-->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12"> 
-        
-        <!--Social media-->
-        <ul class="social-footer">
-          <li class="slide-top"><a href="https://www.facebook.com/ellie.aivibe/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li class="slide-top"><a href="https://www.instagram.com/ellie_aivibe/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        </ul>
-        <!--Social media end--> 
-        
-        <small class="slide-top"><span class="bold"></span>© 2016 AiVibe</small></div>
-    </div>
-  </div>
-  <!--container end--> 
-  
-</footer>
-<!--footer end--> 
-
-<!--PRELOAD-->
-<div id="preloader">
-  <div id="status"></div>
 </div>
-<!--end PRELOAD--> 
+<!-- D E S K T O P -->
 
-<script src="js/jquery-1.11.1.min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/waypoints.min.js"></script> 
-<script src="js/jquery.animateNumber.min.js"></script> 
-<script src="js/jquery.fadethis.min.js"></script> 
-<script src="js/jquery.downCount.js"></script> 
-<script src="js/jquery.form.min.js"></script> 
-<script src="js/jquery.validate.min.js"></script> 
-<script src="js/main.js"></script>
+<div class="container-fluid desktop-fonts desktop-media dynamic-image-stuff-above-parent" id="beta-invite-desktop">
+
+   <img src="img/astronaut.gif">
+
+    <div class="desktop-media text-center dynamic-image-stuff-above-child-center">
+        <h1>HHHHHH</h1>
+
+    </div>
+
+</div>
+
+<!-- ==== F O O T E R === U  N  I  T ==== -->
+
 </body>
 </html>
