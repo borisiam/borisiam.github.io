@@ -113,13 +113,17 @@ p {
 
 #sticky-button-mobile {
     float: right;
-    padding-top: 3%;
+    padding-top: 0%;
     padding-right: 5%;
 }
 
 /* Hero unit -------------------------------------------- */
 
 /* mobile */
+
+#hero-unit-mobile h1, p {
+    color: #ffffff;
+}
 
 
 /* mobile - END */
