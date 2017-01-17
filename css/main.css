@@ -2,7 +2,7 @@
 /* CLASSES ================================================================================= */
 
 body {
-    background-color: #ffffff;
+    background: linear-gradient(to right, #f2f2f2 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 h1, h2, h3 {
@@ -91,6 +91,10 @@ p {
     padding-bottom: 5%;
 }
 
+.no-margin-desktop{
+    margin: 0%;
+}
+
 .sticky-header {
     position: fixed;
     right: 10px;
@@ -100,6 +104,10 @@ p {
     height: 120px;
 
     z-index: 100;
+}
+
+.float-right {
+    float: right;
 }
 
 .mobile-media {}
@@ -170,6 +178,17 @@ p {
 
 /* desktop */
 
+
+#solution-image-desctop {
+    width: 40%;
+    height: auto;
+}
+
+#problem-image-desctop {
+    width: 70%;
+    height: auto;
+}
+
 /* Features unit -------------------------------------------- */
 
 /* mobile */
@@ -200,6 +219,28 @@ p {
 #feature-2-image-mobile img {
     width: 90%;
     height: auto;
+}
+
+/* desktop */
+
+#feature-1-desktop {
+    background-color: #6CD8FD;
+}
+
+#feature-1-image-desktop {
+    width: 250px;
+    height: auto;
+    float: right;
+}
+
+#feature-2-image-desktop {
+    width: 250px;
+    height: auto;
+    float: left;
+}
+
+#feature-2-desktop {
+    background-color: #ffffff;
 }
 
 /* Extra features unit -------------------------------------------- */
