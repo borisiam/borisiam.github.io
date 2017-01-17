@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Poppins:500" rel="stylesheet">
     <script src="https://use.fontawesome.com/8002fed4c5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
 
@@ -17,19 +18,24 @@
 
 <body>
 
+
+<script>
+$(window).on('scroll', function(){
+if($(window).scrollTop() + $(window).height() == $(document).height()){
+    $('#sticky-button-mobile').fadeOut().hide();
+}
+else($('#sticky-button-mobile').fadeIn().show());
+});
+</script>
+
 <!-- ==== S T I C K Y == H E A D E R ==== -->
 
 <!-- M O B I L E -->
-
-<div class="sticky-header mobile-media container">
-    <p>
-        Hello
-    </p>
+<div class="sticky-header container">
     <button type="button" class="btn btn-outline-warning" id="sticky-button-mobile">
-        Sign up
+        <p>Sign up</br> for beta!</p>
     </button>
 </div>
-
 
 <!-- ==== H  E  R  O === U  N  I  T ==== -->
 
@@ -179,21 +185,30 @@
 
 <div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="extra-feature-1">
 
-    <div class="mobile-media padding-top-bottom-small">
+    <div class="mobile-media padding-top-bottom-small text-center">
+        <img src="img/extra-feature-1-mobile.png" id="extra-feature-1-image">
+        <h1>Really personalized</h1>
+        <p>Like really</p>
     </div>
 
 </div>
 
 <div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="extra-feature-2">
 
-    <div class="mobile-media padding-top-bottom-small">
+    <div class="mobile-media padding-top-bottom-small text-center">
+        <img src="img/extra-feature-2-mobile.png" id="extra-feature-2-image">
+        <h1>All the events</h1>
+        <p>Like really</p>
     </div>
 
 </div>
 
 <div class="mobile-media text-center container-fluid mobile-fonts padding-top-bottom" id="extra-feature-3">
 
-    <div class="mobile-media padding-top-bottom-small">
+    <div class="mobile-media padding-top-bottom-small text-center">
+        <img src="img/extra-feature-3-mobile.png" id="extra-feature-3-image">
+        <h1>Awesome tech</h1>
+        <p>Like really</p>
     </div>
 
 </div>
