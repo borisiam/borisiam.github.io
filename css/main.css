@@ -109,6 +109,30 @@ p {
 .float-right {
     float: right;
 }
+.float-left {
+    float: left;
+}
+
+.features-icons-desktop {
+    width: 30%;
+    height: auto;
+}
+
+.v-center-features {
+
+    margin-top: 115px;
+}
+
+.extra-features-content {
+    height: 200px;
+    width: auto;
+    margin-top: 100px;
+}
+
+.extra-features-icons-desktop {
+    width: 20%;
+    height: auto;
+}
 
 .mobile-media {}
 .desktop-media {}
@@ -233,15 +257,31 @@ p {
     float: right;
 }
 
+#feature-1-desktop-column {
+    height: 494.2px;
+}
+
+#feature-1-desktop-content {
+    padding-left: 15%;
+    height: 264px;
+}
+
+#feature-2-desktop {
+    background-color: #ffffff;
+}
+
 #feature-2-image-desktop {
     width: 250px;
     height: auto;
     float: left;
 }
 
-#feature-2-desktop {
-    background-color: #ffffff;
+#feature-2-desktop-content {
+    padding-right: 15%;
+    text-align: right;
+    height: 264px;
 }
+
 
 /* Extra features unit -------------------------------------------- */
 
@@ -272,6 +312,26 @@ p {
 #extra-feature-3-image {
     width: 22%;
     height: auto;
+}
+
+/* desktop */
+
+#extra-feature-desktop-1 {
+    background-color: #FFEA21;
+    height: 400px ;
+
+ }
+
+#extra-feature-desktop-2 {
+    background-color: #829efb;
+    height: 400px ;
+
+}
+
+#extra-feature-desktop-3 {
+    background-color: #6CD8FD;
+    height: 400px ;
+
 }
 
 /* INSTANCES - END =================================================================================*/
