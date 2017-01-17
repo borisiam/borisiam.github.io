@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/feature-1-mobile.png" afterPath="$PROJECT_DIR$/img/feature-1-mobile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/problem-mobile.png" afterPath="$PROJECT_DIR$/img/problem-mobile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/solution-mobile.png" afterPath="$PROJECT_DIR$/img/solution-mobile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="" />
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -263,12 +256,12 @@
       <workItem from="1477075497475" duration="3099000" />
       <workItem from="1479629470430" duration="160000" />
       <workItem from="1484614698356" duration="2000" />
-      <workItem from="1484615436652" duration="5025000" />
+      <workItem from="1484615436652" duration="5151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93331000" />
+    <option name="totallyTimeSpent" value="93457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1275" height="725" extended-state="0" />
