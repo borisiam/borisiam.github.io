@@ -24,6 +24,10 @@ p {
     line-height: 1.25em;
 }
 
+.desktop-fonts h1 {
+    font-size: 60px;
+}
+
 .desktop-fonts h2 {
     font-size: 30px;
 }
@@ -60,9 +64,9 @@ p {
     position: absolute;
     z-index: 99;
     display: block;
-    top: 20%;
+    top: 10%;
     left: 5%;
-    width: 30%;
+    width: 50%;
 }
 
 .circle {
@@ -170,7 +174,19 @@ p {
 /* mobile - END */
 
 /* desktop */
+#icon-desktop {
+    width: 70px;
+    float: left;
+}
 
+#desktop-hero-logo-content {
+    width: 500px;
+    height: 70px;
+}
+
+#desktop-hero-logo-content h1 {
+    margin-left: 30px;
+}
 
 
 /* desktop - END */
