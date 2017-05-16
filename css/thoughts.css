@@ -1,0 +1,43 @@
+h1 {}
+
+h2 {}
+
+h3 {}
+
+p {}
+
+ul {}
+
+ul {
+    list-style: square;
+}
+
+a {
+    font-family: Myriad;
+    color: #6d84ff;
+    text-decoration: none;
+    border-bottom: 1px solid #6d84ff;
+    padding-bottom: 1.5px;
+}
+
+a:hover {
+    color: #404d95;
+    border-bottom: 1px solid #404d95;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.section {
+    width: 100%;
+}
+
+.text {
+    width: 50%;
+    float: left;
+}
+.images {
+    width: 50%;
+    float: right;
+}

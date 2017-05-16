@@ -1,0 +1,24 @@
+.picture-section {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.picture-l {
+    float: left;
+    height: 100%;
+    width: 48%;
+    background-color: #b54228;
+}
+
+.picture-r {
+    float: right;
+    height: 100%;
+    width: 48%;
+    background-color: #09e7ff;
+}
+
+#image-holder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

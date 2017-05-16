@@ -1,0 +1,204 @@
+/*       **********       CLASSES      **********        */
+
+/* Basic -----------------------------------------------------------*/
+h1,
+h2,
+h3 {
+    font-family: Pixelfont ;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+p {
+    font-family: Myriad;
+}
+
+/* Fonts ---------------------------------------------------------- */
+
+@font-face {
+    font-family: "Pixelfont";
+    src: url("../assets/VCR.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Hellovetica";
+    src: url("../assets/hellovetica.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url("../assets/Myriad.ttf") format("truetype");
+}
+
+/* Box with pixel corners ------------------------------------------ */
+.pixbox-parent {}
+.pixbox-child-bottom {
+    position: relative;
+    width: 100%;
+    top: 5px;
+    height: calc(100% - 10px);
+}
+.pixbox-child-middle {
+    position: relative;
+    overflow: visible;
+    z-index: 99;
+    margin-left: 2.5px;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    top: calc(-100% + 12.5px);
+}
+.pixbox-child-top {
+    position: relative;
+    overflow: visible;
+    top: calc(-200% + 15px);
+    z-index: 100;
+    width: calc(100% - 10px);
+    height: 100%;
+    margin-left: 5px;
+}
+/* 3D box --------------------------------------------------------- */
+
+.ddd-box-parent {}
+
+.ddd-box-child-1 {
+    position: relative;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 0;
+    overflow: visible;
+    z-index: 98;
+    float: left;
+}
+.ddd-box-child-2 {
+    position: relative;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 10px;
+    z-index: 97;
+}
+
+/* Button --------------------------------------------------------- */
+
+.btn-parent {}
+
+.btn-child-1 {
+    position: relative;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 0;
+    overflow: visible;
+    z-index: 98;
+    float: left;
+}
+
+.btn-child-1 h3 {
+    color: #b54228;
+}
+.btn-child-2 {
+    position: relative;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 10px;
+    z-index: 97;
+}
+
+.btn-child-1:hover h3 {
+    color: white;
+
+}
+
+.btn-child-hover {
+    position: relative;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 10px;
+    overflow: visible;
+    z-index: 98;
+    float: left;
+}
+
+.btn-child-hover h3 {
+    color: white;
+}
+
+/* Other */
+
+.content {
+    /*background-color: #262654;*/
+    position: absolute;
+    width: 70%;
+    right: 2.5%;
+    top: 80px;
+}
+
+.header h3 {
+    position: relative;
+    top: 24px;
+    margin: 0px;
+    font-size: 2em;
+}
+
+.nospace {
+    margin: 0px;
+    padding: 0px;
+}
+.text-center{
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    width: 70%;
+    right: 2.5%;
+    background-color: #262654;
+}
+
+.link {
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.link h3 {
+    color: white;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.link h1 {
+    font-size: 1.6em;
+    color: #09e7ff;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-weight: 200;
+}
+
+.link p {
+    margin: 0px;
+    color: gainsboro;
+}
+
+.link:hover h3,
+.link:hover h1,
+.link:hover p {
+    color: deepskyblue;
+}
+
+.link-image {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.thought-link-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 120px;
+}

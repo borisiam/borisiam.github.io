@@ -1,0 +1,154 @@
+<html style="background-color: #262654" lang="en">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<div id="menu-desktop" style="width: 20%; height: 80%; margin-left: 20px; margin-top: 20px; position: fixed">
+    <div class="ddd-box-parent" style="height: 100%; width: 100%">
+        <div class="ddd-box-child-1">
+            <div class="pixbox-child-bottom" style="background-color: #ffffff"></div>
+            <div class="pixbox-child-middle" style="background-color: #ffffff"></div>
+            <div class="pixbox-child-top" style="background-color: #ffffff">
+                <div id="buttons-section" style="width: 70%; margin-left: 15%; position: relative; top: 30%">
+                <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
+                    <div class="btn-child-1 btn-child-hover" id="thoughts-btn">
+                        <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
+                        <div class="pixbox-child-middle" style="background-color: #F98232"></div>
+                        <div class="pixbox-child-top text-center" style="background-color: #F98232">
+                            <h3 class="nospace" style="position: relative; top: 27%">THOUGHTS</h3>
+                        </div>
+                    </div>
+                    <div class="btn-child-2">
+                        <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
+                        <div class="pixbox-child-middle" style="background-color: #E55433"></div>
+                        <div class="pixbox-child-top" style="background-color: #E55433"></div>
+                    </div>
+                </div>
+                    <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
+                        <div class="btn-child-1" id="links-btn">
+                            <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-middle" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-top text-center" style="background-color: #F98232">
+                                <h3 class="nospace" style="position: relative; top: 27%">LINKS</h3>
+                            </div>
+                        </div>
+                        <div class="btn-child-2">
+                            <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-middle" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-top" style="background-color: #E55433"></div>
+                        </div>
+                    </div>
+                    <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
+                        <div class="btn-child-1" id="pictures-btn">
+                            <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-middle" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-top text-center" style="background-color: #F98232">
+                                <h3 class="nospace" style="position: relative; top: 27%">PICTURES</h3>
+                            </div>
+                        </div>
+                        <div class="btn-child-2">
+                            <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-middle" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-top" style="background-color: #E55433"></div>
+                        </div>
+                    </div>
+                    <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
+                        <div class="btn-child-1" id="hire-btn">
+                            <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-middle" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-top text-center" style="background-color: #F98232">
+                                <h3 class="nospace" style="position: relative; top: 27%">HIRE ME</h3>
+                            </div>
+                        </div>
+                        <div class="btn-child-2">
+                            <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-middle" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-top" style="background-color: #E55433"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ddd-box-child-2">
+            <div class="pixbox-child-bottom" style="background-color: #A4A4C1"></div>
+            <div class="pixbox-child-middle" style="background-color: #A4A4C1"></div>
+            <div class="pixbox-child-top" style="background-color: #A4A4C1"></div>
+        </div>
+    </div>
+</div>
+<div class="content" style="background-color: #262654" id="content-holder">
+</div>
+
+<script>
+    //Load thoughts on ready and on click //
+    $(document).ready( function(){
+        $("#thoughts-btn").click( function () {
+            $("#content-holder").empty();
+            $("#content-holder").load("./static/sections/thoughts.html");
+            buttonspushed('thoughts-btn','links-btn','pictures-btn','hire-btn');
+        });
+    });
+
+    $(document).ready(function () {
+        $("#content-holder").load("./static/sections/thoughts.html")
+    })
+
+
+    //Load links //
+    $(document).ready( function(){
+        $("#links-btn").click( function () {
+            $("#content-holder").empty();
+            $("#content-holder").load("./static/sections/links.html");
+            buttonspushed('links-btn','thoughts-btn','pictures-btn','hire-btn');
+        });
+    });
+
+    //Load pictures //
+    $(document).ready( function(){
+        $("#pictures-btn").click( function () {
+            $("#content-holder").empty();
+            $("#content-holder").load("./static/sections/pictures.html");
+            buttonspushed('pictures-btn','thoughts-btn','links-btn','hire-btn');
+        });
+    });
+
+    //Load hire //
+    $(document).ready( function(){
+        $("#hire-btn").click( function () {
+            $("#content-holder").empty();
+            $("#content-holder").load("./static/sections/hire.html");
+            buttonspushed('hire-btn','thoughts-btn','pictures-btn','links-btn');
+        });
+    });
+
+</script>
+
+<script>
+    function swithcontent(id, id1, id2, id3) {
+        document.getElementById(id).style.visibility='visible';
+        document.getElementById(id1).style.visibility='hidden';
+        document.getElementById(id2).style.visibility='hidden';
+        document.getElementById(id3).style.visibility='hidden';
+
+    }
+     function buttonspushed(id, id1, id2, id3) {
+         document.getElementById(id).classList.add('btn-child-hover');
+         if (document.getElementById(id1).classList.contains('btn-child-hover'))
+             document.getElementById(id1).classList.remove('btn-child-hover');
+         if (document.getElementById(id2).classList.contains('btn-child-hover'))
+             document.getElementById(id2).classList.remove('btn-child-hover');
+         if (document.getElementById(id3).classList.contains('btn-child-hover'))
+             document.getElementById(id3).classList.remove('btn-child-hover');
+
+     }
+
+</script>
+
+
+
+
+</body>
+
+</html>

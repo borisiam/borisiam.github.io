@@ -1,0 +1,60 @@
+<html lang="en">
+<body>
+<!--=================== LINK 1 ====================-->
+<div class="link" id="link1">
+    <div class="link-image" style="background: url('./static/img/test.png') no-repeat center center; background-size: contain;">
+        <div style="position: absolute; height: 10px; width: 5px; top: 0; left: 0; background-color: #262654"></div>
+        <div style="position: absolute; height: 10px; width: 5px; bottom: 0; left: 0; background-color: #262654"></div>
+        <div style="position: absolute; height: 10px; width: 5px; top: 0; left: 95px; background-color: #262654"></div>
+        <div style="position: absolute; height: 10px; width: 5px; bottom: 0; left: 95px; background-color: #262654"></div>
+        <div style="position: absolute; height: 5px; width: 10px; top: 0; left: 0; background-color: #262654"></div>
+        <div style="position: absolute; height: 5px; width: 10px; bottom: 0; left: 0; background-color: #262654"></div>
+        <div style="position: absolute; height: 5px; width: 10px; top: 0; left: 90px; background-color: #262654"></div>
+        <div style="position: absolute; height: 5px; width: 10px; bottom: 0; left: 90px; background-color: #262654"></div>
+    </div>
+    <div class="thought-link-content">
+        <h1>VERY IMPORTANT LINK</h1>
+        <p>This link is so important that I have decided to put it her!<br> Jed</p>
+        <div class="ddd-box-parent" style="height: 32px; width: 60px;">
+            <div class="ddd-box-child-1">
+                <div class="pixbox-child-bottom" style="background-color: #ffffff"></div>
+                <div class="pixbox-child-middle" style="background-color: #ffffff"></div>
+                <div class="pixbox-child-top text-center" style="background-color: #ffffff">
+                    <p style="color: black; padding-top: 2px;">Article</p>
+                </div>
+            </div>
+            <div class="ddd-box-child-2">
+                <div class="pixbox-child-bottom" style="background-color: #A4A4C1"></div>
+                <div class="pixbox-child-middle" style="background-color: #A4A4C1"></div>
+                <div class="pixbox-child-top" style="background-color: #A4A4C1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--=================== NECESSARY STUFF ====================-->
+
+<div class="header"><h3 style="color: #F98232;">LINKS</h3></div>
+
+<script>
+    $(document).ready(function () {
+
+        $("#link1").click(function () {
+            // Link //
+            var link = 'http://stackoverflow.com/';
+            // link //
+            var win = window.open(link, '_blank');
+            if (win) {
+                //Browser has allowed it to be opened
+                win.focus();
+            } else {
+                //Browser has blocked it
+                window.location.replace(link)
+            }
+
+        })
+
+    });
+
+</script>
+</body>
+</html>

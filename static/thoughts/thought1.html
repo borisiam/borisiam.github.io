@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thought1</title>
+    <link rel="stylesheet" href="css/thoughts.css">
+</head>
+<body>
+<!--==============================================ACTUAL-THOUGHT-CONTENT==============================================-->
+
+<div id="actual-thought-content" style="position: absolute; top: 0px; margin: 20px; z-index: 101; width: 100%">
+    <div style="height: 100px; position: relative;">
+        <img src="static/thoughts/test.png" style="float: left; height: 100px; width: 100px;">
+        <div style="position: absolute; top: 50%; transform: translateY(-50%); left: 120px;"><h1 style="margin: 0px;">HELLO WORLD asdasdasdasdasdasdadadsda</h1></div>
+    </div>
+    <div class="section">
+        <div class="text">
+            <h2>JNdcecnsececs</h2>
+            <p>nlcineslnifoelcnosliencoei;ncoineo;co<br>awdwindoandwnd awnld waoidn napwodwaw</p>
+            <ul>
+                <li><p>Jswsnkdnakdjnwkd</p></li>
+            </ul>
+            <div class="quote" style="position: relative;">
+                <div style="margin-left: 60px;">
+                    <p style="margin: 0px;">"HELLO WORLD asdasdasdasdasdasdadadsda"</p>
+                </div>
+            </div>
+            <a href="thought1.html">linky link</a>
+            <p>
+               nlcineslnifoelcnosliencoei;ncoineo;co awdwindoandwnd awnld waoidn napwodwaw
+               nlcineslnifoelcnosliencoei;ncoineo;co awdwindoandwnd awnld waoidn napwodwaw
+               nlcineslnifoelcnosliencoei;ncoineo;co awdwindoandwnd awnld waoidn napwodwaw
+               nlcineslnifoelcnosliencoei;ncoineo;co awdwindoandwnd awnld waoidn napwodwaw
+               nlcineslnifoelcnosliencoei;ncoineo;co awdwindoandwnd awnld waoidn napwodwaw
+               nlcineslnifoelcnosliencoei;ncoineo;co awdwindoandwnd awnld waoidn napwodwaw
+            </p>
+        </div>
+        <div class="images">
+
+        </div>
+    </div>
+
+</div>
+
+<!--==============================================NECESSARY-PART==============================================-->
+<div class="ddd-box-parent" id="thought-c-parent" style="height: 100%; width: 100%">
+    <div class="ddd-box-child-1">
+        <div class="pixbox-child-bottom" style="background-color: #ffffff"></div>
+        <div class="pixbox-child-middle" style="background-color: #ffffff"></div>
+        <div class="pixbox-child-top" style="background-color: #ffffff">
+        </div>
+    </div>
+    <div class="ddd-box-child-2">
+        <div class="pixbox-child-bottom" style="background-color: #A4A4C1"></div>
+        <div class="pixbox-child-middle" style="background-color: #A4A4C1"></div>
+        <div class="pixbox-child-top" style="background-color: #A4A4C1"></div>
+    </div>
+</div>
+<div class="header" style="z-index: 102;">
+    <div class="btn-parent" id="back-to-thoughts" style="width: 105px; height: 40px; margin-top: 25px">
+        <div class="btn-child-1" id="thoughts-btn">
+            <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
+            <div class="pixbox-child-middle" style="background-color: #F98232"></div>
+            <div class="pixbox-child-top" style="background-color: #F98232">
+                <h3 style=" margin: 0px; font-size: 1.2em; position: absolute; top: 50%; transform: translateY(-50%); left: 10px;"><-Back</h3>
+            </div>
+        </div>
+        <div class="btn-child-2">
+            <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
+            <div class="pixbox-child-middle" style="background-color: #E55433"></div>
+            <div class="pixbox-child-top" style="background-color: #E55433"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // clean after ourselves & load thoughts //
+    $(document).ready( function(){
+        $("#back-to-thoughts").click( function () {
+            $("#content-holder").empty();
+            $("#content-holder").load("./static/sections/thoughts.html");
+        });
+    });
+
+    // fixing some size issues //
+    $(document).ready(function () {
+        $('#thought-c-parent').css("height",($('#actual-thought-content').height() + 40));
+    });
+</script>
+
+
+</body>
+</html>
