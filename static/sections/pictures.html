@@ -5,21 +5,25 @@
 </head>
 <body>
 <div class="picture-section">
-    <div class="picture-l" id="pic1">
+    <div class="picture-l" id="pic0">
+        <img src="./static/pictures/flurri_logo.png">
+    </div>
+    <div class="picture-r" id="pic1">
         <img src="./static/pictures/flurri.gif">
     </div>
-    <div class="picture-r" id="pic2">
+</div>
+<div class="picture-section">
+    <div class="picture-l" id="pic2">
         <img src="./static/pictures/flurri-2.gif">
     </div>
-</div>
-<div class="picture-section">
-    <div class="picture-l" id="pic3">
+    <div class="picture-r" id="pic3">
         <img src="./static/pictures/flurri-3.gif">
     </div>
-    <div class="picture-r"></div>
 </div>
 <div class="picture-section">
-    <div class="picture-l"></div>
+    <div class="picture-l" id="pic4">
+        <img src="./static/pictures/clubberi_logo.png">
+    </div>
     <div class="picture-r"></div>
 </div>
 
@@ -86,6 +90,34 @@
             $('.image-large').css("width",$(window).width());
             $('.image-large').css("height",$(window).height());
             $('#image-holder').prop('src', './static/pictures/flurri-3.gif');
+            $('#image-holder').css("margin-left", ($(window).width() - $('#image-holder').width()) / 2);
+        });
+        $('#close').click(function () {
+            $('.image-large').css('display', 'none')
+
+        })
+    });
+
+    $(document).ready(function () {
+        $('#pic4').click(function () {
+            $('.image-large').css("display","block");
+            $('.image-large').css("width",$(window).width());
+            $('.image-large').css("height",$(window).height());
+            $('#image-holder').prop('src', './static/pictures/clubberi_logo.png');
+            $('#image-holder').css("margin-left", ($(window).width() - $('#image-holder').width()) / 2);
+        });
+        $('#close').click(function () {
+            $('.image-large').css('display', 'none')
+
+        })
+    });
+
+    $(document).ready(function () {
+        $('#pic0').click(function () {
+            $('.image-large').css("display","block");
+            $('.image-large').css("width",$(window).width());
+            $('.image-large').css("height",$(window).height());
+            $('#image-holder').prop('src', './static/pictures/flurri_logo.png');
             $('#image-holder').css("margin-left", ($(window).width() - $('#image-holder').width()) / 2);
         });
         $('#close').click(function () {
