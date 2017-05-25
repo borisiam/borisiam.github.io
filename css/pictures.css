@@ -7,14 +7,24 @@
     float: left;
     height: 100%;
     width: 48%;
-    background-color: #b54228;
+    text-align: center;
+}
+
+.picture-l img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .picture-r {
     float: right;
     height: 100%;
     width: 48%;
-    background-color: #09e7ff;
+    text-align: center;
+}
+
+.picture-r img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #image-holder {
