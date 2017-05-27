@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_mobile.html" afterPath="$PROJECT_DIR$/index_mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/links.html" afterPath="$PROJECT_DIR$/static/sections/links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/thoughts.html" afterPath="$PROJECT_DIR$/static/sections/thoughts.html" />
     </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -515,7 +512,7 @@
       <workItem from="1495666144470" duration="5013000" />
       <workItem from="1495680499601" duration="1225000" />
       <workItem from="1495834617708" duration="13660000" />
-      <workItem from="1495919880332" duration="8000" />
+      <workItem from="1495919880332" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="logo added">
       <created>1495666012147</created>
@@ -559,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495860729790</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mobile optimized pages&#10;">
+      <created>1495919916973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495919916973</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131460000" />
+    <option name="totallyTimeSpent" value="131492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -605,7 +609,8 @@
     <MESSAGE value="Links updated" />
     <MESSAGE value="more pictures uploaded" />
     <MESSAGE value="mobile test" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile test" />
+    <MESSAGE value="mobile optimized pages&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile optimized pages&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
