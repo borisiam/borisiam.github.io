@@ -4,7 +4,7 @@
     <body style="background-color: rgb(38, 38, 84);" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
     <!--DON'T FORGET TO DELETE BODY TAGS AFTER FINISHED EDITING -->
 
-    <div id="menu-mobile" style="width: 90%; left: 50%; margin-left: -45%; bottom: -600px; height: 600px; position: fixed">
+    <div id="menu-mobile" style="width: 90%; left: 50%; margin-left: -45%; bottom: -600px; height: 600px; position: fixed; z-index: 99999;">
         <div class="ddd-box-parent" style="height: 100%; width: 100%">
             <div class="ddd-box-child-1">
                 <div class="pixbox-child-bottom" style="background-color: #ffffff"></div>
@@ -28,7 +28,6 @@
                     </div>
 
                     <!--MENU BTN END -->
-                    <img src="static/img/BPlogoFinal.png" style="position: absolute; top: 10%; left: 50%; margin-left: -35px; width: 70px; height: auto;">
                     <div id="buttons-section" style="width: 90%; margin-left: 5%; position: relative; top: 30%">
                         <div class="btn-parent" style="width: 40%; height: 20%; margin-bottom: 10%; float: left;">
                             <div class="btn-child-1 btn-child-hover" id="thoughts-btn">
@@ -96,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div class="content" style="background-color: #262654" id="content-holder">
+    <div class="content" style="background-color: #262654; width: 90%; right: auto; left: 5%; top: 140px;" id="content-holder">
     </div>
 
 <script>
@@ -111,6 +110,7 @@
                 $('#btn-text').text('MENU ^')
             }
             $(this).data("clicks", !clicks);
+            return false;
 
         });
 
@@ -160,6 +160,8 @@
     });
 
 </script>
+
+
 
 </htnl>
 <div class="grammarly-disable-indicator"></div></body>
