@@ -24,7 +24,9 @@
     <div class="picture-l" id="pic4">
         <img class="thumb" src="./static/pictures/clubberi_logo.png">
     </div>
-    <div class="picture-r"></div>
+    <div class="picture-r" id="pic5">
+        <img class="thumb" src="./static/pictures/ai_face.png">
+    </div>
 </div>
 
 <div class="header"><h3 class="h3h" style="color: #F98232;">PICTURES</h3></div>
@@ -78,6 +80,19 @@
 
 <script>
 
+    $(document).ready(function () {
+        $('#pic0').click(function () {
+            $('.image-large').css("display","block");
+            $('.image-large').css("width",$(window).width());
+            $('.image-large').css("height",$(window).height());
+            $('#image-holder').prop('src', './static/pictures/flurri_logo.png');
+            $('#image-holder').css("margin-left", ($(window).width() - $('#image-holder').width()) / 2);
+        });
+        $('#close').click(function () {
+            $('.image-large').css('display', 'none')
+
+        })
+    });
 
     $(document).ready(function () {
         $('#pic1').click(function () {
@@ -135,12 +150,13 @@
         })
     });
 
+
     $(document).ready(function () {
-        $('#pic0').click(function () {
+        $('#pic5').click(function () {
             $('.image-large').css("display","block");
             $('.image-large').css("width",$(window).width());
             $('.image-large').css("height",$(window).height());
-            $('#image-holder').prop('src', './static/pictures/flurri_logo.png');
+            $('#image-holder').prop('src', './static/pictures/ai_face.png');
             $('#image-holder').css("margin-left", ($(window).width() - $('#image-holder').width()) / 2);
         });
         $('#close').click(function () {
