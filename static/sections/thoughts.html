@@ -2,7 +2,6 @@
 <!--Thought1-->
 <div class="link" id="thought1">
     <div class="link-image" style="background: url('./static/thoughts/img/pipe.png') no-repeat center center; background-size: contain;">
-
     </div>
     <div class="thought-link-content">
         <h3 class="thoughth">DESIGN INTEGRATION PIPELINE</h3>
@@ -61,6 +60,12 @@
     });
 
     //Load thought 2 //
+    $(document).ready( function(){
+        $("#thought2").click( function () {
+            $("#content-holder").empty()
+            $("#content-holder").load("./static/thoughts/thought2.html");
+        });
+    });
 
 </script>
 
