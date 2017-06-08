@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/thoughts/img/adoption.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/thoughts/img/th2histogram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/thoughts/img/ugly.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/thoughts.css" afterPath="$PROJECT_DIR$/css/thoughts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/thoughts.html" afterPath="$PROJECT_DIR$/static/sections/thoughts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought1.html" afterPath="$PROJECT_DIR$/static/thoughts/thought1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought2.html" afterPath="$PROJECT_DIR$/static/thoughts/thought2.html" />
     </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -522,7 +514,7 @@
       <workItem from="1496188591337" duration="6883000" />
       <workItem from="1496197309741" duration="1062000" />
       <workItem from="1496198560597" duration="302000" />
-      <workItem from="1496866962950" duration="12481000" />
+      <workItem from="1496866962950" duration="12536000" />
     </task>
     <task id="LOCAL-00001" summary="logo added">
       <created>1495666012147</created>
@@ -636,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496867516859</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="mobile thoughts alignment fixed">
+      <created>1496886333888</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1496886333890</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158968000" />
+    <option name="totallyTimeSpent" value="159023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-34" y="23" width="1280" height="730" extended-state="0" />
