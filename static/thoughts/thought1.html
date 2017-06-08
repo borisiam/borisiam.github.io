@@ -8,117 +8,115 @@
 <body>
 <!--==============================================ACTUAL-THOUGHT-CONTENT==============================================-->
 
-<div id="actual-thought-content" style="position: absolute; top: 0px; margin: 20px; z-index: 101; width: 100%">
+<div id="actual-thought-content" style="position: absolute; top: 0px; margin: 5%; z-index: 101; width: 90%; background-color: white;">
     <div style="height: 100px; position: relative;">
-        <img src="./static/thoughts/img/pipe.png" style="float: left; height: 100px; width: 100px;">
-        <div style="position: absolute; top: 50%; transform: translateY(-50%); left: 120px;"><h1 style="margin: 0px;">DESIGN INTEGRATION PIPELINE</h1></div>
+        <img src="./static/thoughts/img/cap.png" style="float: left; height: 100px; width: 100px;">
+        <div style="position: absolute; top: 50%; transform: translateY(-50%); left: 120px;"><h1 style="margin: 0px;">FOUNDING TIME INFLUENCE ON MARKET CAP OF PUBLIC TECH COMPANIES</h1></div>
     </div>
-    <div class="section">
-        <div class="text">
-            <h2>Disclaimer</h2>
-            <p>
-                The further material is far from a comprehensive research.
-                I knowingly did not comply with many standards and procedures.
-                Therefore, this is meant to be perceived as only a
-                light weight exploratory material and nothing more.
-            </p>
 
-            <h2>Motivation and goals</h2>
-            <p>
-                Many times I have heard that general wisdom suggests
-                "It is good to be among the first but not to be the first"
-                when starting a company, which makes intuitive sense but
-                sounds a bit arbitrary.<br> Perhaps relevant research exists,
-                I, however, had not been able to find any and decided to
-                conduct my little study.
-            </p>
-            <p>The goal for this piece is to shine some light  on the following questions:</p>
-            <ul>
-                <li><p>Does it matter at all when to start a tech company?</p></li>
-                <li><p>What is the best time to start a tech company?</p></li>
-            </ul>
+    <div class="text" style="position: relative;">
+        <h2>Disclaimer</h2>
+        <p>
+            The further material is far from a comprehensive research.
+            I knowingly did not comply with many standards and procedures.
+            Therefore, this is meant to be perceived as only a
+            light weight exploratory material and nothing more.
+        </p>
 
-            <h2>Breaking down the question</h2>
-            <p>
-                The questions in their general forms are so general and complex that they, most likely, do not have general answers. Let's constrain the questions and perhaps then there is hope.
-                First of all, I will be looking at technology-enabled companies as they are the most common once. For example, Google (enabled by Internet and computers), same for Facebook, Quid (enabled by advancements in Machine Learning), etc.<br>
-                Secondly, I would like to make a couple of assumptions about technologies:<br>
-                1. Every technology has a finite set of applications<br>
-                2. On average, most obvious applications are the once that address bigger problems that exist in larger markets.<br>
-                3. A certain time is required by society to learn properties of a given technology.<br>
-                Thirdly, I must define what does "best time" mean. I will consider the best time to be such a time that will maximize company's chance of success, measured by market cap.
-            </p>
+        <h2>Motivation and goals</h2>
+        <p>
+            Many times I have heard that general wisdom suggests
+            "It is good to be among the first but not to be the first"
+            when starting a company, which makes intuitive sense but
+            sounds a bit arbitrary.<br> Perhaps relevant research exists,
+            I, however, had not been able to find any and decided to
+            conduct my little study.
+        </p>
+        <p>The goal for this piece is to shine some light  on the following questions:</p>
+        <ul>
+            <li><p>Does it matter at all when to start a tech company?</p></li>
+            <li><p>What is the best time to start a tech company?</p></li>
+        </ul>
 
-            <h2>From questions to hypothesis</h2>
-            <p>
-                If assumptions 1, 2 and 3 are true, then, when new technology emerges, first there is a learning phase, then the most obvious and the most profitable (assumption 2) applications are exploited, leaving only niche and less profitable applications.
-                This model seems to follow exactly the proverbial "It is good to be among the first but not to be the first.".
-                From this, I can construct the following hypothesis:<br>
-                1. It is best to start right after technology's properties are learned.
-                There is one remaining issue. To test the hypothesis, I need to identify when technology's properties are determined. In order to do so, I will make an assumption #4: " I assume that on average technology's properties are well learned after it passes early adoption stage in technology adoption cycle.".
-                This assumption transforms the hypothesis to be:
-                H1: "It is best to start a company when enabling technology has passed early adoption phase in technology adoption cycle "
-                I will be testing it against:
-                H0: "It doesn't matter in which technology adoption phase of enabling technology a company was started."
-            </p>
+        <h2>Breaking down the question</h2>
+        <p>
+            The questions in their general forms are so general and complex that they, most likely, do not have general answers. Let's constrain the questions and perhaps then there is hope.
+            First of all, I will be looking at technology-enabled companies as they are the most common once. For example, Google (enabled by Internet and computers), same for Facebook, Quid (enabled by advancements in Machine Learning), etc.<br>
+            Secondly, I would like to make a couple of assumptions about technologies:<br>
+            1. Every technology has a finite set of applications<br>
+            2. On average, most obvious applications are the once that address bigger problems that exist in larger markets.<br>
+            3. A certain time is required by society to learn properties of a given technology.<br>
+            Thirdly, I must define what does "best time" mean. I will consider the best time to be such a time that will maximize company's chance of success, measured by market cap.
+        </p>
 
-            <h2>Testing the hypothesis</h2>
-            <p>
-                <b>Strategy</b><br>
-                To test H1 and H0, I will use a random sample of 100 companies, selected from 600  publically traded tech companies, which were founded in the US.
-                I will group them by computer technology adoption phase during which they were founded and will check if there is any significant relationship between the adoption phase and mean market-cap of the group.
+        <h2>From questions to hypothesis</h2>
+        <p>
+            If assumptions 1, 2 and 3 are true, then, when new technology emerges, first there is a learning phase, then the most obvious and the most profitable (assumption 2) applications are exploited, leaving only niche and less profitable applications.
+            This model seems to follow exactly the proverbial "It is good to be among the first but not to be the first.".
+            From this, I can construct the following hypothesis:<br>
+            1. It is best to start right after technology's properties are learned.
+            There is one remaining issue. To test the hypothesis, I need to identify when technology's properties are determined. In order to do so, I will make an assumption #4: " I assume that on average technology's properties are well learned after it passes early adoption stage in technology adoption cycle.".
+            This assumption transforms the hypothesis to be:
+            H1: "It is best to start a company when enabling technology has passed early adoption phase in technology adoption cycle "
+            I will be testing it against:
+            H0: "It doesn't matter in which technology adoption phase of enabling technology a company was started."
+        </p>
 
-                <b>Methods</b><br>
-                I use pseudo-random integer generator from Python library "random" to select 100 random rows from my dataset.
-                Dataset obtained from ABC.
-                To test if there is any significant difference between market caps of companies founded in different technology adoption stages, I will use one way ANOVA (Analysis of variance) and Turkey-Kramer procedure, to see which pair of groups has a significant difference if any. Selected alpha level is 0.5
-                Also, I will present some histograms for purely visual analysis.
-            </p>
+        <h2>Testing the hypothesis</h2>
+        <p>
+            <b>Strategy</b><br>
+            To test H1 and H0, I will use a random sample of 100 companies, selected from 600  publically traded tech companies, which were founded in the US.
+            I will group them by computer technology adoption phase during which they were founded and will check if there is any significant relationship between the adoption phase and mean market-cap of the group.
 
-            <h2>Analysis</h2>
-            <p>
-                <b>Visual</b><br>
-                First, let's take a look at how data looks like. Here is our entire sample's histogram. (I created this histogram by counting how many companies fit in a particular group e.g. group1 - $100M<comany's market cap < $200M)
-                As we can see that doesn't look very good, the variance is huge, and for some groups, we do not have any data. However, it does make logical sense, only a few companies reach exceptionally high valuations, while there are a lot of lower-valued ones.
-                Here are some more detailed plots to fill in the gap, this time I have selected different partition ranges for various valuation-based groups, such that all the groups have at least one company in them. It looks slightly better.
-                Now, back on track, this is a plot of mean market cap values for groups of companies, that were organized based on computer technology adoption phase in which they were founded.
-                In human language, it means that for example Autodesk was founded when computer technology was in its second adoption phase aka Early adopters phase, so I put it into group 2. New Relic was founded during 4th adoption phase aka Late adopters phase, I put it in group four, etc.
-                Well, this looks like there may be something interesting there, we can clearly see that 2dn group's valuations dominate other groups'. let's take a closer look.
+            <b>Methods</b><br>
+            I use pseudo-random integer generator from Python library "random" to select 100 random rows from my dataset.
+            Dataset obtained from ABC.
+            To test if there is any significant difference between market caps of companies founded in different technology adoption stages, I will use one way ANOVA (Analysis of variance) and Turkey-Kramer procedure, to see which pair of groups has a significant difference if any. Selected alpha level is 0.5
+            Also, I will present some histograms for purely visual analysis.
+        </p>
 
-                <b>One Way ANOVA</b><br>
-                H0: µ1 = µ2 = µ3 = µ4 - Market caps are statistically equal among all four adoption based company groups.
-                H1: µ1 ≠ µ2 ≠ µ3 ≠ µ4 - Market caps are statistically not equal among all four adoption based company groups.
-                The last graph looked promising, however, due to a huge variance, we were not able to reject H0.
-                F = 1.14
-                F critical = 2.76, given Alpha = 0.5
+        <h2>Analysis</h2>
+        <p>
+            <b>Visual</b><br>
+            First, let's take a look at how data looks like. Here is our entire sample's histogram. (I created this histogram by counting how many companies fit in a particular group e.g. group1 - $100M<comany's market cap < $200M)
+            As we can see that doesn't look very good, the variance is huge, and for some groups, we do not have any data. However, it does make logical sense, only a few companies reach exceptionally high valuations, while there are a lot of lower-valued ones.
+            Here are some more detailed plots to fill in the gap, this time I have selected different partition ranges for various valuation-based groups, such that all the groups have at least one company in them. It looks slightly better.
+            Now, back on track, this is a plot of mean market cap values for groups of companies, that were organized based on computer technology adoption phase in which they were founded.
+            In human language, it means that for example Autodesk was founded when computer technology was in its second adoption phase aka Early adopters phase, so I put it into group 2. New Relic was founded during 4th adoption phase aka Late adopters phase, I put it in group four, etc.
+            Well, this looks like there may be something interesting there, we can clearly see that 2dn group's valuations dominate other groups'. let's take a closer look.<br>
 
-                <b>Turkey-Kramer procedure</b><br>
-                The same goes for Turkey-Kramer,
-                none of the six differences between combinations of pairs of four groups is significant. Once again due to the variance.
-            </p>
+            <b>One Way ANOVA</b><br>
+            H0: µ1 = µ2 = µ3 = µ4 - Market caps are statistically equal among all four adoption based company groups.
+            H1: µ1 ≠ µ2 ≠ µ3 ≠ µ4 - Market caps are statistically not equal among all four adoption based company groups.
+            The last graph looked promising, however, due to a huge variance, we were not able to reject H0.
+            F = 1.14
+            F critical = 2.76, given Alpha = 0.5<br>
 
-            <h2>Conclusion</h2>
-            <p>
-                Even though we can see some hints that there may be a relationship between company's founding time and eventual market cap (our measure of success), statistical analysis shows that my hypotheses do not hold water.
-                However, for me it doesn't make sense, competition alone must stifle companies' growth in later adoption stages, we should have detected at least some significant effect of that on market cap.
-                From that, I draw a conclusion that the reason why I didn't find a statistically significant difference between group's mean is in this stud's design, and there is still hope.
-                How this study can be improved
-                There are three major ways of how this study can be improved:
-                1. Increasing sample size. One of the ways of offsetting a huge variance is to increase a sample size.
-                2. Excluding the outliers. There are multiple companies that are arguably monopolies in their respective markets e.g. Intuit. Perhaps those can be considered outliers, I can exclude them to decrease variance.
-                3 Increasing data quality
-                4. Using different groupings (to control for various factors). There seem to be statistically significant differences between groups of companies if grouped by market cap and founding adoption phase, instead of only adoption phase. Theoretically, that could mean that there is a large difference between companies' market cap rooted in the market they operate in, therefore by controlling for it, we make founding time's effect visible.
-                Perhaps this will be my next step in this research, If this sounds interesting to you, stand by for updates on this website.
+            <b>Turkey-Kramer procedure</b><br>
+            The same goes for Turkey-Kramer,
+            none of the six differences between combinations of pairs of four groups is significant. Once again due to the variance.
+        </p>
 
-                Lastly, it should be noted that this is far from a comprehensive research, I knowingly did not comply with many standards and procedures, therefore, this is meant to be perceived as only a light weight exploratory material and not more.
-                Thanks for reading.
-            </p>
+        <h2>Conclusion</h2>
+        <p>
+            Even though we can see some hints that there may be a relationship between company's founding time and eventual market cap (our measure of success), statistical analysis shows that my hypotheses do not hold water.
+            However, for me it doesn't make sense, competition alone must stifle companies' growth in later adoption stages, we should have detected at least some significant effect of that on market cap.
+            From that, I draw a conclusion that the reason why I didn't find a statistically significant difference between group's mean is in this stud's design, and there is still hope.
+            How this study can be improved
+            There are three major ways of how this study can be improved:
+            1. Increasing sample size. One of the ways of offsetting a huge variance is to increase a sample size.
+            2. Excluding the outliers. There are multiple companies that are arguably monopolies in their respective markets e.g. Intuit. Perhaps those can be considered outliers, I can exclude them to decrease variance.
+            3 Increasing data quality
+            4. Using different groupings (to control for various factors). There seem to be statistically significant differences between groups of companies if grouped by market cap and founding adoption phase, instead of only adoption phase. Theoretically, that could mean that there is a large difference between companies' market cap rooted in the market they operate in, therefore by controlling for it, we make founding time's effect visible.
+            Perhaps this will be my next step in this research, If this sounds interesting to you, stand by for updates on this website.
 
-        </div>
-        <div class="images">
+            Lastly, it should be noted that this is far from a comprehensive research, I knowingly did not comply with many standards and procedures, therefore, this is meant to be perceived as only a light weight exploratory material and not more.
+            Thanks for reading.
+        </p>
 
-        </div>
-        <div style="clear:both"></div>
+    </div>
+    <div class="images">
+
     </div>
 
 </div>

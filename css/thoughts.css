@@ -36,8 +36,25 @@ a:hover {
 .text {
     width: 50%;
     float: left;
+    clear: left;
 }
 .images {
     width: 50%;
     float: right;
+}
+
+.images img {
+    max-width: 90%;
+    float: right;
+    clear: both;
+}
+
+.centrify {
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+.mar-t-b {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
