@@ -1,0 +1,31 @@
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: gainsboro;
+}
+
+.skills{
+    clear: both;
+    margin-top: 120px;
+}
+
+.skill {
+    height: 60px;
+}
+
+.skill h3 {
+    color: black;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 2%;
+}
+
+.bar {
+    background-color: #f6e57d;
+}
