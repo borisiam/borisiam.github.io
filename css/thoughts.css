@@ -1,4 +1,6 @@
-h1 {}
+h1 {
+    text-transform: capitalize;
+}
 
 h2 {}
 
@@ -31,6 +33,7 @@ a:hover {
 
 .section {
     width: 100%;
+    position: relative;
 }
 
 .text {
@@ -41,12 +44,18 @@ a:hover {
 .images {
     width: 50%;
     float: right;
+    height: 300px;
+    text-align: center;
 }
 
 .images img {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 0;
     max-width: 90%;
-    float: right;
     clear: both;
+    max-height: 100%;
 }
 
 .centrify {

@@ -11,7 +11,7 @@
 </div>
 <!--Thought1 end -->
 
-<!--Thought1-->
+<!--Thought2-->
 <div class="link" id="thought2">
     <div class="link-image" style="background: url('./static/thoughts/img/cap.png') no-repeat center center; background-size: contain;">
         <div style="position: absolute; height: 10px; width: 5px; top: 0; left: 0; background-color: #262654"></div>
@@ -25,9 +25,9 @@
     </div>
     <div style="clear:both"></div>
 </div>
-<!--Thought1 end -->
+<!--Thought2 end -->
 
-<!--Thought1-->
+<!--Thought3-->
 <div class="link" id="thought3">
     <div class="link-image" style="background: url('./static/thoughts/img/candy.png') no-repeat center center; background-size: contain;">
     </div>
@@ -37,7 +37,32 @@
     </div>
     <div style="clear:both"></div>
 </div>
-<!--Thought1 end -->
+<!--Thought3 end -->
+
+<!--Thought4-->
+<div class="link" id="thought4">
+    <div class="link-image" style="background: url('./static/thoughts/img/position.png') no-repeat center center; background-size: contain;">
+    </div>
+    <div class="thought-link-content">
+        <h3 class="thoughth">POSITIONING HOW, WHY, WHEN</h3>
+        <p class="thoughtp">Trololololololololololo<br> Jed</p>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<!--Thought4 end -->
+
+<!--Thought5-->
+<div class="link" id="thought5">
+    <div class="link-image" style="background: url('./static/thoughts/img/normal.png') no-repeat center center; background-size: contain;">
+    </div>
+    <div class="thought-link-content">
+        <h3 class="thoughth">STATISCTICAL TESTS FOR PRODUCT MANAGEMENT AND MARKETING</h3>
+        <p class="thoughtp">Trololololololololololo<br> Jed</p>
+    </div>
+    <div style="clear:both"></div>
+</div>
+<!--Thought5 end -->
+
 
 <div class="header"><h3 class="h3h" style="color: #F98232;">THOUGHTS</h3></div>
 
@@ -64,6 +89,22 @@
         $("#thought3").click( function () {
             $("#content-holder").empty()
             $("#content-holder").load("./static/thoughts/thought3.html");
+        });
+    });
+
+    //Load thought 4 //
+    $(document).ready( function(){
+        $("#thought4").click( function () {
+            $("#content-holder").empty()
+            $("#content-holder").load("./static/thoughts/thought4.html");
+        });
+    });
+
+    //Load thought 5 //
+    $(document).ready( function(){
+        $("#thought5").click( function () {
+            $("#content-holder").empty()
+            $("#content-holder").load("./static/thoughts/thought5.html");
         });
     });
 

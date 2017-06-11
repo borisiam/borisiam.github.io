@@ -19,207 +19,214 @@
         <div class="text" style="position: relative;">
             <h2>Disclaimer</h2>
             <p>
-                The further material is far from a comprehensive research.
-                I knowingly did not comply with many standards and procedures.
-                Therefore, this is meant to be perceived as only a
-                light weight exploratory material and nothing more.
+                Sometimes simple things make a huge difference.
+                Here is my list of things that you as a designer
+                should do before even starting to implement any other steps.
             </p>
         </div>
-        <div class="images"></div>
+        <div style="clear: both"></div>
     </div>
     <div class="section">
         <div class="text" style="position: relative;">
-            <h2>Motivation and goals</h2>
+            <h2>Naming convention</h2>
             <p>
-                Many times I have heard that general wisdom suggests
-                "It is good to be among the first but not to be the first"
-                when starting a company, which makes intuitive sense but
-                sounds a bit arbitrary.<br> Perhaps relevant research exists,
-                I, however, had not been able to find any and decided to
-                conduct my little study.
+                No receipt fits all projects, that's why it is largely up
+                to you to decide what kind of naming convention to use.
+                The general idea is that such a convention is going to help
+                everybody who interfaces with your designs to do so efficiently.
+                You should figure out how to adequately classify objects in your
+                design and then find a way to distinguish names of objects in different classes visually.
+                For example, in one of my projects I put "[]" before every element that was related to
+                "Event object." and started every name of a button with a capital letter.
+                Also, it is a good idea ( and, if you ask me, a must have)
+                to avoid ambiguous object naming. For example, there should be no ellipses,
+                rectangles, group1s, etc. All these things have a purpose and should be named accordingly e.g.
+                like-button-background, image-blue-overlay, navbar-top, etc.
             </p>
-            <p>The goal for this piece is to shine some light  on the following questions:</p>
+        </div>
+        <div class="images">
+            <img class="inside-image" src="static/thoughts/img/design-right-wrong.png" style="width: 300px">
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: absolute; float: none; left: 0; top: 50%; transform: translateY(-50%)">
+
+            <h2>Avoid unnecessary group nesting</h2>
+            <p>
+                Sometimes it seems like wrapping objects in multiple groups makes a project more
+                ordered and helps to make design easy to change, and to some extent, it is true.
+                However, avoid overdoing g it, only add groups when they are really necessary.
+                Nobody likes clicking on an element ten times to just get to it.
+            </p>
+        </div>
+        <div class="images">
+            <img class="inside-image" src="static/thoughts/img/many-folders.png" style="width: 200px">
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>Perfect alignment</h2>
+            <p>
+                Have you ever experienced a developer aligning an element in the way
+                he/she thinks it should be aligned?
+                If yes then it probably happened either because you have not aligned
+                it perfectly and thereby didn't make it clear how an element should be
+                aligned, or you didn’t align an element perfectly, and a developer
+                used this as an excuse to not care.
+                By perfectly aligning elements you make it very unambiguous how
+                they are intended to be aligned and push a responsibility
+                on a developer to follow your guidelines.
+            </p>
+        </div>
+        <div class="images">
+            <img class="inside-image" src="static/thoughts/img/alignment.png" style="width: 300px;">
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>Do not include irrelevant materials</h2>
+            <p>
+                When you share a design with a developer, only share a Production version,
+                leave your experiments/ideas aside to avoid confusion.
+                Now, it doesn't mean that you shouldn't share any ideas with developers,
+                you should, just do it separately from production design and make it clear
+                that this is only ideas. Once again, the working design must be very clear
+                and only contain a production version.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>Use content that is as close as possible to real content that will be there</h2>
+            <p>
+                It is very tempting to use professionally shot images, structured text data, completely filled
+                profiles in your design. However, I strongly recommend not to do so, because if you do,
+                the way your design ends up looking in practice may be dramatically different from what
+                you intended it to look like. On the contrary, if you know what kind of flaws your
+                content may have, you can take certain steps to make it look better in your design.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>Integration</h2>
+            <p>
+                Now when we are done with basics let’s  take a look
+                at how to create the most frictionless design delivery
+                and integration process possible.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>Goals for integration</h2>
+            <p>
+                Make communication between a developer and a designer clear, efficient, and painless.
+                Make design delivery easy and efficient.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>High-level solution</h2>
+            <p>
+                We are going to use Invision’s Inspect and Slack plugin, combined with practices outlined above to streamline communication between a designer and a stakeholder.
+                To make design delivery as easy as one step we are going to use synchronization functionality that Invision’s Craft plugin for Sketch and Photoshop provides.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <div class="section">
+        <div class="text" style="position: relative;">
+
+            <h2>High-level solution</h2>
+
+            <p>Apps that we will use</p>
             <ul>
-                <li><p>Does it matter at all when to start a tech company?</p></li>
-                <li><p>What is the best time to start a tech company?</p></li>
+                <li><p>Invision</p></li>
+                <li><p>Craft plugin by Invision</p></li>
+                <li><p>Sketch or Photoshop</p></li>
+                <li><p>Flinto</p></li>
+                <li><p>Slack</p></li>
             </ul>
         </div>
-        <div class="images"></div>
-    </div>
-
-    <div class="section">
-        <div class="text" style="position: relative;">
-
-            <h2>Breaking down the question</h2>
-            <p>
-                The questions in their general forms are so general and complex that they, most likely, do not have general answers. Let's constrain the questions and perhaps then there is hope.
-                First of all, I will be looking at technology-enabled companies as they are the most common once. For example, Google (enabled by Internet and computers), same for Facebook, Quid (enabled by advancements in Machine Learning), etc.<br>
-                Secondly, I would like to make a couple of assumptions about technologies:<br>
-                1. Every technology has a finite set of applications<br>
-                2. On average, most obvious applications are the once that address bigger problems that exist in larger markets.<br>
-                3. A certain time is required by society to learn properties of a given technology.<br>
-                Thirdly, I must define what does "best time" mean. I will consider the best time to be such a time that will maximize company's chance of success, measured by market cap.
-            </p>
-        </div>
-        <div class="images"></div>
-    </div>
-
-    <div class="section">
-        <div class="text" style="position: relative;">
-
-            <h2>From questions to hypothesis</h2>
-            <p>
-                If assumptions 1, 2 and 3 are true, then, when new technology emerges, first there is a learning phase, then the most obvious and the most profitable (assumption 2) applications are exploited, leaving only niche and less profitable applications.
-                This model seems to follow exactly the proverbial "It is good to be among the first but not to be the first.".
-                From this, I can construct the following hypothesis:<br>
-                1. It is best to start right after technology's properties are learned.
-                There is one remaining issue. To test the hypothesis, I need to identify when technology's properties are determined. In order to do so, I will make an assumption #4: " I assume that on average technology's properties are well learned after it passes early adoption stage in technology adoption cycle.".
-                This assumption transforms the hypothesis to be:
-                H1: "It is best to start a company when enabling technology has passed early adoption phase in technology adoption cycle "
-                I will be testing it against:
-                H0: "It doesn't matter in which technology adoption phase of enabling technology a company was started."
-            </p>
-        </div>
-        <div class="images"></div>
-    </div>
-
-    <div class="section">
-        <div class="text" style="position: relative;">
-
-            <h2>Testing the hypothesis</h2>
-            <p>
-                <b>Strategy</b><br>
-                To test H1 and H0, I will use a random sample of 100 companies, selected from 600  publically traded tech companies, which were founded in the US.
-                I will group them by computer technology adoption phase during which they were founded and will check if there is any significant relationship between the adoption phase and mean market-cap of the group.
-
-                <b>Methods</b><br>
-                I use pseudo-random integer generator from Python library "random" to select 100 random rows from my dataset.
-                Dataset obtained from ABC.
-                To test if there is any significant difference between market caps of companies founded in different technology adoption stages, I will use one way ANOVA (Analysis of variance) and Turkey-Kramer procedure, to see which pair of groups has a significant difference if any. Selected alpha level is 0.5
-                Also, I will present some histograms for purely visual analysis.
-            </p>
-        </div>
-        <div class="images"></div>
-    </div>
-
-    <div class="section">
-        <div class="text" style="position: relative;">
-
-            <h2>Analysis</h2>
-            <p>
-                <b>VISUAL</b><br>
-                First, let's take a look at how data looks like. Here is our entire sample's histogram.
-                (I created this histogram by counting how many companies fit in a particular market-cap-based group).
-            </p>
-        </div>
-        <div class="images">
-            <img class="inside-image" src="static/thoughts/img/th2histogram.png">
-        </div>
-        <div style="clear: both"></div>
-    </div>
-    <div class="section">
-        <div class="text mar-t-b" style="position: relative;">
-            <p>
-                <b>Please note</b> that partitions in this plot are
-                not equal! Due to a very large variance it is very hard to plot the data as it is, it would
-                look something like this --><br>
-                As we can see that doesn't look very good, the variance is huge, and for some groups,
-                we do not have any data. However, it does make logical sense, only a few companies reach
-                exceptionally high valuations, while there are a lot of lower-valued ones.
-                So I decided to prettify it using partitioning based on logarithms of the original market caps.
-            </p>
-        </div>
-        <div class="images">
-            <img class="inside-image" src="static/thoughts/img/ugly.png">
-        </div>
-        <div style="clear: both"></div>
-    </div>
-
-    <div class="section">
-        <div class="text mar-t-b" style="position: relative;">
-            <p>
-                <b>Now, back on track,</b> this is a plot of mean market cap values for groups
-                of companies, that were organized based on computer technology adoption
-                phase in which they were founded.
-                For example Autodesk was founded when computer
-                technology was in its Early adopters phase,
-                so I put it into group 2. New Relic was founded during Late adopters phase, I put it in group four, etc.
-                It looks like there may be something interesting here,
-                we can clearly see that 2dn group's valuations dominate
-                other groups'. let's take a closer look.
-            </p>
-        </div>
-        <div class="images">
-            <img class="inside-image" src="static/thoughts/img/adoption.png">
-        </div>
         <div style="clear: both"></div>
     </div>
 
     <div class="section">
         <div class="text" style="position: relative;">
-            <p>
 
-                <b>ONE WAY ANOVA</b><br>
-                H0: µ1 = µ2 = µ3 = µ4 - Market caps are statistically equal among all four adoption based company groups.<br>
-                H1: µ1 ≠ µ2 ≠ µ3 ≠ µ4 - Market caps are statistically not equal among all four adoption based company groups.<br>
-                The last graph looked promising, however, due to a huge variance, we were not able to reject H0.<br>
-                F = 1.14<br>
-                F critical = 2.76, given Alpha = 0.5
-            </p>
-            <p>
-                <b>TURKEY - KRAMER PROCEDURE</b><br>
-                The same goes for Turkey-Kramer,
-                none of the six differences between combinations of pairs of four groups is significant. Once again due to the variance.
-            </p>
-        </div>
-    </div>
+            <h2>Streamlining communication</h2>
 
-    <div class="section">
-        <div class="text" style="position: relative;">
-
-            <h2>Conclusion</h2>
             <p>
-                Even though we can see some hints that there may be a relationship between company's
-                founding time and eventual market cap (our measure of success), statistical analysis
-                shows that my hypotheses do not hold water.
-                However, for me it doesn't make sense, competition alone
-                must stifle companies' growth in later adoption stages, we should have
-                detected at least some significant effect of that on market cap.
-                From that, I draw a conclusion that the reason why I didn't find a
-                statistically significant difference between group's mean is in
-                this stud's design, and there is still hope.
+                Communication between a designer and a developer stands to accomplish the following:
             </p>
-            <p>
-                <b>HOW THIS STUDY CAN BE IMPROVED</b><br>
-                There are three major ways of how this study can be improved:
-                <ul>
-                    <li><p>Increasing sample size. One of the ways of offsetting
-            a huge variance is to increase a sample size.</p></li>
-            <li><p>Excluding the outliers. There are multiple companies
-                that are arguably monopolies in their respective markets e.g.
-                Intuit. Perhaps those can be considered outliers,
-                I can exclude them to decrease variance.</p></li>
-            <li><p>Increasing data quality</p></li>
-            <li><p>Using different groupings (to control for various factors).</p></li>
+            <ul>
+                <li>
+                    <p>
+                        Designer shares designs with stakeholders
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Designer shares designs with stakeholders
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Designer shares designs with stakeholders
+                    </p>
+                </li>
             </ul>
+
+            <p>
+                Invision can help us facilitate and streamline all of the above.
             </p>
             <p>
-                There seem to be statistically significant differences between groups of companies
-                if grouped by market cap and founding adoption phase, instead of only adoption phase.
-                Theoretically, that could mean that there is a large difference between companies' market cap
-                rooted in the market they operate in, therefore by controlling for it, we make founding
-                time's effect visible. Perhaps this will be my next step in this research,
-                If this sounds interesting to you, stand by for updates on this website.
+                With Invision, sharing designs is incredibly easy. A designer can upload his/her
+                designs into Invision with a one button push if he/she has Craft plugin
+                (works for Photoshop and Sketch). A Product manager and a developer can view,
+                inspect and provide feedback on a design in Invision app. Essentially invision
+                acts as a hub where all the stakeholders meet, interact and can get information that they need.
             </p>
             <p>
-                Thanks for reading.
+                A PM can explore a design screen by screen or can use an interactive prototype that a designer can build right inside the Invision app. If a PM wants a designer to change something or ask for a team’s opinion on something he/she can do so using comments that can be attached to a particular design element to avoid ambiguity. Comments can be synchronized with Slack and Email to make sure that everybody is receiving them. You can also address comments to specific users to attract their attention.
+            </p>
+            <p>
+                A developer can get all the product assets and explore element alignment using “Inspect screen”. While interactive prototype, equipped with comments from a designer will leave the UX design as unambiguous as possible. Theoretically, this two things ( interactive prototype and Inspect screen) is all a developer needs to successfully implement a design.
+            </p>
+            <p>
+                A designer can request and collect feedback from stakeholders using comments and attract their attention when needed by moving the designs through the workflow (in progress -> needs review ), which will send a Slack message to them.
             </p>
 
         </div>
         <div class="images">
-
+            <img class="inside-image" src="static/thoughts/img/design-int-diagram.png" width="300px">
         </div>
+        <div style="clear: both"></div>
     </div>
+
 </div>
 
 <!--==============================================NECESSARY-PART==============================================-->
