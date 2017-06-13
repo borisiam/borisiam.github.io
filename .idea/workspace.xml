@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="unfinished articles hidden">
+    <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/thoughts.html" afterPath="$PROJECT_DIR$/static/sections/thoughts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought1.html" afterPath="$PROJECT_DIR$/static/thoughts/thought1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/about_me.html" afterPath="$PROJECT_DIR$/static/sections/about_me.html" />
     </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thoughts.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="thoughts.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/sections/thoughts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="420">
               <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
@@ -298,19 +297,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_me.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about_me.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/sections/about_me.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="720">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -378,7 +371,6 @@
         <option value="$PROJECT_DIR$/css/pictures.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/about_me.css" />
-        <option value="$PROJECT_DIR$/static/sections/about_me.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/static/sections/pictures.html" />
         <option value="$PROJECT_DIR$/css/thoughts.css" />
@@ -389,6 +381,7 @@
         <option value="$PROJECT_DIR$/static/thoughts/thought3.html" />
         <option value="$PROJECT_DIR$/static/thoughts/thought1.html" />
         <option value="$PROJECT_DIR$/static/sections/thoughts.html" />
+        <option value="$PROJECT_DIR$/static/sections/about_me.html" />
       </list>
     </option>
   </component>
@@ -399,7 +392,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
+    <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -744,7 +737,7 @@
       <workItem from="1496866962950" duration="22236000" />
       <workItem from="1497079674171" duration="1705000" />
       <workItem from="1497140638693" duration="10798000" />
-      <workItem from="1497217830595" duration="8227000" />
+      <workItem from="1497217830595" duration="8294000" />
     </task>
     <task id="LOCAL-00001" summary="logo added">
       <created>1495666012147</created>
@@ -921,19 +914,26 @@
       <option name="project" value="LOCAL" />
       <updated>1497328788925</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="unfinished articles hidden">
+      <created>1497329115218</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1497329115218</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189453000" />
+    <option name="totallyTimeSpent" value="189520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="23" width="1280" height="727" extended-state="0" />
-    <editor active="false" />
+    <frame x="40" y="23" width="1280" height="727" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1203,22 +1203,6 @@
         <state relative-caret-position="435">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sections/about_me.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1507,7 +1491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/sections/thoughts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="420">
           <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
@@ -1518,6 +1502,16 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#3;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sections/about_me.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
