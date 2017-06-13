@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_mobile.html" afterPath="$PROJECT_DIR$/index_mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/about_me.html" afterPath="$PROJECT_DIR$/static/sections/about_me.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/links.html" afterPath="$PROJECT_DIR$/static/sections/links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought1.html" afterPath="$PROJECT_DIR$/static/thoughts/thought1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought2.html" afterPath="$PROJECT_DIR$/static/thoughts/thought2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought3.html" afterPath="$PROJECT_DIR$/static/thoughts/thought3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought4.html" afterPath="$PROJECT_DIR$/static/thoughts/thought4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/thoughts/thought5.html" afterPath="$PROJECT_DIR$/static/thoughts/thought5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/sections/pictures.html" afterPath="$PROJECT_DIR$/static/sections/pictures.html" />
     </list>
     <ignored path="borisiam.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pictures.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pictures.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/sections/pictures.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+            <state relative-caret-position="418">
+              <caret line="189" column="113" selection-start-line="189" selection-start-column="113" selection-end-line="189" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -249,7 +242,7 @@
         <entry file="file://$PROJECT_DIR$/static/thoughts/thought5.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
-              <caret line="164" column="48" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
+              <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -271,10 +264,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_me.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about_me.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/sections/about_me.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-527">
               <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -414,7 +407,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/about_me.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/static/sections/pictures.html" />
         <option value="$PROJECT_DIR$/css/thoughts.css" />
         <option value="$PROJECT_DIR$/static/sections/thoughts.html" />
         <option value="$PROJECT_DIR$/static/sections/links.html" />
@@ -425,6 +417,7 @@
         <option value="$PROJECT_DIR$/static/thoughts/thought4.html" />
         <option value="$PROJECT_DIR$/static/thoughts/thought5.html" />
         <option value="$PROJECT_DIR$/static/sections/about_me.html" />
+        <option value="$PROJECT_DIR$/static/sections/pictures.html" />
       </list>
     </option>
   </component>
@@ -780,7 +773,7 @@
       <workItem from="1496866962950" duration="22236000" />
       <workItem from="1497079674171" duration="1705000" />
       <workItem from="1497140638693" duration="10798000" />
-      <workItem from="1497217830595" duration="16258000" />
+      <workItem from="1497217830595" duration="17359000" />
     </task>
     <task id="LOCAL-00001" summary="logo added">
       <created>1495666012147</created>
@@ -992,11 +985,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497331790492</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="mobile menu adjusted, links fixed">
+      <created>1497339376819</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1497339376819</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197484000" />
+    <option name="totallyTimeSpent" value="198585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="78" width="1280" height="727" extended-state="0" />
@@ -1055,7 +1055,8 @@
     <MESSAGE value="about me hidden" />
     <MESSAGE value="new thumbnails" />
     <MESSAGE value="more links added" />
-    <option name="LAST_COMMIT_MESSAGE" value="more links added" />
+    <MESSAGE value="mobile menu adjusted, links fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile menu adjusted, links fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1601,10 +1602,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/sections/about_me.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/thoughts/thought5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="164" column="48" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
+          <caret line="184" column="9" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1617,20 +1629,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/sections/pictures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        <state relative-caret-position="418">
+          <caret line="189" column="113" selection-start-line="189" selection-start-column="113" selection-end-line="189" selection-end-column="113" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sections/about_me.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
