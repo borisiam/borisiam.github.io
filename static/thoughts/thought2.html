@@ -31,12 +31,9 @@
         <div class="text" style="position: relative;">
             <h2>Motivation and goals</h2>
             <p>
-                Many times I have heard that general wisdom suggests
-                "It is good to be among the first but not to be the first"
-                when starting a company, which makes intuitive sense but
-                sounds a bit arbitrary.<br> Perhaps relevant research exists,
-                I, however, had not been able to find any and decided to
-                conduct my little study.
+                Many times I heard: "It is good to be among the first but not to be the first when starting a company",
+                which makes intuitive sense but sounds a bit arbitrary. Perhaps a relevant research exists,
+                I, however, had not been able to find any and have decided to conduct my little study.
             </p>
             <p>The goal for this piece is to shine some light  on the following questions:</p>
             <ul>
@@ -52,13 +49,13 @@
 
             <h2>Breaking down the question</h2>
             <p>
-                The questions in their general forms are so general and complex that they, most likely, do not have general answers. Let's constrain the questions and perhaps then there is hope.
-                First of all, I will be looking at technology-enabled companies as they are the most common once. For example, Google (enabled by Internet and computers), same for Facebook, Quid (enabled by advancements in Machine Learning), etc.<br>
+                The questions above, in their general forms, are so general and complex that they, most likely, do not have general answers. Let's constrain the questions and perhaps then there is hope.
+                First of all, I will be looking at technology-enabled companies. For example, Google (enabled by Internet and computers), same for Facebook, etc.<br>
                 Secondly, I would like to make a couple of assumptions about technologies:<br>
                 1. Every technology has a finite set of applications<br>
                 2. On average, most obvious applications are the once that address bigger problems that exist in larger markets.<br>
-                3. A certain time is required by society to learn properties of a given technology.<br>
-                Thirdly, I must define what does "best time" mean. I will consider the best time to be such a time that will maximize company's chance of success, measured by market cap.
+                3. Some time is required by society to learn properties of a given technology.<br>
+                Thirdly, I must define what does "best time" mean. I will consider the best time to be such a time that will maximize company's success, measured by market cap.
             </p>
         </div>
         <div style="clear: both"></div>
@@ -69,15 +66,15 @@
 
             <h2>From questions to hypothesis</h2>
             <p>
-                If assumptions 1, 2 and 3 are true, then, when new technology emerges, first there is a learning phase, then the most obvious and the most profitable (assumption 2) applications are exploited, leaving only niche and less profitable applications.
+                If assumptions 1, 2 and 3 are true, then, when new technology emerges, first there is a learning phase, then the most obvious and the most profitable (assumption 2) applications are exploited, leaving, on average, only niche and less profitable applications.
                 This model seems to follow exactly the proverbial "It is good to be among the first but not to be the first.".
                 From this, I can construct the following hypothesis:<br>
-                1. It is best to start right after technology's properties are learned.
-                There is one remaining issue. To test the hypothesis, I need to identify when technology's properties are determined. In order to do so, I will make an assumption #4: " I assume that on average technology's properties are well learned after it passes early adoption stage in technology adoption cycle.".
-                This assumption transforms the hypothesis to be:
-                H1: "It is best to start a company when enabling technology has passed early adoption phase in technology adoption cycle "
-                I will be testing it against:
-                H0: "It doesn't matter in which technology adoption phase of enabling technology a company was started."
+                H1: It is best to start right after technology's properties are learned.<br>
+                There is one remaining issue. To test the hypothesis, I need to identify when technology's properties are determined. In order to do so, I will make an assumption #4: " I assume that on average technology's properties are well learned after it passes innovators stage in technology adoption cycle.".
+                This assumption transforms the hypothesis to be:<br><br>
+                <b>H1: "Starting a company when enabling technology has passed innovators phase in technology adoption cycle will increase company's future market capitalization."</b><br><br>
+                I will be testing it against:<br><br>
+                <b>H0: "Enabling technology's adoption phase has no effect on future market capitalization of a company."</b>
             </p>
         </div>
         <div style="clear: both"></div>
@@ -90,8 +87,7 @@
             <p>
                 <b>Strategy</b><br>
                 To test H1 and H0, I will use a random sample of 100 companies, selected from 600  publically traded tech companies, which were founded in the US.
-                I will group them by computer technology adoption phase during which they were founded and will check if there is any significant relationship between the adoption phase and mean market-cap of the group.
-
+                I will group them by computer technology adoption phase during which they were founded and will check if there is any significant difference between average market capitalizations of the groups.<br>
                 <b>Methods</b><br>
                 I use pseudo-random integer generator from Python library "random" to select 100 random rows from my dataset.
                 Dataset obtained from ABC.
@@ -144,10 +140,10 @@
                 phase in which they were founded.
                 For example Autodesk was founded when computer
                 technology was in its Early adopters phase,
-                so I put it into group 2. New Relic was founded during Late adopters phase, I put it in group four, etc.
+                so I put it into group 2. New Relic was founded during Late adopters phase, I put it in group four, etc.<br><br>
                 It looks like there may be something interesting here,
-                we can clearly see that 2dn group's valuations dominate
-                other groups'. let's take a closer look.
+                we can clearly see that 2dn group's average market cap dominates
+                other groups'. Now, it's time to test the hypothesis.
             </p>
          </div>
         <div class="images">
@@ -187,9 +183,9 @@
                 However, for me it doesn't make sense, competition alone
                 must stifle companies' growth in later adoption stages, we should have
                 detected at least some significant effect of that on market cap.
-                From that, I draw a conclusion that the reason why I didn't find a
-                statistically significant difference between group's mean is in
-                this stud's design, and there is still hope.
+                I think that main reason why I didn't find a
+                statistically significant difference between groups' means is in
+                this stud's design, and there is still hope to find an effect if design is fixed.
             </p>
             <p>
                 <b>HOW THIS STUDY CAN BE IMPROVED</b><br>
@@ -201,15 +197,14 @@
                        that are arguably monopolies in their respective markets e.g.
                        Intuit. Perhaps those can be considered outliers,
                        I can exclude them to decrease variance.</p></li>
-                <li><p>Increasing data quality</p></li>
                 <li><p>Using different groupings (to control for various factors).</p></li>
                 </ul>
             </p>
             <p>
                 There seem to be statistically significant differences between groups of companies
-                if grouped by market cap and founding adoption phase, instead of only adoption phase.
-                Theoretically, that could mean that there is a large difference between companies' market cap
-                rooted in the market they operate in, therefore by controlling for it, we make founding
+                if grouped by both market cap and founding adoption phase, instead of only the adoption phase.
+                That could mean, perhaps, that there is a large difference between companies' market caps
+                rooted solely in the market they operate in, therefore by controlling for it, we make founding
                 time's effect visible. Perhaps this will be my next step in this research,
                 If this sounds interesting to you, stand by for updates on this website.
             </p>
@@ -265,7 +260,7 @@
 
     // fixing some size issues //
     $(document).ready(function () {
-        var Height = 3900;
+        var Height = 4000;
         $('#thought-c-parent').height(Height);
     });
 
