@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab711b28-57af-4d5c-894b-d2ce520f830a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/projects.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/projects/project1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/sections/projects.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/static/sections/links.html" afterPath="$PROJECT_DIR$/static/sections/links.html" />
     </list>
     <ignored path="borisiam.github.io.iws" />
@@ -41,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1995">
-              <caret line="133" column="56" lean-forward="false" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
+              <caret line="143" column="56" lean-forward="false" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -60,8 +55,8 @@
       <file leaf-file-name="links.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/sections/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8089">
-              <caret line="601" column="56" lean-forward="false" selection-start-line="601" selection-start-column="56" selection-end-line="601" selection-end-column="56" />
+            <state relative-caret-position="408">
+              <caret line="157" column="128" lean-forward="false" selection-start-line="157" selection-start-column="128" selection-end-line="157" selection-end-column="128" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -349,7 +344,7 @@
       <workItem from="1497433872076" duration="459000" />
       <workItem from="1497645690312" duration="6819000" />
       <workItem from="1498162563505" duration="73000" />
-      <workItem from="1520581502964" duration="854000" />
+      <workItem from="1520581502964" duration="968000" />
     </task>
     <task id="LOCAL-00001" summary="logo added">
       <created>1495666012147</created>
@@ -610,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497434313362</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="article 1 name changed">
+      <created>1520582391005</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520582391006</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208401000" />
+    <option name="totallyTimeSpent" value="208515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -950,7 +952,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
-          <caret line="133" column="56" lean-forward="false" selection-start-line="133" selection-start-column="56" selection-end-line="133" selection-end-column="56" />
+          <caret line="143" column="56" lean-forward="false" selection-start-line="143" selection-start-column="56" selection-end-line="143" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -973,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/sections/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8089">
-          <caret line="601" column="56" lean-forward="false" selection-start-line="601" selection-start-column="56" selection-end-line="601" selection-end-column="56" />
+        <state relative-caret-position="408">
+          <caret line="157" column="128" lean-forward="false" selection-start-line="157" selection-start-column="128" selection-end-line="157" selection-end-column="128" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
