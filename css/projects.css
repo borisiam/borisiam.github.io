@@ -1,0 +1,45 @@
+.picture-section {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.picture-l {
+    float: left;
+    height: 100%;
+    width: 48%;
+    text-align: center;
+    background-color: #1a1a38;
+}
+
+.picture-l img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+.picture-r {
+    float: right;
+    height: 100%;
+    width: 48%;
+    text-align: center;
+    background-color: #1a1a38;
+}
+
+.picture-r img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+#image-holder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text {
+    position: absolute;
+    bottom: 5%;
+}

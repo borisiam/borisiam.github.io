@@ -4,6 +4,17 @@
     <script src="js/jquery-3.2.1.min.js"></script>
 
     <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-101205728-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script>
 
         $(document).ready(function () {
             var isMobile = false; //initiate as false
@@ -29,8 +40,22 @@
             <div class="pixbox-child-top" style="background-color: #ffffff">
                 <img src="static/img/BPlogoFinal.png" style="position: absolute; top: 10%; left: 50%; margin-left: -35px; width: 70px; height: auto;">
                 <div id="buttons-section" style="width: 70%; margin-left: 15%; position: relative; top: 30%">
+                    <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
+                        <div class="btn-child-1 btn-child-hover" id="projects-btn">
+                            <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-middle" style="background-color: #F98232"></div>
+                            <div class="pixbox-child-top text-center" style="background-color: #F98232">
+                                <h3 class="nospace" style="position: relative; top: 27%">PROJECTS</h3>
+                            </div>
+                        </div>
+                        <div class="btn-child-2">
+                            <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-middle" style="background-color: #E55433"></div>
+                            <div class="pixbox-child-top" style="background-color: #E55433"></div>
+                        </div>
+                    </div>
                 <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
-                    <div class="btn-child-1 btn-child-hover" id="thoughts-btn">
+                    <div class="btn-child-1" id="thoughts-btn">
                         <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
                         <div class="pixbox-child-middle" style="background-color: #F98232"></div>
                         <div class="pixbox-child-top text-center" style="background-color: #F98232">
@@ -71,20 +96,6 @@
                             <div class="pixbox-child-top" style="background-color: #E55433"></div>
                         </div>
                     </div>
-                    <div class="btn-parent" style="width: 100%; height: 11%; margin-bottom: 10%">
-                        <div class="btn-child-1" id="hire-btn">
-                            <div class="pixbox-child-bottom" style="background-color: #F98232"></div>
-                            <div class="pixbox-child-middle" style="background-color: #F98232"></div>
-                            <div class="pixbox-child-top text-center" style="background-color: #F98232">
-                                <h3 class="nospace" style="position: relative; top: 27%">ABOUT ME</h3>
-                            </div>
-                        </div>
-                        <div class="btn-child-2">
-                            <div class="pixbox-child-bottom" style="background-color: #E55433"></div>
-                            <div class="pixbox-child-middle" style="background-color: #E55433"></div>
-                            <div class="pixbox-child-top" style="background-color: #E55433"></div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -101,16 +112,17 @@
 <script>
     //Load thoughts on ready and on click //
     $(document).ready( function(){
-        $("#thoughts-btn").click( function () {
+        $("#projects-btn").click( function () {
             $("#content-holder").empty();
-            $("#content-holder").load("./static/sections/thoughts.html");
-            buttonspushed('thoughts-btn','links-btn','pictures-btn','hire-btn');
+            $("#content-holder").load("./static/sections/projects.html");
+            buttonspushed('projects-btn','links-btn','pictures-btn','thoughts-btn');
+            ga("send","event","section clicks","Projects");
         });
     });
 
     $(document).ready(function () {
-        $("#content-holder").load("./static/sections/thoughts.html")
-    })
+        $("#content-holder").load("./static/sections/projects.html")
+    });
 
 
     //Load links //
@@ -118,7 +130,8 @@
         $("#links-btn").click( function () {
             $("#content-holder").empty();
             $("#content-holder").load("./static/sections/links.html");
-            buttonspushed('links-btn','thoughts-btn','pictures-btn','hire-btn');
+            buttonspushed('links-btn','thoughts-btn','pictures-btn','projects-btn');
+            ga("send","event","section clicks","Links");
         });
     });
 
@@ -127,29 +140,24 @@
         $("#pictures-btn").click( function () {
             $("#content-holder").empty();
             $("#content-holder").load("./static/sections/pictures.html");
-            buttonspushed('pictures-btn','thoughts-btn','links-btn','hire-btn');
+            buttonspushed('pictures-btn','thoughts-btn','links-btn','projects-btn');
+            ga("send","event","section clicks","Pictures");
         });
     });
 
-    //Load hire //
+    //Load thoughts //
     $(document).ready( function(){
-        $("#hire-btn").click( function () {
+        $("#thoughts-btn").click( function () {
             $("#content-holder").empty();
-            $("#content-holder").load("./static/sections/about_me.html");
-            buttonspushed('hire-btn','thoughts-btn','pictures-btn','links-btn');
+            $("#content-holder").load("./static/sections/thoughts.html");
+            buttonspushed('thoughts-btn','projects-btn','pictures-btn','links-btn');
+            ga("send","event","section clicks","Thoughts");
         });
     });
 
 </script>
 
 <script>
-    function swithcontent(id, id1, id2, id3) {
-        document.getElementById(id).style.visibility='visible';
-        document.getElementById(id1).style.visibility='hidden';
-        document.getElementById(id2).style.visibility='hidden';
-        document.getElementById(id3).style.visibility='hidden';
-
-    }
      function buttonspushed(id, id1, id2, id3) {
          document.getElementById(id).classList.add('btn-child-hover');
          if (document.getElementById(id1).classList.contains('btn-child-hover'))
